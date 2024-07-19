@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#images__init--home":{
+    "title": "Images initial home",
+    "children": [
+      "flex-layout.col#image__smartwatch--home",
+      "flex-layout.col#text--home",
+      "flex-layout.col#image__smartwatchbackwards--home"
+    ]
+  },
+  "flex-layout.col#image__smartwatch--home":{
+    "title": "Smartwatch col image home",
+    "children": [
+      "image#smartwatch"
+    ],
+    "props": {
+      "widht": "30%"
+    }
+  },
+  "flex-layout.col#text--home": {
+    "title": "Col Text home",
+      "children": [
+        "rich-text#text-home"
+      ],
+      "props": {
+        "widht": "30%",
+        "blockClass": [
+          "col-text-home"
+        ]
+      }
+  },
+  "flex-layout.col#image__smartwatchbackwards--home": {
+    "title": "Smartwatch backwards col image home",
+      "children": [
+        "image#smartwatchbackwards"
+      ],
+      "props": {
+        "widht": "30%"
+      }
+  },
+  "image#smartwatch":{
+    "title": "Smartwatch image home",
+      "props": {
+        "src": "/arquivos/smartwatch.png"
+      }
+  },
+  "rich-text#text-home":{
+    "title": "Text home",
+        "props": {
+          "text": "iWATCH"
+        }
+  },
+  "image#smartwatchbackwards":{
+    "title": "Smartwatch backwards image",
+        "props": {
+          "src": "/arquivos/smartwatch_backwards.png"
+        }
+  }
+}
+  /*     "list-context.image-list#home__images": {
+  "title": "list-image-home",
+    "children": ["slider-layout#home--images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/smartwatch.png",
+          "description": "Smartwatch"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/smartwatch_backwards.png",
+          "description": "Smartwatch backwards"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home--images": {
+    "title": "slider-home-images",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  } */
