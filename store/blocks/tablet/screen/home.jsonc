@@ -1,0 +1,8 @@
+{
+    "responsive-layout.tablet#home__section--images":{
+        "title": "Home images on Tablet",
+        "children": [
+            "flex-layout.row#tablet__home__section--images"
+        ]
+    }
+}

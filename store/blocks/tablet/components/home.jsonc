@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#tablet__home__section--images": {
+        "title": "TABLET row with text",
+        "children": [
+            "rich-text#tablet__section--images"
+        ]
+    },
+    "rich-text#tablet__section--images":{
+        "title": "Text favorites at tablet",
+        "props": {
+            "text": "Favoritos en TABLET",
+            "font": "t-heading-t2"
+        }
+    }
+}

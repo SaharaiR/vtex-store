@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#home__section--images": {
+        "title": "DESKTOP row with images",
+        "children": [
+            "rich-text#section--images"
+        ]
+    },
+    "rich-text#section--images": {
+        "title": "Text Favorites at Desktop",
+        "props":{
+            "text": "Favoritos en Desktop",
+            "font": "t-heading-2"
+        }
+    }
+}
