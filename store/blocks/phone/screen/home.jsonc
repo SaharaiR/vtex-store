@@ -2,7 +2,9 @@
     "responsive-layout.phone#home__section--images": {
         "title": "Home section on Phone",
         "children": [
-            "flex-layout.row#phone__home__section--images"
+            "flex-layout.row#home-phone__image",
+            "rich-text#title--phone__info--cards",
+            "slider-layout#phone__info--cards"
         ]
     }
 }

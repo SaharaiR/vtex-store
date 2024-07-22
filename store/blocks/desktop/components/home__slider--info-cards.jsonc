@@ -1,0 +1,77 @@
+{
+    "slider-layout#info--cards":{
+        "title": "Slider Layout Info cards",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "flex-layout.row#row__info--cards",
+            "flex-layout.row#row__info--cards",
+            "flex-layout.row#row__info--cards",
+            "flex-layout.row#row__info--cards",
+            "flex-layout.row#row__info--cards",
+            "flex-layout.row#row__info--cards"
+        ]
+    },
+    "flex-layout.row#row__info--cards": {
+        "title": "Row Info cards",
+        "children": [
+            "flex-layout.col#col__info--cards"
+         ]
+    },
+    "flex-layout.col#col__info--cards": {
+        "title": "Col Info cards",
+        "children": [
+            "flex-layout.row#image--cards",
+            "flex-layout.row#text-heading"
+        ]
+    },
+    "flex-layout.row#image--cards": {
+        "title": "Image info card",
+         "children": [
+            "image#info__card"    
+         ]
+    },
+    "flex-layout.row#text-heading": {
+        "title": "Info heading product",
+        "children": [
+            "flex-layout.col#details--info",
+            "flex-layout.col#stamp-image"      
+        ]
+    },
+    "image#info__card":{
+        "props":{
+            "src": "/arquivos/image_infocard.png"
+        }
+    },
+    "flex-layout.col#details--info":{
+        "title": "Details info card",
+        "children": [
+            "rich-text#heading__product--text"
+        ]
+    },
+    "flex-layout.col#stamp-image":{
+        "title": "Stamp image",
+        "children": [
+            "image#stamp"
+        ]
+    },
+    "rich-text#heading__product--text": {
+        "props": {
+            "text" : "Heading, Builder plataform is made by..."
+        }
+    },
+    "image#stamp":{
+        "title": "Stamp image heading product",
+        "props": {
+            "src": "/arquivos/artwork-trailing__desktop.png"
+        }
+    }
+}

@@ -2,7 +2,9 @@
     "responsive-layout.desktop#home__section--images":{
         "title": "Home images on Desktop",
         "children": [
-            "flex-layout.row#home__section--images"
+            "flex-layout.row#home__image",
+            "rich-text#title__info--cards",
+            "slider-layout#info--cards"
         ]
     }
 }

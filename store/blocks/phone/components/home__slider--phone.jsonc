@@ -1,0 +1,73 @@
+{
+    "slider-layout#phone__info--cards":{
+        "title": "Slider Layout Info cards Phone",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "flex-layout.row#row__phone--info--cards",
+            "flex-layout.row#row__phone--info--cards"
+        ]
+    },
+    "flex-layout.row#row__phone--info--cards": {
+        "title": "Row Info cards",
+        "children": [
+            "flex-layout.col#col__phone--info--cards"
+         ]
+    },
+    "flex-layout.col#col__phone--info--cards": {
+        "title": "Col Info cards",
+        "children": [
+            "flex-layout.row#phone--image--cards",
+            "flex-layout.row#phone--text-heading"
+        ]
+    },
+    "flex-layout.row#phone--image--cards": {
+        "title": "Image info card",
+         "children": [
+            "image#phone--info__card"    
+         ]
+    },
+    "flex-layout.row#phone--text-heading": {
+        "title": "Info heading product",
+        "children": [
+            "flex-layout.col#phone--details--info",
+            "flex-layout.col#phone--stamp-image"
+        ]
+    },
+    "image#phone--info__card":{
+        "props":{
+            "src": "/arquivos/phone_infocard.png"
+        }
+    },
+    "flex-layout.col#phone--details--info":{
+        "title": "Details info card",
+        "children": [
+            "rich-text#phone--heading__product--text"
+        ]
+    },
+    "flex-layout.col#phone--stamp-image":{
+        "title": "Stamp image",
+        "children": [
+            "image#phone--stamp"
+        ]
+    },
+    "rich-text#phone--heading__product--text": {
+        "props": {
+            "text" : "Heading, Builder plataform is made by..."
+        }
+    },
+    "image#phone--stamp":{
+        "title": "Stamp image heading product",
+        "props": {
+            "src": "/arquivos/artwork-trailing__phone.png"
+        }
+    }
+}

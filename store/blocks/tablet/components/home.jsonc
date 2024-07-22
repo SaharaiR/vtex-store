@@ -1,15 +1,33 @@
 {
-    "flex-layout.row#tablet__home__section--images": {
-        "title": "TABLET row with text",
-        "children": [
-            "rich-text#tablet__section--images"
-        ]
+    "flex-layout.row#home-tablet__image": {
+      "title": "Image home tablet",
+      "children": [
+        "list-context.image-list#image__tablet-home"
+      ]
     },
-    "rich-text#tablet__section--images":{
-        "title": "Text favorites at tablet",
-        "props": {
-            "text": "Favoritos en TABLET",
-            "font": "t-heading-t2"
+    "list-context.image-list#image__tablet-home":{
+      "props": {
+        "height": 422,
+        "images": [
+          {
+            "image": "/arquivos/home_image.png",
+            "link": {
+              "url": "#"
+            }
+          }
+        ]
+      },
+      "children": [
+        "slider-layout#home__tablet-image"
+      ]
+    },
+    "slider-layout#home__tablet-image":{
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
         }
+      }
     }
-}
+  }

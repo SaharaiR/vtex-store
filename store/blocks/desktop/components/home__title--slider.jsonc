@@ -1,0 +1,8 @@
+{
+    "rich-text#title__info--cards": {
+        "title": "Title slider info cards",
+        "props": {
+          "text": "An amazing product"
+        }
+      }
+}

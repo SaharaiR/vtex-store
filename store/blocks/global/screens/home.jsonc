@@ -1,7 +1,6 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#images__init--home",
       "responsive-layout.desktop#home__section--images",
       "responsive-layout.phone#home__section--images",
       "responsive-layout.tablet#home__section--images"
