@@ -2,7 +2,10 @@
     "responsive-layout.tablet#home__section--images":{
         "title": "Home images on Tablet",
         "children": [
-            "flex-layout.row#home-tablet__image"
+            "flex-layout.row#home-tablet__image",
+            "rich-text#tablet--title__info--cards",
+            "slider-layout#tablet--info--cards"
+            
         ]
     }
 }

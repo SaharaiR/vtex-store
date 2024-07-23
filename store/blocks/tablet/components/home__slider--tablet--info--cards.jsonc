@@ -1,0 +1,77 @@
+{
+    "slider-layout#tablet--info--cards":{
+        "title": "Slider Layout Info cards Tablet",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 3,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "flex-layout.row#tablet--row__info--cards",
+            "flex-layout.row#tablet--row__info--cards",
+            "flex-layout.row#tablet--row__info--cards",
+            "flex-layout.row#tablet--row__info--cards",
+            "flex-layout.row#tablet--row__info--cards",
+            "flex-layout.row#tablet--row__info--cards"
+        ]
+    },
+    "flex-layout.row#tablet--row__info--cards": {
+        "title": "Row Info cards Tablet",
+        "children": [
+            "flex-layout.col#tablet--col__info--cards"
+         ]
+    },
+    "flex-layout.col#tablet--col__info--cards": {
+        "title": "Col Info cards tablet",
+        "children": [
+            "flex-layout.row#tablet--image--cards",
+            "flex-layout.row#tablet--text-heading"
+        ]
+    },
+    "flex-layout.row#tablet--image--cards": {
+        "title": "Image info card",
+         "children": [
+            "image#tablet--info__card"
+         ]
+    },
+    "flex-layout.row#tablet--text-heading": {
+        "title": "Info heading product",
+        "children": [
+            "flex-layout.col#tablet--details--info",
+            "flex-layout.col#tablet--stamp-image"
+        ]
+    },
+    "image#tablet--info__card":{
+        "props":{
+            "src": "/arquivos/image_infocard.png"
+        }
+    },
+    "flex-layout.col#tablet--details--info":{
+        "title": "Details info card",
+        "children": [
+            "rich-text#tablet--heading__product--text"
+        ]
+    },
+    "flex-layout.col#tablet--stamp-image":{
+        "title": "Stamp image",
+        "children": [
+            "image#tablet--stamp"
+        ]
+    },
+    "rich-text#tablet--heading__product--text": {
+        "props": {
+            "text" : "Heading, Builder plataform is made by..."
+        }
+    },
+    "image#tablet--stamp":{
+        "title": "Stamp image heading product",
+        "props": {
+            "src": "/arquivos/artwork-trailing__desktop.png"
+        }
+    }
+}
