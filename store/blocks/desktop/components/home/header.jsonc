@@ -3,7 +3,10 @@
         "title": "Row Search",
         "children":[
             "flex-layout.row#row--text__desktop"
-        ]
+        ],
+        "props": {
+            "blockClass": "row--text__desktop"
+        }
     },
     "header-row#desktop-icons--category__row":{
         "title": "Row Icons Categories",
@@ -24,7 +27,7 @@
     "flex-layout.row#row--text__desktop": {
         "title": "Row Text Desktop",
         "props": {
-          "horizontalAlign": "center",
+          "horizontalAlign": "around",
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
