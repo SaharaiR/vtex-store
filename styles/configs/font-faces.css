@@ -1,4 +1,4 @@
 @font-face {
-    font-family: 'Lexend';
-    src: url(/assets/fonts/Lexend-VariableFont_wght.ttf);
+    font-family: "Lexend";
+    src: url(/assets/fonts/Lexend-VariableFont_wght.ttf), url("/assets/fonts/lexend-variablefont_wght-webfont.woff");
   }
