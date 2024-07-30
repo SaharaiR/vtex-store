@@ -1,4 +1,19 @@
 {
+    "header-row#desktop-search__row":{
+        "title": "Row Search",
+        "children":[
+            "flex-layout.row#row--text__desktop"
+        ],
+        "props": {
+            "blockClass": "row--text__desktop"
+        }
+    },
+    "header-row#desktop-icons--category__row":{
+        "title": "Row Icons Categories",
+        "children":[
+            "flex-layout.row#row--category__desktop"
+        ]
+    },
     /*"sticky-layout#desktop": {
         "title": "Sticy Layout Desktop",
         "props": {
@@ -9,22 +24,10 @@
             "flex-layout.row#row--category__desktop"
         ]
     },*/
-    "header-row#desktop-search__row":{
-        "title": "Row Search",
-        "children":[
-            "flex-layout.row#row--text__desktop"
-        ]
-    },
-    "header-row#desktop-icons--category__row":{
-        "title": "Row Icons Categories",
-        "children":[
-            "flex-layout.row#row--category__desktop"
-        ]
-    },
     "flex-layout.row#row--text__desktop": {
         "title": "Row Text Desktop",
         "props": {
-          "horizontalAlign": "center",
+          "horizontalAlign": "around",
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
