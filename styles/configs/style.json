@@ -332,14 +332,14 @@
       },
       "heading-2": {
         "fontFamily": "Lexend, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
         "fontFamily": "Lexend, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
@@ -367,7 +367,7 @@
       },
       "body": {
         "fontFamily": "Lexend, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"

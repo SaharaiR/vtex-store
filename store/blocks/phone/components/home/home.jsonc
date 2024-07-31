@@ -1,19 +1,33 @@
 {
-  "flex-layout.row#phone__home__section-1": {
-    "title": "PHONE Row with text",
-    "children": [
-      "rich-text#phone__section-1"
-    ]
-  },
-
-  "rich-text#phone__section-1": {
-    "title": "Text Favorites",
-    "props": {
-      "blockClass": "",
-      "text": "Favoritos en PHONE",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+    "flex-layout.row#home-phone__image": {
+      "title": "Image home phone",
+      "children": [
+        "list-context.image-list#image__phone-home"
+      ]
+    },
+    "list-context.image-list#image__phone-home":{
+      "props": {
+        "height": 422,
+        "images": [
+          {
+            "image": "/arquivos/phone_smartwatch.png",
+            "link": {
+              "url": "#"
+            }
+          }
+        ]
+      },
+      "children": [
+        "slider-layout#home__phone-image"
+      ]
+    },
+    "slider-layout#home__phone-image":{
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
+        }
+      }
     }
   }
-}

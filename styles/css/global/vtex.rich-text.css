@@ -1,3 +1,14 @@
 .paragraph{
     margin: 0px;
 }
+
+:global(.vtex-rich-text-0-x-wrapper){
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph){
+    text-align: center;
+    padding: 0px;
+}

@@ -1,0 +1,8 @@
+{
+    "header-layout.mobile": {
+      "children": [
+       "header-row#nav__bar",
+       "header-row#icons--category__row"
+      ]
+    }
+  }
