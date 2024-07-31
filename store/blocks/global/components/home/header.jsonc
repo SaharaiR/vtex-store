@@ -1,43 +1,34 @@
 {
-   /* "header-row#desktop-search__row":{
-        "title": "Row Search",
+    "header-row#nav__bar":{
+        "title": "Row Navigation Bar",
         "children":[
-            "flex-layout.row#row--text__desktop"
+            "flex-layout.row#nav-bar"
         ],
         "props": {
-            "blockClass": "row--text__desktop"
+            "blockClass": "header-row#nav__bar"
         }
     },
-    "header-row#desktop-icons--category__row":{
+    "header-row#icons--category__row":{
         "title": "Row Icons Categories",
         "children":[
-            "flex-layout.row#row--category__desktop"
+            "flex-layout.row#row--categories"
         ]
     },
-    /*"sticky-layout#desktop": {
-        "title": "Sticy Layout Desktop",
+    "flex-layout.row#nav-bar": {
+        "title": "Row Navigation Bar",
         "props": {
-          "blockClass": "sticky-header"
+            "horizontalAlign": "around",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
         },
         "children": [
-            "flex-layout.row#row--text__desktop",
-            "flex-layout.row#row--category__desktop"
-        ]
-    },
-    "flex-layout.row#row--text__desktop": {
-        "title": "Row Text Desktop",
-        "props": {
-          "horizontalAlign": "around",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true
-        },
-        "children": [
-            "flex-layout.col#menu__hamburger",
+            //"menu-hamburger",
             "flex-layout.col#logo-desktop",
-            "flex-layout.col#spacer",
+            //"header-spacer",
             "search-bar",
+            //"flex-layout.col#spacer",
             "flex-layout.col#col__trends",
             "flex-layout.col#col__collection",
             "flex-layout.col#col__offers",
@@ -47,7 +38,7 @@
             "login"
         ]
     },
-    "flex-layout.col#menu__hamburger":{
+    /*"flex-layout.col#menu__hamburger":{
         "title": "Icon Menu Hamburger",
         "children": [
             "icon#icon__menu--hamburger"
@@ -58,13 +49,21 @@
             "id": "hpa-hamburguer-menu",
             "size": 20
         }
-    },
+    },*/
     "flex-layout.col#logo-desktop": {
         "title": "Logo Desktop",
         "props": {
-          "verticalAlign": "middle"
+            "verticalAlign": "middle"            
         },
         "children": ["logo"]
+    },
+    "logo":{
+        "props": {
+            "title": "ITG Logo",
+            "href": "/",
+            "url": "/arquivos/logo_black.png",
+            "width": 32
+        }
     },
     "flex-layout.col#col__trends":{
         "title": "Col Text Trends",
@@ -126,14 +125,26 @@
             "text": "Never say never"
         }
     },
-    "flex-layout.row#row--category__desktop":{
+    "login":{
+        "props": {
+            "optionsTitle": "LOG IN",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+        }    
+    },
+    "flex-layout.row#row--categories":{
         "title": "Row Icons Desktop",
         "props": {
             "horizontalAlign": "around",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "flex-direction": "row",
+            "blockClass": "row--categories"
         },
         "children": [
             "flex-layout.col#icon__food",
@@ -156,10 +167,7 @@
         "children": [
             "image#icon__food",
             "rich-text#text__icon-food"
-        ],
-        "props": {
-            "blockClass": ""
-        }
+        ]
     },
     "image#icon__food":{
         "title": "Image Icon Food",
@@ -170,7 +178,10 @@
     "rich-text#text__icon-food":{
         "title": "Text Icon Food",
         "props": {
-            "text": "Food"
+            "text": "Food",
+            "props": {
+                "blockClass": "icon--food"
+            }
         }
     },
     "flex-layout.col#icon__fit":{
@@ -381,5 +392,5 @@
         "props": {
             "text": "Cervezas"
         }
-    }*/
+    }
 }

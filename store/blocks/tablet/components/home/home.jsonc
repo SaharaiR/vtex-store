@@ -1,19 +1,33 @@
 {
-  "flex-layout.row#tablet__home__section-1": {
-    "title": "TABLET Row with text",
-    "children": [
-      "rich-text#tablet__section-1"
-    ]
-  },
-
-  "rich-text#tablet__section-1": {
-    "title": "Text Favorites",
-    "props": {
-      "blockClass": "",
-      "text": "Favoritos en TABLET",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+    "flex-layout.row#home-tablet__image": {
+      "title": "Image home tablet",
+      "children": [
+        "list-context.image-list#image__tablet-home"
+      ]
+    },
+    "list-context.image-list#image__tablet-home":{
+      "props": {
+        "height": 422,
+        "images": [
+          {
+            "image": "/arquivos/home_image.png",
+            "link": {
+              "url": "#"
+            }
+          }
+        ]
+      },
+      "children": [
+        "slider-layout#home__tablet-image"
+      ]
+    },
+    "slider-layout#home__tablet-image":{
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
+        }
+      }
     }
   }
-}
