@@ -1,0 +1,32 @@
+{
+    "header-row#desktop-nav__bar":{
+        "title": "Row Navigation Bar Desktop",
+        "children":[
+            "flex-layout.row#desktop-nav-bar"
+        ]
+    },
+    "flex-layout.row#desktop-nav-bar": {
+        "title": "Row Navigation Bar Desktop",
+        "props": {
+            "horizontalAlign": "around",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "vtex.menu@2.x:menu#websites",
+            "flex-layout.col#logo-desktop",
+            //"header-spacer",
+            "search-bar",
+            //"flex-layout.col#spacer",
+            "flex-layout.col#col__trends",
+            "flex-layout.col#col__collection",
+            "flex-layout.col#col__offers",
+            "flex-layout.col#col__cyber--monday",
+            "flex-layout.col#col__never",
+            "minicart.v2",
+            "login"
+        ]
+    }
+}
