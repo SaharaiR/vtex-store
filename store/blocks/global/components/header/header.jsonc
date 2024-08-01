@@ -3,10 +3,7 @@
         "title": "Row Navigation Bar",
         "children":[
             "flex-layout.row#nav-bar"
-        ],
-        "props": {
-            "blockClass": "header-row#nav__bar"
-        }
+        ]
     },
     "header-row#icons--category__row":{
         "title": "Row Icons Categories",
