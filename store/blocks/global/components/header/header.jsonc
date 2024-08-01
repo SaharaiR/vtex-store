@@ -1,0 +1,408 @@
+{
+    "header-row#nav__bar":{
+        "title": "Row Navigation Bar",
+        "children":[
+            //"flex-layout.row#nav-bar"
+             //"menu-hamburger",
+             "flex-layout.col#logo-desktop",
+             //"header-spacer",
+             "search-bar",
+             //"flex-layout.col#spacer",
+             "flex-layout.col#col__trends",
+             "flex-layout.col#col__collection",
+             "flex-layout.col#col__offers",
+             "flex-layout.col#col__cyber--monday",
+             "flex-layout.col#col__never",
+             "minicart.v2",
+             "login"
+        ],
+        "props": {
+            "blockClass": "header-row#nav__bar"
+        }
+    },
+    "header-row#icons--category__row":{
+        "title": "Row Icons Categories",
+        "children":[
+            "flex-layout.row#row--categories"
+        ]
+    },
+    /*"flex-layout.row#nav-bar": {
+        "title": "Row Navigation Bar",
+        "props": {
+            "horizontalAlign": "around",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            //"menu-hamburger",
+            "flex-layout.col#logo-desktop",
+            //"header-spacer",
+            "search-bar",
+            //"flex-layout.col#spacer",
+            "flex-layout.col#col__trends",
+            "flex-layout.col#col__collection",
+            "flex-layout.col#col__offers",
+            "flex-layout.col#col__cyber--monday",
+            "flex-layout.col#col__never",
+            "minicart.v2",
+            "login"
+        ]
+    },*/
+    /*"flex-layout.col#menu__hamburger":{
+        "title": "Icon Menu Hamburger",
+        "children": [
+            "icon#icon__menu--hamburger"
+        ]
+    },
+    "icon#icon__menu--hamburger":{
+        "props": {
+            "id": "hpa-hamburguer-menu",
+            "size": 20
+        }
+    },*/
+    "flex-layout.col#logo-desktop": {
+        "title": "Logo Desktop",
+        "props": {
+            "verticalAlign": "middle"            
+        },
+        "children": ["logo"]
+    },
+    "logo":{
+        "props": {
+            "title": "ITG Logo",
+            "href": "/",
+            "url": "/arquivos/logo_black.png",
+            "width": 32
+        }
+    },
+    "flex-layout.col#col__trends":{
+        "title": "Col Text Trends",
+        "children": [
+            "rich-text#text--trends"
+        ]
+    },
+    "rich-text#text--trends":{
+        "title": "Text Trends",
+        "props": {
+            "text": "Tendencias de IT Globers"
+        }
+    },
+    "flex-layout.col#col__collection":{
+        "title": "Col Text Collection",
+        "children": [
+            "rich-text#text--collection"
+        ]
+    },
+    "rich-text#text--collection":{
+        "title": "Text Collecion",
+        "props": {
+            "text": "Colección del mes"
+        }
+    },
+    "flex-layout.col#col__offers":{
+        "title": "Col Text Offers",
+        "children": [
+            "rich-text#text--offers"
+        ]
+    },
+    "rich-text#text--offers":{
+        "title": "Text Offers",
+        "props": {
+            "text": "Ofertas enero"
+        }
+    },
+    "flex-layout.col#col__cyber--monday":{
+        "title": "Col Text Cyber Monday",
+        "children": [
+            "rich-text#text--cyber--monday"
+        ]
+    },
+    "rich-text#text--cyber--monday":{
+        "title": "Text Cyber Monday",
+        "props": {
+            "text": "Cyber Monday"
+        }
+    },
+    "flex-layout.col#col__never":{
+        "title": "Col Text Never",
+        "children": [
+            "rich-text#text--never"
+        ]
+    },
+    "rich-text#text--never":{
+        "title": "Text Never",
+        "props": {
+            "text": "Never say never"
+        }
+    },
+    "login":{
+        "props": {
+            "optionsTitle": "LOG IN",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+        }    
+    },
+    "flex-layout.row#row--categories":{
+        "title": "Row Icons Desktop",
+        "props": {
+            "horizontalAlign": "around",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "flex-direction": "row",
+            "blockClass": "row--categories"
+        },
+        "children": [
+            "flex-layout.col#icon__food",
+            "flex-layout.col#icon__fit",
+            "flex-layout.col#icon__artic",
+            "flex-layout.col#icon__poolday",
+            "flex-layout.col#icon__hotel",
+            "flex-layout.col#icon__houses",
+            "flex-layout.col#icon__hotel",
+            "flex-layout.col#icon__natural",
+            "flex-layout.col#icon__closet",
+            "flex-layout.col#icon__beach",
+            "flex-layout.col#icon__alpinism",
+            "flex-layout.col#icon__delivery",
+            "flex-layout.col#icon__beers"
+        ]
+    },
+    "flex-layout.col#icon__food":{
+        "title": "Col Icon Food",
+        "children": [
+            "image#icon__food",
+            "rich-text#text__icon-food"
+        ]
+    },
+    "image#icon__food":{
+        "title": "Image Icon Food",
+        "props": {
+            "src": "/arquivos/food.png"
+        }
+    },
+    "rich-text#text__icon-food":{
+        "title": "Text Icon Food",
+        "props": {
+            "text": "Food",
+            "props": {
+                "blockClass": "icon--food"
+            }
+        }
+    },
+    "flex-layout.col#icon__fit":{
+        "title": "Col Icon Fitness",
+        "children": [
+            "image#icon__fitness",
+            "rich-text#text__icon-fitness"
+        ]
+    },
+    "image#icon__fitness":{
+        "title": "Image Icon Fitness",
+        "props": {
+            "src": "/arquivos/fitness.png"
+        }
+    },
+    "rich-text#text__icon-fitness":{
+        "title": "Text Icon Fitness",
+        "props": {
+            "text": "Fitness"
+        }
+    },
+    "flex-layout.col#icon__artic":{
+        "title": "Col Icon Artic",
+        "children": [
+            "image#icon__artic",
+            "rich-text#text__icon-artic"
+        ]
+    },
+    "image#icon__artic":{
+        "title": "Image Icon Artic",
+        "props": {
+            "src": "/arquivos/artic.png"
+        }
+    },
+    "rich-text#text__icon-artic":{
+        "title": "Text Icon Artic",
+        "props": {
+            "text": "En el Ártico"
+        }
+    },
+    "flex-layout.col#icon__poolday":{
+        "title": "Col Icon Poolday",
+        "children": [
+            "image#icon__poolday",
+            "rich-text#text__icon-poolday"
+        ]
+    },
+    "image#icon__poolday":{
+        "title": "Image Icon Poolday",
+        "props": {
+            "src": "/arquivos/poolday.png"
+        }
+    },
+    "rich-text#text__icon-poolday":{
+        "title": "Text Icon Poolday",
+        "props": {
+            "text": "Poolday"
+        }
+    },
+    "flex-layout.col#icon__hotel":{
+        "title": "Col Icon Hotel",
+        "children": [
+            "image#icon__hotel",
+            "rich-text#text__icon-hotel"
+        ]
+    },
+    "image#icon__hotel":{
+        "title": "Image Icon hotel",
+        "props": {
+            "src": "/arquivos/hotel.png"
+        }
+    },
+    "rich-text#text__icon-hotel":{
+        "title": "Text Icon Hotel",
+        "props": {
+            "text": "Hoteles"
+        }
+    },
+    "flex-layout.col#icon__houses":{
+        "title": "Col Icon House",
+        "children": [
+            "image#icon__houses",
+            "rich-text#text__icon-houses"
+        ]
+    },
+    "image#icon__houses":{
+        "title": "Image Icon Houses",
+        "props": {
+            "src": "/arquivos/house.png"
+        }
+    },
+    "rich-text#text__icon-houses":{
+        "title": "Text Icon Houses",
+        "props": {
+            "text": "Houses"
+        }
+    },
+    "flex-layout.col#icon__natural":{
+        "title": "Col Icon Natural",
+        "children": [
+            "image#icon__natural",
+            "rich-text#text__icon-natural"
+        ]
+    },
+    "image#icon__natural":{
+        "title": "Image Icon Natural",
+        "props": {
+            "src": "/arquivos/nature.png"
+        }
+    },
+    "rich-text#text__icon-natural":{
+        "title": "Text Icon Natural",
+        "props": {
+            "text": "Naturales"
+        }
+    },
+    "flex-layout.col#icon__closet":{
+        "title": "Col Icon Closet",
+        "children": [
+            "image#icon__closet",
+            "rich-text#text__icon-closet"
+        ]
+    },
+    "image#icon__closet":{
+        "title": "Image Icon Closet",
+        "props": {
+            "src": "/arquivos/closet.png"
+        }
+    },
+    "rich-text#text__icon-closet":{
+        "title": "Text Icon Closet",
+        "props": {
+            "text": "Closet"
+        }
+    },
+    "flex-layout.col#icon__beach":{
+        "title": "Col Icon Beach",
+        "children": [
+            "image#icon__beach",
+            "rich-text#text__icon-beach"
+        ]
+    },
+    "image#icon__beach":{
+        "title": "Image Icon Beach",
+        "props": {
+            "src": "/arquivos/beach.png"
+        }
+    },
+    "rich-text#text__icon-beach":{
+        "title": "Text Icon Beach",
+        "props": {
+            "text": "Playas"
+        }
+    },
+    "flex-layout.col#icon__alpinism":{
+        "title": "Col Icon Alpinism",
+        "children": [
+            "image#icon__alpinism",
+            "rich-text#text__icon-alpinism"
+        ]
+    },
+    "image#icon__alpinism":{
+        "title": "Image Icon Alpinism",
+        "props": {
+            "src": "/arquivos/alpinism.png"
+        }
+    },
+    "rich-text#text__icon-alpinism":{
+        "title": "Text Icon Alpinism",
+        "props": {
+            "text": "Alpinismo"
+        }
+    },
+    "flex-layout.col#icon__delivery":{
+        "title": "Col Icon Delivery",
+        "children": [
+            "image#icon__delivery",
+            "rich-text#text__icon-delivery"
+        ]
+    },
+    "image#icon__delivery":{
+        "title": "Image Icon Delivery",
+        "props": {
+            "src": "/arquivos/delivery.png"
+        }
+    },
+    "rich-text#text__icon-delivery":{
+        "title": "Text Icon Delivery",
+        "props": {
+            "text": "Delivery"
+        }
+    },
+    "flex-layout.col#icon__beers":{
+        "title": "Col Icon Beers",
+        "children": [
+            "image#icon__beers",
+            "rich-text#text__icon-beers"
+        ]
+    },
+    "image#icon__beers":{
+        "title": "Image Icon Beers",
+        "props": {
+            "src": "/arquivos/beers.png"
+        }
+    },
+    "rich-text#text__icon-beers":{
+        "title": "Text Icon Beers",
+        "props": {
+            "text": "Cervezas"
+        }
+    }
+}
