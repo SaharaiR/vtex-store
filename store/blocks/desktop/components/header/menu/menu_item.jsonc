@@ -1,0 +1,378 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "title": "Menu Desktop",
+    "children": [
+      "menu-item#menu_hamburger"
+    ]
+  },
+  "menu-item#menu_hamburger": {
+    "title": "Menu Hamburger Item Desktop",
+    "props": {
+      "id": "menu-item-hamburger",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu"
+      },
+      "iconProps": {
+        "id": "hpa-hamburguer-menu",
+        "size": 16
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all__categories"
+    ]
+  },
+  "vtex.menu@2.x:submenu#all__categories": {
+    "title": "Submenu All Categories Desktop",
+    "children": [
+      "vtex.menu@2.x:menu#sub__menu--all__categories"
+    ]
+  },
+  "vtex.menu@2.x:menu#sub__menu--all__categories": {
+    "title": "Sub Menu All Categories Desktop",
+    "children": [
+      "menu-item#menu_all__categories"
+    ]
+  },
+  "menu-item#menu_all__categories": {
+    "title": "Menu Item All Categories",
+    "props": {
+      "id": "menu-item-all-categories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "All Categories",
+        "text": "All Categories"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sub__category"
+    ]
+  },
+  "vtex.menu@2.x:submenu#sub__category": {
+    "title": "Sub Menu Category Desktop",
+    "children": [
+      "vtex.menu@2.x:menu#sub__menu--category"
+    ]
+  },
+  "vtex.menu@2.x:menu#sub__menu--category": {
+    "title": "Sub Menu Category Desktop",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [ "sub_menu--categories" ]
+    },
+    "children": [
+      "menu-item#menu_sub__category-deals",
+      "menu-item#menu_sub__category-grocery",
+      "menu-item#menu_sub__category-goals",
+      "menu-item#menu_sub__category-valentine",
+      "menu-item#menu_sub__category-game",
+      "menu-item#menu_sub__category-clothing",
+      "menu-item#menu_sub__category-electronics",
+      "menu-item#menu_sub__category-home",
+      "menu-item#menu_sub__category-toys",
+      "menu-item#menu_sub__category-baby",
+      "menu-item#menu_sub__category-kids",
+      "menu-item#menu_sub__category-auto",
+      "menu-item#menu_sub__category-pharmacy",
+      "menu-item#menu_sub__category-personal",
+      "menu-item#menu_sub__category-beauty",
+      "menu-item#menu_sub__category-pets",
+      "menu-item#menu_sub__category-home-imp",
+      "menu-item#menu_sub__category-patio",
+      "menu-item#menu_sub__category-household"
+    ]
+  },
+  "menu-item#menu_sub__category-deals": {
+    "title": "Sub Menu Item Category Deals Desktop",
+    "props": {
+      "id": "menu-item-deals",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Deals"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-grocery": {
+    "title": "Sub Menu Item Category Grocery Desktop",
+    "props": {
+      "id": "menu-item-grocery",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Grocery"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-goals": {
+    "title": "Sub Menu Item Category Goals Desktop",
+    "props": {
+      "id": "menu-item-goals",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "New Year Goals"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-valentine": {
+    "title": "Sub Menu Item Category Valentine Desktop",
+    "props": {
+      "id": "menu-item-valentine",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Valentine's Day"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-game": {
+    "title": "Sub Menu Item Category Game Desktop",
+    "props": {
+      "id": "menu-item-game",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Game Time"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-clothing": {
+    "title": "Sub Menu Item Category Clothing Desktop",
+    "props": {
+      "id": "menu-item-grocery",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Clothing, Shoes and Accesories"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-electronics": {
+    "title": "Sub Menu Item Category Electronics Desktop",
+    "props": {
+      "id": "menu-item-electronics",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Electronics"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-home": {
+    "title": "Sub Menu Item Category Home Desktop",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Home, Furniture and Appliances"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-toys": {
+    "title": "Sub Menu Item Category Toys Desktop",
+    "props": {
+      "id": "menu-item-toys",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Toys & Video Games"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-baby": {
+    "title": "Sub Menu Item Category Baby Desktop",
+    "props": {
+      "id": "menu-item-baby",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Baby"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-kids": {
+    "title": "Sub Menu Item Category Desktop",
+    "props": {
+      "id": "menu-item-kids",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Kids"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-auto": {
+    "title": "Sub Menu Item Category Auto Desktop",
+    "props": {
+      "id": "menu-item-auto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Auto & Tires"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-pharmacy": {
+    "title": "Sub Menu Item Category Pharmacy Desktop",
+    "props": {
+      "id": "menu-item-pharmacy",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Pharmacy, Health and Wellness"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-personal": {
+    "title": "Sub Menu Item Category Personal Desktop",
+    "props": {
+      "id": "menu-item-personal",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Personal Care"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-beauty": {
+    "title": "Sub Menu Item Category Beauty Desktop",
+    "props": {
+      "id": "menu-item-beauty",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Beauty"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-pets": {
+    "title": "Sub Menu Item Category Pets Desktop",
+    "props": {
+      "id": "menu-item-pets",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Pets"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-home-imp": {
+    "title": "Sub Menu Item Category Home-Imp Desktop",
+    "props": {
+      "id": "menu-item-home-imp",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Home Improvement"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-patio": {
+    "title": "Sub Menu Item Category Patio Desktop",
+    "props": {
+      "id": "menu-item-patio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Patio & Garden"
+      }
+    }
+  },
+  "menu-item#menu_sub__category-household": {
+    "title": "Sub Menu Item Category Household Desktop",
+    "props": {
+      "id": "menu-item-household",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Household Essentials"
+      }
+    }
+  }
+}

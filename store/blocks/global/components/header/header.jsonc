@@ -21,9 +21,7 @@
             "fullWidth": true
         },
         "children": [
-            //"menu-hamburger",
             "flex-layout.col#logo-desktop",
-            //"header-spacer",
             "search-bar",
             //"flex-layout.col#spacer",
             "flex-layout.col#col__trends",
@@ -35,13 +33,7 @@
             "login"
         ]
     },
-    /*"flex-layout.col#menu__hamburger":{
-        "title": "Icon Menu Hamburger",
-        "children": [
-            "icon#icon__menu--hamburger"
-        ]
-    },
-    "icon#icon__menu--hamburger":{
+/*    "icon#icon__menu--hamburger":{
         "props": {
             "id": "hpa-hamburguer-menu",
             "size": 20
