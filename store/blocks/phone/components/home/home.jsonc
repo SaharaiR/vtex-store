@@ -1,33 +1,33 @@
 {
-    "flex-layout.row#home-phone__image": {
-      "title": "Image home phone",
-      "children": [
-        "list-context.image-list#image__phone-home"
-      ]
-    },
-    "list-context.image-list#image__phone-home":{
-      "props": {
-        "height": 422,
-        "images": [
-          {
-            "image": "/arquivos/phone_smartwatch.png",
-            "link": {
-              "url": "#"
-            }
+  "flex-layout.row#home-phone__image": {
+    "title": "Image home phone",
+    "children": [
+      "list-context.image-list#image__phone-home"
+    ]
+  },
+  "list-context.image-list#image__phone-home":{
+    "props": {
+      "height": 422,
+      "images": [
+        {
+          "image": "/arquivos/phone_smartwatch.png",
+          "link": {
+            "url": "#"
           }
-        ]
-      },
-      "children": [
-        "slider-layout#home__phone-image"
+        }
       ]
     },
-    "slider-layout#home__phone-image":{
-      "props": {
-        "itemsPerPage": {
-          "desktop": 5,
-          "tablet": 3,
-          "phone": 1
-        }
+    "children": [
+      "slider-layout#home__phone-image"
+    ]
+  },
+  "slider-layout#home__phone-image":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
       }
     }
   }
+}

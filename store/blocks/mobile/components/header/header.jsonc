@@ -1,0 +1,31 @@
+{
+    "header-row#mobile-nav__bar":{
+        "title": "Header-Row Navigation Bar Mobile",
+        "children":[
+            "flex-layout.row#mobile-nav-bar"
+        ]
+    },
+    "flex-layout.row#mobile-nav-bar": {
+        "title": "Layout-Row Navigation Bar Mobile",
+        "props": {
+            "horizontalAlign": "around",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            //aqui va el mega-menu
+            "flex-layout.row#1-mobile",
+            "flex-layout.col#logo-desktop",
+            "search-bar",
+            "flex-layout.col#col__trends",
+            "flex-layout.col#col__collection",
+            "flex-layout.col#col__offers",
+            "flex-layout.col#col__cyber--monday",
+            "flex-layout.col#col__never",
+            "minicart.v2",
+            "login"
+        ]
+    }
+}

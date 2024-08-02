@@ -1,8 +1,8 @@
 {
-    "header-layout.mobile": {
-      "children": [
-       "header-row#nav__bar",
-       "header-row#icons--category__row"
-      ]
-    }
+  "header-layout.mobile": {
+    "children": [
+     "header-row#mobile-nav__bar",
+     "header-row#icons--category__row"
+    ]
   }
+}
