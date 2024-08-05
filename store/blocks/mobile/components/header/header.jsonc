@@ -8,6 +8,7 @@
     "flex-layout.row#mobile-nav-bar": {
         "title": "Layout-Row Navigation Bar Mobile",
         "props": {
+            "blockClass": "header-row",
             "horizontalAlign": "around",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
@@ -15,15 +16,9 @@
             "fullWidth": true
         },
         "children": [
-            //aqui va el mega-menu
-            "flex-layout.row#1-mobile",
+            "flex-layout.row#mega-menu__mobile",
             "flex-layout.col#logo-desktop",
             "search-bar",
-            "flex-layout.col#col__trends",
-            "flex-layout.col#col__collection",
-            "flex-layout.col#col__offers",
-            "flex-layout.col#col__cyber--monday",
-            "flex-layout.col#col__never",
             "minicart.v2",
             "login"
         ]

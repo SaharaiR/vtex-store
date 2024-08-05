@@ -1,0 +1,10 @@
+:global(.vtex-store-components-3-x-container){
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+@media(max-width: 768px){
+    .vtex-store-components-3-x-container{
+        overflow-x: auto;
+    }
+}

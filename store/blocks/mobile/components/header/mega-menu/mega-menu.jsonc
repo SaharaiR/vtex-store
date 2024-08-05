@@ -1,21 +1,36 @@
 {
-/*  "flex-layout.row#1-mobile": {
+ "flex-layout.row#mega-menu__mobile": {
+    "title": "FlexLayout MegaMenu Mobile",
     "children": [
-      "flex-layout.col#trigger-mega-menu"
+     "flex-layout.col#trigger-mega-menu"
     ],
     "props": {
     }
   },
-
   "drawer": {
+    "title": "Drawer",
     "children": ["mega-menu#mobile"],
     "blocks": ["drawer-header#my-drawer"]
   },
   "mega-menu#mobile": {
+    "title": "MegaMenu Mobile",
     "props": {
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
       "openOnly": "vertical"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "title": "FlexLayout MegaMenu Trigger",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "title": "MegaMenu Trigger Button",
+    "props": {
+      "Drawer": "drawer"
     }
   },
   "drawer-header#my-drawer": {
@@ -24,7 +39,7 @@
   "flex-layout.row#drawer-header": {
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",
-      "flex-layout.col#spacer",
+      //"flex-layout.col#spacer",
       "flex-layout.col#drawer-close-button"
     ],
     "props": {
@@ -49,5 +64,5 @@
       "horizontalAlign": "left",
       "paddingLeft": 4
     }
-  }*/
+  }
 }
