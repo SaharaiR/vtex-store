@@ -8,7 +8,8 @@
     "header-row#icons--category__row":{
         "title": "Row Icons Categories",
         "children":[
-            "flex-layout.row#row--categories"
+            //"flex-layout.row#row--categories"
+            "vtex.menu@2.x:menu#icons"
         ]
     },
     "flex-layout.row#nav-bar": {
