@@ -1,10 +1,8 @@
-:global(.vtex-store-components-3-x-container){
-    flex-wrap: nowrap;
-    display: flex;
+:global(.vtex-store-components-3-x-searchBarContainer){
+    border-radius: 50px;
 }
 
-@media(max-width: 768px){
-    .vtex-store-components-3-x-container{
-        overflow-x: auto;
-    }
+:global(.vtex-store-components-3-x-container){
+    align-items: center;
+    overflow: auto;
 }

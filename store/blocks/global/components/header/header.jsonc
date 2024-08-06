@@ -7,8 +7,8 @@
     },
     "header-row#icons--category__row":{
         "title": "Row Icons Categories",
+        "props": [ "category--row__icons" ],
         "children":[
-            //"flex-layout.row#row--categories"
             "vtex.menu@2.x:menu#icons"
         ]
     },
@@ -34,12 +34,6 @@
             "login"
         ]
     },
-/*    "icon#icon__menu--hamburger":{
-        "props": {
-            "id": "hpa-hamburguer-menu",
-            "size": 20
-        }
-    },*/
     "flex-layout.col#logo-desktop": {
         "title": "Logo Desktop",
         "props": {
@@ -124,8 +118,8 @@
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true
         }    
-    },
-    "flex-layout.row#row--categories":{
+    }
+   /* "flex-layout.row#row--categories":{
         "title": "Row Icons Desktop",
         "props": {
             "horizontalAlign": "around",
@@ -168,10 +162,7 @@
     "rich-text#text__icon-food":{
         "title": "Text Icon Food",
         "props": {
-            "text": "Food",
-            "props": {
-                "blockClass": "icon--food"
-            }
+            "text": "Food"
         }
     },
     "flex-layout.col#icon__fit":{
@@ -382,5 +373,5 @@
         "props": {
             "text": "Cervezas"
         }
-    }
+    }*/
 }

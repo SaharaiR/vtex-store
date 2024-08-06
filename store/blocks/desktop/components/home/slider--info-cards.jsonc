@@ -2,25 +2,126 @@
     "slider-layout#info--cards":{
         "title": "Slider Layout Info cards",
         "props": {
+            "blockclass": "info__cards",
             "itemsPerPage": {
               "desktop": 5,
               "tablet": 1,
               "phone": 1
             },
-            "infinite": true,
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "carousel"
+            "infinite": true
+            //"showNavigationArrows": "desktopOnly"
         },
         "children": [
-            "flex-layout.row#row__info--cards",
-            "flex-layout.row#row__info--cards",
-            "flex-layout.row#row__info--cards",
-            "flex-layout.row#row__info--cards",
-            "flex-layout.row#row__info--cards",
-            "flex-layout.row#row__info--cards"
+            "flex-layout.row#row__info--card",
+            "flex-layout.row#row__info--card",
+            "flex-layout.row#row__info--card",
+            "flex-layout.row#row__info--card",
+            "flex-layout.row#row__info--card",
+            "flex-layout.row#row__info--card"
         ]
     },
-    "flex-layout.row#row__info--cards": {
+    "flex-layout.row#row__info--card":{
+        "title": "Flex Layout Row Info Card",
+        "props": {
+            "blockClass": "infocard__row"
+        },
+        "children": [
+            "flex-layout.col#info--card"
+        ]
+    },
+    "flex-layout.col#info--card":{
+        "title": "Flex Layout Col Info Card",
+        "props": {
+            "blockClass": "infocard__col"
+        },
+        "children": [
+            "flex-layout.row#image__info--card",
+            "flex-layout.row#info__info--card",
+            "flex-layout.row#button__info--card"
+        ]
+    },
+    "flex-layout.row#image__info--card":{
+        "title": "Flex Layout Row Image Info Card",
+        "props": {
+            "blockClass": "infocard__image"
+        },
+        "children": [
+            "image#infocard__image"
+        ]
+    },
+    "image#infocard__image":{
+        "title": "Image Info Card",
+        "props": {
+            "src": "/arquivos/image_infocard.png"
+        }
+    },
+    "flex-layout.row#info__info--card":{
+        "title": "Flex Layout Row Information Info Card",
+        "props": {
+            "blockClass": "information--info__card"
+        },
+        "children": [
+            "flex-layout.col#text--info__card",
+            "flex-layout.col#stamp--info__card"
+        ]
+    },
+    "flex-layout.col#text--info__card":{
+        "title": "Flex Layout Col Heading Info Card",
+        "props": {
+            "blockClass": "col--heading--info__card"
+        },
+        "children": [
+            "rich-text#heading--info__card",
+            "rich-text#text--info__card"
+        ]
+    },
+    "rich-text#heading--info__card":{
+        "title": "Rich Text Heading Info Card",
+        "props": {
+            "blockClass": "heading--info__card",
+            "text": "Heading"
+        }
+    },
+    "rich-text#text--info__card":{
+        "title": "Rich Text Text Info Card",
+        "props": {
+            "blockClass": "text--info__card",
+            "text": "Builder platform is made by, buildership platform is made by..."
+        }
+    },
+    "flex-layout.col#stamp--info__card":{
+        "title": "Flex Layout Col Stamp",
+        "props": {
+            "blockClass": "layout--stamp"
+        },
+        "children": [
+            "image#stamp__image"
+        ]
+    },
+    "image#stamp__image":{
+        "title": "Image Stamp",
+        "props": {
+            "blockClass": "image--stamp",
+            "src": "/arquivos/artwork-trailing__desktop.png"
+        }
+    },
+    "flex-layout.row#button__info--card":{
+        "title": "Flex Layout Button Price",
+        "props": {
+            "blockClass": "layout--button__price"
+        },
+        "children": [
+            "rich-text#button__price"
+        ]
+    },
+    "rich-text#button__price":{
+        "title": "Text Button Price",
+        "props": {
+            "blockClass": "text-button__price",
+            "text": "Ver precio"
+        }
+    }
+    /*"flex-layout.row#row__info--cards": {
         "title": "Row Info cards",
         "children": [
             "flex-layout.col#col__info--cards"
@@ -30,7 +131,8 @@
         "title": "Col Info cards",
         "children": [
             "flex-layout.row#image--cards",
-            "flex-layout.row#text-heading"
+            "flex-layout.row#text--cards",
+            "flex-layout.row#button--price"
         ]
     },
     "flex-layout.row#image--cards": {
@@ -39,11 +141,17 @@
             "image#info__card"    
          ]
     },
-    "flex-layout.row#text-heading": {
+    "flex-layout.row#text--cards": {
         "title": "Info heading product",
         "children": [
             "flex-layout.col#details--info",
-            "flex-layout.col#stamp-image"      
+            "flex-layout.col#stamp--image"
+        ]
+    },
+    "flex-layout.row#button--price": {
+        "title": "Button See Price",
+        "children": [
+            "rich-text#button--price"
         ]
     },
     "image#info__card":{
@@ -54,24 +162,62 @@
     "flex-layout.col#details--info":{
         "title": "Details info card",
         "children": [
-            "rich-text#heading__product--text"
+            //"rich-text#heading__product--text"
+            "flex-layout.row#heading--info__card",
+            "flex-layout.row#text--info__card"
         ]
     },
-    "flex-layout.col#stamp-image":{
+    "flex-layout.row#heading--info__card":{
+        "title": "Heading Text Card",
+        "children": [
+            "rich-text#heading--info__card"
+        ]
+    },
+    "rich-text#heading--info__card":{
+        "title": "RichText Heading Info Card",
+        "props": {
+            "blockClass": "heading__info--card",
+            "text": "Heading"
+        }
+    },
+    "flex-layout.row#text--info__card":{
+        "title": "Text Info Card",
+        "children": [
+            "rich-text#text--info__card"
+        ]
+    },
+    "rich-text#text--info__card":{
+        "title": "RichText Text Info Card",
+        "props": {
+            "blockClass": "text__info--card",
+            "text": "Builder platform is made by, buildership platform is made by..."
+        }
+    },
+    "flex-layout.col#stamp--image":{
         "title": "Stamp image",
         "children": [
             "image#stamp"
         ]
     },
-    "rich-text#heading__product--text": {
+    /*"rich-text#heading__product--text": {
+        "title": "Heading Product Text",
         "props": {
-            "text" : "Heading, Builder plataform is made by..."
+            "blockClass": "heading_text--info__card",
+            "text" : "Heading"
         }
-    },
+    },//se cerraba aqui el otro bloque de comentarios
     "image#stamp":{
         "title": "Stamp image heading product",
         "props": {
+            "blockClass": "stamp--info__card",
             "src": "/arquivos/artwork-trailing__desktop.png"
         }
-    }
+    },
+    "rich-text#button--price":{
+        "title": "Rich Text Button Price",
+        "props": {
+            "blockClass": "rich--text__button-price",
+            "text": "Ver precio"
+        }
+    }*/
 }
