@@ -1,6 +1,12 @@
 {
     "header-row#desktop-nav__bar":{
         "title": "Header-Row Navigation Bar Desktop",
+        "props": {
+            "blockClass": 
+            [
+                "header-row__desktop" 
+            ]
+        },
         "children":[
             "flex-layout.row#desktop-nav-bar"
         ]

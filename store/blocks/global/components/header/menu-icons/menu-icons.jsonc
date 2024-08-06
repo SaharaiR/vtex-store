@@ -33,10 +33,7 @@
       "iconProps": {
         "id": "food",
         "size": 20,
-        "viewBox": "0 0 20 20",
-        "classes": "menu__icons"
-        //"activeClassName": "rebel-pink"
-        //"mutedClassName": "c-action-primary"
+        "viewBox": "0 0 20 20"
       }
     }
   },
@@ -57,8 +54,6 @@
         "id": "fitness",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -79,8 +74,6 @@
         "id": "artic",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -101,8 +94,6 @@
         "id": "poolday",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -123,8 +114,6 @@
         "id": "hotel",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -145,8 +134,6 @@
         "id": "house",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -167,8 +154,6 @@
         "id": "nature",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -189,8 +174,6 @@
         "id": "closet",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -211,8 +194,6 @@
         "id": "beach",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -233,8 +214,6 @@
         "id": "alpinism",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -255,8 +234,6 @@
         "id": "delivery",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   },
@@ -277,8 +254,6 @@
         "id": "beers",
         "size": 20,
         "viewBox": "0 0 20 20"
-        /*"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"*/
       }
     }
   }
