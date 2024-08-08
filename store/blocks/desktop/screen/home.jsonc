@@ -5,6 +5,7 @@
             "flex-layout.row#home__image",
             "rich-text#title__info--cards",
             "slider-layout#info--cards",
+            "rich-text#title__info--cards",
             "flex-layout.row#global__main-shelf--container"
         ]
     }
