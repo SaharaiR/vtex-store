@@ -1,0 +1,18 @@
+.flexRowContent--container-button-buy :global(.vtex-button){
+    background-color: transparent;
+    color: black;
+    border-color: rgb(0,0,0);
+    width: 212px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.flexRowContent--container-button-buy :global(.vtex-button):hover{
+    background-color: #1D2734;
+    color: white;
+    border-color: #1D2734;
+    opacity: 1;
+}
