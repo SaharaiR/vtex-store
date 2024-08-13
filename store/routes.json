@@ -1,0 +1,8 @@
+{
+    "store.custom#{formacion}": {
+      "path": "/formacion"
+    },
+    "store.custom#{products}": {
+        "path": "/products"
+      }
+}

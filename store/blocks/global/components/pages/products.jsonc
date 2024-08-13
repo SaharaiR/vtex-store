@@ -1,0 +1,80 @@
+{
+    "flex-layout.row#page-static__results":{
+        "title": "Row Page Results",
+        "children": [
+            //breadcrum
+            //nombre categoria
+            //ordenar por
+            //productos encontrados
+            //dos columnas
+                //categoria  y subcategoria
+            //productos
+            "flex-layout.col#page-static__results"
+        ]
+    },
+    "flex-layout.col#page-static__results":{
+        "title": "FlexLayout Col Results",
+        "children": [
+            "flex-layout.row#page--products"
+        ]
+    },
+    "flex-layout.row#page--products":{
+        "title": "FlexLayout Row Products",
+        "children": [
+            "search-result-layout.customQuery#page__results"
+        ]
+    },
+    "search-result-layout.customQuery#page__results": {
+        "title": "Search Query Static Page Results",
+        "props": {
+            "querySchema": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#page__static--results",
+            "search-result-layout.mobile#page__static--results",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#page__static--results":{
+        "title": "Search Result Layout Desktop",
+        "children": [
+            "flex-layout.row#page__static-results"
+        ]
+    },
+    "search-result-layout.mobile#page__static--results":{
+        "title": "Search Result Layout Mobile",
+        "children": [
+            "flex-layout.row#page__static-results"
+        ]
+    },
+    "flex-layout.row#page__static-results": {
+        "title": "Row Page Static Results",
+        "children": [
+            "flex-layout.col#page__static-results"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#page__static-results": {
+        "title": "Col Page Static Results",
+        "children": [
+            "search-content#page__static-results"
+        ],
+        "props": {}
+    },
+    "search-content#page__static-results": {
+        "title": "Search Content Page Results",
+        "blocks": [
+            "gallery#page__static-result",
+            "not-found"
+        ]
+    },
+    "gallery#page__static-result": {
+        "title": "Gallery Page Static Result",
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    }
+}
