@@ -1,0 +1,20 @@
+:global(.vtex-minicart-2-x-closeIconContainer){
+    /*margin-left: 320px;*/
+    position: relative;
+    background-image: url(/arquivos/logo_black.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 16px;
+    /*padding-left: 50px;
+    align-content: space-between;*/
+}
+
+:global(.vtex-minicart-2-x-closeIconButton){
+    margin-left: auto;
+}
+
+:global(.vtex-minicart-2-x-minicartTitle){
+    font-size: 14px;
+    font-weight: bold;
+}
