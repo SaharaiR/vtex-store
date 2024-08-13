@@ -1,0 +1,7 @@
+/*:global(.vtex-product-summary-2-x-buyButton){
+    background-color: black;
+}*/
+.buyButtonText{
+    color: #1D2734;
+    font-size: 14px;
+}
