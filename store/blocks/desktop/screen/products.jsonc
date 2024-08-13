@@ -1,0 +1,8 @@
+{
+    /*"store.custom#{products}": {
+        "title": "Products Result Page Static",
+        "children": [
+            "flex-layout.row#page-static__results"
+        ]
+    }*/
+}

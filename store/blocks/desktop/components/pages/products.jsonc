@@ -1,0 +1,41 @@
+{
+    /*"flex-layout.row#page-static__results":{
+        "title": "Row Page Results",
+        "children": [
+            //breadcrum
+            //nombre categoria
+            //ordenar por
+            //productos encontrados
+            //dos columnas
+                //categoria  y subcategoria
+            //productos
+            "flex-layout.col#page-static__results"
+        ]
+    },
+    "flex-layout.col#page-static__results":{
+        "title": "FlexLayout Col Results",
+        "children": [
+            "flex-layout.row#page--products"
+        ]
+    },
+    "flex-layout.row#page--products":{
+        "title": "FlexLayout Row Products",
+        "children": [
+            "search-result-layout.customQuery#page__results"
+        ]
+    },
+    "search-result-layout.customQuery#page__results": {
+        "title": "Search Query Static Page Results",
+        "props": {
+            "querySchema": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }*/
+}

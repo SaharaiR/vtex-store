@@ -1,0 +1,14 @@
+{
+    "store.custom#{formacion}": {
+        "title": "Formacion Page Static",
+        "children": [
+            "flex-layout.row#page__formacion"
+        ]
+    },
+    "store.custom#{products}": {
+        "title": "Products Result Page Static",
+        "children": [
+            "flex-layout.row#page-static__results"
+        ]
+    }
+}
