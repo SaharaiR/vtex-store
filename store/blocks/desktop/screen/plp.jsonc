@@ -1,0 +1,12 @@
+{
+    "search-result-layout.desktop": {
+        "title": "SearchResult Layout Desktop",
+        "children": [
+            "flex-layout.row#container__order--filter",
+            "search-content#global__search--layout"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    }
+}
