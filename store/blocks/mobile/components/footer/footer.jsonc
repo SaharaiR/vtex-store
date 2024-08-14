@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "title": "FlexLayout Row Footer Mobile",
+        "children": [
+            "flex-layout.col#footer-mobile"
+        ]
+    },
+    "flex-layout.col#footer-mobile":{
+        "title": "FlexLayout Col Footer Mobile",
+        "children": [
+            "disclosure-layout#simple",
+            "flex-layout.row#footer__social--mobile",
+            "flex-layout.row#footer__payments--mobile"
+            //"flex-layout.row#footer__powered-mobile"
+        ]
+    },
+    "flex-layout.row#footer__social--mobile":{
+        "title": "FlexLayout Row Footer Social Networks Mobile",
+        "children":[
+            "social-networks"
+        ]
+    },
+    "flex-layout.row#footer__payments--mobile":{
+        "title": "FlexLayout Row Footer Payments Methods Mobile",
+        "children":[
+            "accepted-payment-methods"
+        ]
+    },
+    "disclosure-layout#simple": {
+        "title": "Disclosure Layout",
+        "children": [
+            "disclosure-trigger#simple", 
+            "disclosure-content#simple"
+        ]
+    },
+    "disclosure-trigger#simple": {
+        "title": "Disclosure Trigger",
+        "children": ["rich-text#question"]
+    },
+    "disclosure-content#simple": {
+        "title": "Disclosure Content",
+        "children": ["rich-text#answer"]
+    },
+    "rich-text#question": {
+        "title": "RichText Question Disclosure",
+        "props": {
+            "text": "How can I change my shipping address?"
+        }
+    },
+    "rich-text#answer": {
+        "title": "RichTex Answer Disclosure",
+        "props": {
+           "text": "Call us at (212) 123-1234"
+        }
+    }    
+}
