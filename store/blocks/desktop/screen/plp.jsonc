@@ -2,8 +2,10 @@
     "search-result-layout.desktop": {
         "title": "SearchResult Layout Desktop",
         "children": [
-            "flex-layout.row#container__order--filter",
-            "search-content#global__search--layout"
+            /*"flex-layout.row#container__order--filter",
+            "search-content#global__search--layout"*/
+            "flex-layout.row#container--init__search--content--desktop",
+            "flex-layout.row#order__content--desktop"
         ],
         "props": {
             "preventRouteChange": true

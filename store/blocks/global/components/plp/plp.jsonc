@@ -1,4 +1,44 @@
 {
+    "flex-layout.row#container--init__search--content--desktop": {
+        "title": "Container Init Searh Content Desktop",
+        "children": [
+            "rich-text#title",
+            "flex-layout.col#order--desktop"
+        ]
+    },
+    "rich-text#title":{
+        "props": {
+            "text": "Aqui va el breadcrum, el nombre de la categoria y articulo sencontrados"
+        }
+    },
+    "flex-layout.col#filters--desktop":{
+        "title": "FlexLayout Col Filters Desktop",
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
+    "flex-layout.row#order__content--desktop":{
+        "title": "FlexLayout Row Filter Content Desktop",
+        "children": [
+            "flex-layout.col#filters--desktop",
+            "flex-layout.col#search--content__desktop"
+        ]
+    },
+    "flex-layout.col#order--desktop": {
+        "title": "FlexLayout Col Order Desktop",
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {
+            "blockClass": "column--order--desktop"
+        }
+    },
+    "flex-layout.col#search--content__desktop":{
+        "title": "FlexLayout Col Search Content Desktop",
+        "children": [
+            "search-content#global__search--layout"        
+        ]
+    },
     "search-content#global__search--layout":{
         "title": "Search Content Desktop",
         "blocks": [
@@ -6,7 +46,7 @@
             "not-found"
         ]
     },
-    "flex-layout.row#container__order--filter": {
+    /*"flex-layout.row#container__order--filter": {
         "title": "FlexLayout Row Order Filter ",
         "children": [
             "order-by.v2",
@@ -15,7 +55,7 @@
         "props": {
             "blockClass": ""
         }
-    },
+    },*/
     "order-by.v2": {
         "title": "Order By Result Layout",
         "props":{
