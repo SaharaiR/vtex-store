@@ -8,21 +8,8 @@
     },
     "rich-text#title":{
         "props": {
-            "text": "Aqui va el breadcrum, el nombre de la categoria y articulo sencontrados"
+            "text": "Aqui va el breadcrum, el nombre de la categoria y articulos encontrados"
         }
-    },
-    "flex-layout.col#filters--desktop":{
-        "title": "FlexLayout Col Filters Desktop",
-        "children": [
-            "filter-navigator.v3"
-        ]
-    },
-    "flex-layout.row#order__content--desktop":{
-        "title": "FlexLayout Row Filter Content Desktop",
-        "children": [
-            "flex-layout.col#filters--desktop",
-            "flex-layout.col#search--content__desktop"
-        ]
     },
     "flex-layout.col#order--desktop": {
         "title": "FlexLayout Col Order Desktop",
@@ -33,8 +20,29 @@
             "blockClass": "column--order--desktop"
         }
     },
+    "flex-layout.row#order__content--desktop":{
+        "title": "FlexLayout Row Filter Content Desktop",
+        "children": [
+            "flex-layout.col#filters--desktop",
+            "flex-layout.col#search--content__desktop"
+        ]
+    },
+    "flex-layout.col#filters--desktop":{
+        "title": "FlexLayout Col Filters Desktop",
+        "props": {
+            "width": "20%",
+            "paddingRight": 4
+        },
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
     "flex-layout.col#search--content__desktop":{
         "title": "FlexLayout Col Search Content Desktop",
+        "props": {
+            "width": "80%",
+            "paddingRight": 4
+        },
         "children": [
             "search-content#global__search--layout"        
         ]
@@ -65,7 +73,7 @@
     "filter-navigator.v3": {
         "title": "Filter Navigator Result Layout",
         "props": {
-            "blockClass": []
+            "blockClass": "custom--filter--navigator"
         }
     }
 }
