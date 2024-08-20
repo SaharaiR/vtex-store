@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#container__search--content--mobile": {
+        "title": "FlexLayout Col Container Search Content",
+        "children": [
+            "flex-layout.col#container__search--content--mobile"        
+        ]
+    },
+    "flex-layout.col#container__search--content--mobile": {
+        "title": "FlexLayout Col Container Search Content",
+        "children": [
+            "flex-layout.row#titles",
+            "flex-layout.row#filter--order--mobile",
+            "flex-layout.row#search--content--mobile"
+        ]
+    },
+    "flex-layout.row#titles": {
+        "title": "FlexLayout Row Titles",
+        "children": [
+            "rich-text#titles"
+        ]
+    },
+    "rich-text#titles":{
+        "title": "RichText Titles",
+        "props": {
+            "text": "Aqui va el breadcrumb, nombre de la categoria"
+        }
+    },
+    "flex-layout.row#filter--order--mobile": {
+        "title": "FlexLayout Row Filter Order Mobile",
+        "children": [
+            "flex-layout.col#order--mobile",
+            "flex-layout.col#filter--mobile"
+        ]
+    },
+    "flex-layout.col#order--mobile":{
+        "title": "FlexLayout Col Order Mobile",
+        "children": [
+            "order-by.v2"
+        ]
+    },
+    "flex-layout.col#filter--mobile": {
+        "title": "FlexLayout Col Filter Mobile",
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
+    "flex-layout.row#search--content--mobile": {
+        "title": "FlexLayout Row Search Content Mobile",
+        "children": [
+            "flex-layout.col#search__content--mobile"
+        ]
+    },
+    "flex-layout.col#search__content--mobile":{
+        "title": "FlexLayout Col Search Content Mobile",
+        "children": [
+            "search-content#global__search--layout"
+        ]
+    },
+    "search-content#global__search--layout":{
+        "title": "Search Content Desktop",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "order-by.v2": {
+        "title": "Order By Result Layout",
+        "props":{
+            "blockClass": []
+        }
+    },
+    "filter-navigator.v3": {
+        "title": "Filter Navigator Result Layout",
+        "props": {
+            "blockClass": "custom--filter--navigator"
+        }
+    }
+}

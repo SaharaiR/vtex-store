@@ -54,16 +54,6 @@
             "not-found"
         ]
     },
-    /*"flex-layout.row#container__order--filter": {
-        "title": "FlexLayout Row Order Filter ",
-        "children": [
-            "order-by.v2",
-            "filter-navigator.v3"
-        ],
-        "props": {
-            "blockClass": ""
-        }
-    },*/
     "order-by.v2": {
         "title": "Order By Result Layout",
         "props":{
