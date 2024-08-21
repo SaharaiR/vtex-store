@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#icons": {
+    /*global__menu-icons*/
     "title": "Menu Icons",
     "children": [
       "menu-item#icon__food",
@@ -15,8 +16,12 @@
       "menu-item#icon__alpinism",
       "menu-item#icon__delivery",
       "menu-item#icon__beers"
-     ]
+     ],
+    "props": {
+      "blockClass": "global__icons-menu"
+     }
   },
+  /*global__menu-icons--food*/
   "menu-item#icon__food": {
     "title": "Menu Item Food",
     "props": {

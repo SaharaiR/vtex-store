@@ -21,7 +21,6 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",
@@ -33,5 +32,39 @@
       "product-identifier.summary",
       "add-to-cart-button"
     ]
+  },
+  "search-content#global__search--layout":{
+    "title": "Search Content Desktop",
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "order-by.v2": {
+    "title": "Order By Result Layout",
+    "props":{
+      "blockClass": []
+    }
+  },
+  "filter-navigator.v3": {
+    "title": "Filter Navigator Result Layout",
+    "props": {
+      "blockClass": "custom--filter--navigator"
+    }
+  },
+  "flex-layout.row#product-breadcrumb":{
+    "title": "FlexLayout Row Breadcumb Global",
+    "props": {
+        "marginTop": 4
+    },
+    "children": [
+        "breadcrumb"
+    ]
+  },
+  "breadcrumb": {
+    "props": {
+        "showOnMobile": true,
+        "homeIconSize": 16
+    }
   }
 }

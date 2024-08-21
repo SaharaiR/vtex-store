@@ -8,7 +8,8 @@
     "flex-layout.col#container__search--content--mobile": {
         "title": "FlexLayout Col Container Search Content",
         "children": [
-            "flex-layout.row#titles",
+            //"flex-layout.row#titles",
+            "flex-layout.row#product-breadcrumb",
             "flex-layout.row#filter--order--mobile",
             "flex-layout.row#search--content--mobile"
         ]
@@ -55,8 +56,8 @@
         "children": [
             "search-content#global__search--layout"
         ]
-    },
-    "search-content#global__search--layout":{
+    }
+    /*"search-content#global__search--layout":{
         "title": "Search Content Desktop",
         "blocks": [
             "gallery",
@@ -74,5 +75,5 @@
         "props": {
             "blockClass": "custom--filter--navigator"
         }
-    }
+    }*/
 }

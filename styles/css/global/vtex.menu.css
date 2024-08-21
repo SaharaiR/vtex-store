@@ -1,7 +1,6 @@
-:global(.vtex-menu-2-x-styledLinkContent){
+.menuContainerNav--global__icons-menu .styledLinkContent{
     flex-direction: column;
     align-items: center;
     font-size: 12px;
     overflow: auto;
 }
-

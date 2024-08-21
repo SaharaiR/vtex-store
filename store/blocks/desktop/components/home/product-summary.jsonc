@@ -35,5 +35,11 @@
           "product-summary-buy-button"
         ],
         "props": {}
+      },
+      "product-summary-image": {
+        "title": "",
+        "props": {
+          "showBadge": false
+        }
       }
 }
