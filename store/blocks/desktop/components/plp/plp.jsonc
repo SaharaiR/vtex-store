@@ -2,7 +2,8 @@
     "flex-layout.row#container--init__search--content--desktop": {
         "title": "Container Init Searh Content Desktop",
         "children": [
-            "rich-text#title",
+            //"rich-text#title",
+            "flex-layout.col#product-breadcrumb",
             "flex-layout.col#order--desktop"
         ]
     },
@@ -47,7 +48,22 @@
             "search-content#global__search--layout"        
         ]
     },
-    "search-content#global__search--layout":{
+    "flex-layout.col#product-breadcrumb":{
+        "title": "FlexLayout Row Breadcumb Global",
+        "props": {
+            "marginTop": 4
+        },
+        "children": [
+            "breadcrumb"
+        ]
+      },
+      "breadcrumb": {
+        "props": {
+            "showOnMobile": true,
+            "homeIconSize": 16
+        }
+      }
+    /*"search-content#global__search--layout":{
         "title": "Search Content Desktop",
         "blocks": [
             "gallery",
@@ -65,5 +81,5 @@
         "props": {
             "blockClass": "custom--filter--navigator"
         }
-    }
+    }*/
 }
