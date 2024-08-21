@@ -1,17 +1,17 @@
 {
-    "flex-layout.row#page__formacion":{
+    "flex-layout.row#global__page-formacion":{
         "title": "FlexLayout Row Page Formacion",
         "children": [
-            "flex-layout.col#page__formacion"
+            "flex-layout.col#global__page-formacion"
         ]
     },
-    "flex-layout.col#page__formacion":{
+    "flex-layout.col#global__page-formacion":{
         "title": "FlexLayout Col Page Formacion",
         "children": [
-            "rich-text#page__formacion"
+            "rich-text#global__page-formacion"
         ]
     },
-    "rich-text#page__formacion":{
+    "rich-text#global__page-formacion":{
         "title": "RichText Page Formacion",
         "props": {
             "text": "Página estática"

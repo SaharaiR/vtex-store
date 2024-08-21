@@ -1,8 +1,9 @@
 {
   "header-layout.desktop": {
     "children": [
-     "header-row#desktop-nav__bar",
-     "header-row#icons--category__row"
+     "header-row#desktop__barnavigation",
+     "vtex.menu@2.x:menu#global__menu-icons"
+     //"header-row#global__header-menu-icons"
     ]
   }
 }

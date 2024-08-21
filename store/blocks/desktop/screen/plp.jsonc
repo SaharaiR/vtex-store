@@ -2,8 +2,8 @@
     "search-result-layout.desktop": {
         "title": "SearchResult Layout Desktop",
         "children": [
-            "flex-layout.row#container--init__search--content--desktop",
-            "flex-layout.row#order__content--desktop"
+            "flex-layout.row#desktop__container-breadcrumb-order",
+            "flex-layout.row#desktop__container-filter-search-content"
         ],
         "props": {
             "preventRouteChange": true
