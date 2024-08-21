@@ -17,10 +17,25 @@
         },
         "children": [
             "flex-layout.row#mega-menu__mobile",
-            "flex-layout.col#logo-desktop",
+            "flex-layout.col#mobile__logo",
             "search-bar",
             "minicart.v2",
             "login"
         ]
+    },
+    "flex-layout.col#mobile__logo": {
+        "title": "Logo Desktop",
+        "props": {
+            "verticalAlign": "middle"            
+        },
+        "children": ["logo"]
+    },
+    "logo":{
+        "props": {
+            "title": "ITG Logo",
+            "href": "/",
+            "url": "/arquivos/logo_black.png",
+            "width": 32
+        }
     }
 }

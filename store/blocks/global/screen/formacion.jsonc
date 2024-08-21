@@ -2,7 +2,7 @@
     "store.custom#{formacion}": {
         "title": "Formacion Page Static",
         "children": [
-            "flex-layout.row#page__formacion"
+            "flex-layout.row#global__page-formacion"
         ]
     },
     "store.custom#{products}": {

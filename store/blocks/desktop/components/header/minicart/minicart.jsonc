@@ -5,7 +5,7 @@
             "MinicartIcon": "icon-cart#minicart-icon"
         },
         "children": [
-            "flex-layout.row#title--minicart",
+            "flex-layout.row#desktop__minicart-title",
             "minicart-base-content"
         ]
     },
@@ -69,37 +69,40 @@
             "showDeliveryTotal": false
         }
     },
-    "flex-layout.row#title--minicart":{
+    "flex-layout.row#desktop__minicart-title":{
         "title": "FlexLayout Row Minicart Title",
         "props": {
-            "blockClass": "layout--title_minicart"
+            "blockClass": "desktop__minicart-title"
         },
         "children": [
-            "rich-text#minicart--title"
+            "rich-text#minicart__title"
         ]
     },
-    "rich-text#minicart--title":{
+    "rich-text#minicart__title":{
         "title": "Rich Text MiniCart Title",
         "props": {
             "text": "Resumen de tu compra",
-            "blockClass": "text--minicart--title"
+            "blockClass": "minicart__title"
         }
     },
     "minicart-empty-state": {
         "title": "MiniCart Empty State",
-        "children": ["flex-layout.row#empty-state"]
+        "children": [
+            "flex-layout.row#desktop__minicart-empty"
+        ]
     },
-    "flex-layout.row#empty-state": {
+    "flex-layout.row#desktop__minicart-empty": {
         "title": "FlexLayout Row Empty State",
-        "children": ["flex-layout.col#empty-state"]
+        "children": [
+            "flex-layout.col#desktop__minicart-empty"
+        ]
     },
-    "flex-layout.col#empty-state": {
+    "flex-layout.col#desktop__minicart-empty": {
         "title": "FlexLayout Col Empty State",
         "children": [
-        //"icon-cart#minicart-empty-state",
-            "image#minicart-empty-state",
-            "rich-text#minicart-default-empty-state",
-            "rich-text#minicart-second-text-empty-state"
+            "image#minicart__empty-image",
+            "rich-text#minicart__empty-title",
+            "rich-text#minicart__empty-text"
         ],
         "props": {
             "horizontalAlign": "center",
@@ -107,25 +110,25 @@
             //"rowGap": 1
         }
     },
-    "image#minicart-empty-state":{
+    "image#minicart__empty-image":{
         "title": "Image Minicart Empty State",
         "props": {
             "src": "/arquivos/empty--cart_image.png",
             "blockClass": "image__empty--cart"
         }
     },
-    "rich-text#minicart-default-empty-state": {
-        "title": "Text Empty Cart State",
+    "rich-text#minicart__empty-title": {
+        "title": "Title Empty MiniCart State",
         "props": {
             "text": "¿Por qué tan solo?",
-            "blockClass": "minicart-empty--text"
+            "blockClass": "minicart__empty-title"
         }
     },
-    "rich-text#minicart-second-text-empty-state":{
-        "title": "Text Empty Cart State",
+    "rich-text#minicart__empty-text":{
+        "title": "Text Empty MiniCart State",
         "props": {
             "text": "Tenemos ofertas del 50% este mes",
-            "blockClass": "minicart-empty--text2"
+            "blockClass": "minicart__empty-text"
         }
     }
 }

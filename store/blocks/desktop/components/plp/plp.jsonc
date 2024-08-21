@@ -1,34 +1,37 @@
 {
-    "flex-layout.row#container--init__search--content--desktop": {
+    "flex-layout.row#desktop__container-breadcrumb-order": {
         "title": "Container Init Searh Content Desktop",
         "children": [
-            //"rich-text#title",
-            "flex-layout.col#product-breadcrumb",
-            "flex-layout.col#order--desktop"
+            "flex-layout.col#desktop__breadcrumb",
+            "flex-layout.col#desktop__order"
         ]
     },
-    "rich-text#title":{
+    "flex-layout.col#desktop__breadcrumb":{
+        "title": "FlexLayout Col Breadcumb Desktop",
         "props": {
-            "text": "Aqui va el breadcrum, el nombre de la categoria y articulos encontrados"
-        }
+            "marginTop": 4
+        },
+        "children": [
+            "flex-layout.row#global__breadcrumb"
+        ]
     },
-    "flex-layout.col#order--desktop": {
+    "flex-layout.col#desktop__order": {
         "title": "FlexLayout Col Order Desktop",
         "children": [
             "order-by.v2"
         ],
         "props": {
-            "blockClass": "column--order--desktop"
+            "blockClass": "desktop__order"
         }
     },
-    "flex-layout.row#order__content--desktop":{
+    "flex-layout.row#desktop__container-filter-search-content":{
         "title": "FlexLayout Row Filter Content Desktop",
         "children": [
-            "flex-layout.col#filters--desktop",
-            "flex-layout.col#search--content__desktop"
+            "flex-layout.col#desktop__filters",
+            "flex-layout.col#desktop__search-content"
         ]
     },
-    "flex-layout.col#filters--desktop":{
+    "flex-layout.col#desktop__filters":{
         "title": "FlexLayout Col Filters Desktop",
         "props": {
             "width": "20%",
@@ -38,7 +41,7 @@
             "filter-navigator.v3"
         ]
     },
-    "flex-layout.col#search--content__desktop":{
+    "flex-layout.col#desktop__search-content":{
         "title": "FlexLayout Col Search Content Desktop",
         "props": {
             "width": "80%",
@@ -47,39 +50,5 @@
         "children": [
             "search-content#global__search--layout"        
         ]
-    },
-    "flex-layout.col#product-breadcrumb":{
-        "title": "FlexLayout Row Breadcumb Global",
-        "props": {
-            "marginTop": 4
-        },
-        "children": [
-            "breadcrumb"
-        ]
-      },
-      "breadcrumb": {
-        "props": {
-            "showOnMobile": true,
-            "homeIconSize": 16
-        }
-      }
-    /*"search-content#global__search--layout":{
-        "title": "Search Content Desktop",
-        "blocks": [
-            "gallery",
-            "not-found"
-        ]
-    },
-    "order-by.v2": {
-        "title": "Order By Result Layout",
-        "props":{
-            "blockClass": []
-        }
-    },
-    "filter-navigator.v3": {
-        "title": "Filter Navigator Result Layout",
-        "props": {
-            "blockClass": "custom--filter--navigator"
-        }
-    }*/
+    }
 }

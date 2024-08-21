@@ -1,11 +1,12 @@
 {
-  "flex-layout.row#home__image": {
+  "flex-layout.row#desktop__home-image": {
     "title": "Image home",
     "children": [
-      "list-context.image-list#image-home"
+      "list-context.image-list#desktop__hombe-image"
     ]
    },
-  "list-context.image-list#image-home":{
+  "list-context.image-list#desktop__hombe-image":{
+    "title": "ListContext Image List",
     "props": {
       "height": 422,
       "images": [
@@ -18,10 +19,11 @@
       ]
     },
     "children": [
-      "slider-layout#home-image"
+      "slider-layout#desktop__home-image"
     ]
   },
-  "slider-layout#home-image":{
+  "slider-layout#desktop__home-image":{
+    "title": "Slider Layout Desktop Home Image",
     "props": {
       "itemsPerPage": {
         "desktop": 5,

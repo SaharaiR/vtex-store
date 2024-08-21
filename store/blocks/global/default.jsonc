@@ -13,7 +13,6 @@
   "store.login": {
     "blocks": ["login-content#default"]
   },
-
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
@@ -50,21 +49,6 @@
     "title": "Filter Navigator Result Layout",
     "props": {
       "blockClass": "custom--filter--navigator"
-    }
-  },
-  "flex-layout.row#product-breadcrumb":{
-    "title": "FlexLayout Row Breadcumb Global",
-    "props": {
-        "marginTop": 4
-    },
-    "children": [
-        "breadcrumb"
-    ]
-  },
-  "breadcrumb": {
-    "props": {
-        "showOnMobile": true,
-        "homeIconSize": 16
     }
   }
 }

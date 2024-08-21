@@ -1,17 +1,14 @@
 {
-    "header-row#desktop-nav__bar":{
-        "title": "Header-Row Navigation Bar Desktop",
+    "header-row#desktop__barnavigation":{
+        "title": "HeaderRow Navigation Bar Desktop",
         "props": {
-            "blockClass": 
-            [
-                "header-row__desktop" 
-            ]
+            "blockClass": "desktop__barnavigation" 
         },
         "children":[
-            "flex-layout.row#desktop-nav-bar"
+            "flex-layout.row#desktop__barnavigation"
         ]
     },
-    "flex-layout.row#desktop-nav-bar": {
+    "flex-layout.row#desktop__barnavigation": {
         "title": "Layout-Row Navigation Bar Desktop",
         "props": {
             "horizontalAlign": "around",
@@ -22,15 +19,100 @@
         },
         "children": [
             "vtex.menu@2.x:menu#websites",
-            "flex-layout.col#logo-desktop",
+            "flex-layout.col#desktop__logo",
             "search-bar",
-            "flex-layout.col#col__trends",
-            "flex-layout.col#col__collection",
-            "flex-layout.col#col__offers",
-            "flex-layout.col#col__cyber--monday",
-            "flex-layout.col#col__never",
+            "flex-layout.col#desktop__text-trends",
+            "flex-layout.col#desktop__text-collection",
+            "flex-layout.col#desktop__text-offers",
+            "flex-layout.col#desktop__text-cybermonday",
+            "flex-layout.col#destkop__text-never",
             "minicart.v2",
             "login"
         ]
+    },
+    "flex-layout.col#desktop__logo": {
+        "title": "Logo Desktop",
+        "props": {
+            "verticalAlign": "middle"            
+        },
+        "children": ["logo"]
+    },
+    "logo":{
+        "props": {
+            "title": "ITG Logo",
+            "href": "/",
+            "url": "/arquivos/logo_black.png",
+            "width": 32
+        }
+    },
+    "flex-layout.col#desktop__text-trends":{
+        "title": "Col Text Trends",
+        "children": [
+            "rich-text#desktop__text-trends"
+        ]
+    },
+    "rich-text#desktop__text-trends":{
+        "title": "Text Trends",
+        "props": {
+            "text": "Tendencias de IT Globers"
+        }
+    },
+    "flex-layout.col#desktop__text-collection":{
+        "title": "Col Text Collection",
+        "children": [
+            "rich-text#desktop__text-collection"
+        ]
+    },
+    "rich-text#desktop__text-collection":{
+        "title": "Text Collecion",
+        "props": {
+            "text": "Colección del mes"
+        }
+    },
+    "flex-layout.col#desktop__text-offers":{
+        "title": "Col Text Offers",
+        "children": [
+            "rich-text#desktop__text-offers"
+        ]
+    },
+    "rich-text#desktop__text-offers":{
+        "title": "Text Offers",
+        "props": {
+            "text": "Ofertas enero"
+        }
+    },
+    "flex-layout.col#desktop__text-cybermonday":{
+        "title": "Col Text Cyber Monday",
+        "children": [
+            "rich-text#desktop__text-cybermonday"
+        ]
+    },
+    "rich-text#desktop__text-cybermonday":{
+        "title": "Text Cyber Monday",
+        "props": {
+            "text": "Cyber Monday"
+        }
+    },
+    "flex-layout.col#destkop__text-never":{
+        "title": "Col Text Never",
+        "children": [
+            "rich-text#destkop__text-never"
+        ]
+    },
+    "rich-text#destkop__text-never":{
+        "title": "Text Never",
+        "props": {
+            "text": "Never say never"
+        }
+    },
+    "login":{
+        "props": {
+            "optionsTitle": "LOG IN",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true
+        }    
     }
 }

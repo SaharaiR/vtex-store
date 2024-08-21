@@ -1,28 +1,26 @@
 {
-  "vtex.menu@2.x:menu#icons": {
-    /*global__menu-icons*/
+  "vtex.menu@2.x:menu#global__menu-icons": {
     "title": "Menu Icons",
     "children": [
-      "menu-item#icon__food",
-      "menu-item#icon__fitness",
-      "menu-item#icon__artic",
-      "menu-item#icon__poolday",
-      "menu-item#icon__hotel",
-      "menu-item#icon__house",
-      "menu-item#icon__hotel",
-      "menu-item#icon__nature",
-      "menu-item#icon__closet",
-      "menu-item#icon__beach",
-      "menu-item#icon__alpinism",
-      "menu-item#icon__delivery",
-      "menu-item#icon__beers"
+      "menu-item#global__menu-icons--food",
+      "menu-item#global__menu-icons--fitness",
+      "menu-item#global__menu-icons--artic",
+      "menu-item#global__menu-icons--poolday",
+      "menu-item#global__menu-icons--hotel",
+      "menu-item#global__menu-icons--house",
+      "menu-item#global__menu-icons--hotel",
+      "menu-item#global__menu-icons--nature",
+      "menu-item#global__menu-icons--closet",
+      "menu-item#global__menu-icons--beach",
+      "menu-item#global__menu-icons--alpinism",
+      "menu-item#global__menu-icons--delivery",
+      "menu-item#global__menu-icons--beers"
      ],
     "props": {
-      "blockClass": "global__icons-menu"
+      "blockClass": "global__menu-icons"
      }
   },
-  /*global__menu-icons--food*/
-  "menu-item#icon__food": {
+  "menu-item#global__menu-icons--food": {
     "title": "Menu Item Food",
     "props": {
       "id": "menu-item-food",
@@ -42,7 +40,7 @@
       }
     }
   },
-  "menu-item#icon__fitness": {
+  "menu-item#global__menu-icons--fitness": {
     "title": "Menu Item Fitness",
     "props": {
       "id": "menu-item-fitness",
@@ -62,7 +60,7 @@
       }
     }
   },
-  "menu-item#icon__artic": {
+  "menu-item#global__menu-icons--artic": {
     "title": "Menu Item Artic",
     "props": {
       "id": "menu-item-artic",
@@ -82,7 +80,7 @@
       }
     }
   },
-  "menu-item#icon__poolday": {
+  "menu-item#global__menu-icons--poolday": {
     "title": "Menu Item Poolday",
     "props": {
       "id": "menu-item-poolday",
@@ -102,7 +100,7 @@
       }
     }
   },
-  "menu-item#icon__hotel": {
+  "menu-item#global__menu-icons--hotel": {
     "title": "Menu Item Hotel",
     "props": {
       "id": "menu-item-hotel",
@@ -122,7 +120,7 @@
       }
     }
   },
-  "menu-item#icon__house": {
+  "menu-item#global__menu-icons--house": {
     "title": "Menu Item House",
     "props": {
       "id": "menu-item-house",
@@ -142,7 +140,7 @@
       }
     }
   },
-  "menu-item#icon__nature": {
+  "menu-item#global__menu-icons--nature": {
     "title": "Menu Item Nature",
     "props": {
       "id": "menu-item-nature",
@@ -162,7 +160,7 @@
       }
     }
   },
-  "menu-item#icon__closet": {
+  "menu-item#global__menu-icons--closet": {
     "title": "Menu Item Closet",
     "props": {
       "id": "menu-item-closet",
@@ -182,7 +180,7 @@
       }
     }
   },
-  "menu-item#icon__beach": {
+  "menu-item#global__menu-icons--beach": {
     "title": "Menu Item Beach",
     "props": {
       "id": "menu-item-beach",
@@ -202,7 +200,7 @@
       }
     }
   },
-  "menu-item#icon__alpinism": {
+  "menu-item#global__menu-icons--alpinism": {
     "title": "Menu Item Alpinism",
     "props": {
       "id": "menu-item-alpinism",
@@ -222,7 +220,7 @@
       }
     }
   },
-  "menu-item#icon__delivery": {
+  "menu-item#global__menu-icons--delivery": {
     "title": "Menu Item Delivery",
     "props": {
       "id": "menu-item-delivery",
@@ -242,7 +240,7 @@
       }
     }
   },
-  "menu-item#icon__beers": {
+  "menu-item#global__menu-icons--beers": {
     "title": "Menu Item Beers",
     "props": {
       "id": "menu-item-beers",

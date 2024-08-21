@@ -9,7 +9,7 @@
         "title": "FlexLayout Col Container Search Content",
         "children": [
             //"flex-layout.row#titles",
-            "flex-layout.row#product-breadcrumb",
+            "flex-layout.row#global__breadcrumb",
             "flex-layout.row#filter--order--mobile",
             "flex-layout.row#search--content--mobile"
         ]
