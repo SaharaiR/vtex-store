@@ -2,7 +2,7 @@
     "search-result-layout.mobile": {
         "title": "SearchResult Layout Mobile",
         "children": [
-            "flex-layout.row#container__search--content--mobile"
+            "flex-layout.row#mobile__search-content"
             /*"search-content#global__search--layout",
             "fex-layout.row#container__order--filter"*/
         ],

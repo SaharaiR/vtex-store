@@ -2,10 +2,10 @@
   "flex-layout.row#desktop__home-image": {
     "title": "Image home",
     "children": [
-      "list-context.image-list#desktop__hombe-image"
+      "list-context.image-list#desktop__home-image"
     ]
    },
-  "list-context.image-list#desktop__hombe-image":{
+  "list-context.image-list#desktop__home-image":{
     "title": "ListContext Image List",
     "props": {
       "height": 422,

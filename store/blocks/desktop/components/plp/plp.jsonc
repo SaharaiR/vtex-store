@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#desktop__container-breadcrumb-order": {
+    "flex-layout.row#flex-layout.row#desktop__breadcrumb-order": {
         "title": "Container Init Searh Content Desktop",
         "children": [
             "flex-layout.col#desktop__breadcrumb",
@@ -24,7 +24,7 @@
             "blockClass": "desktop__order"
         }
     },
-    "flex-layout.row#desktop__container-filter-search-content":{
+    "flex-layout.row#desktop__filter-search-content":{
         "title": "FlexLayout Row Filter Content Desktop",
         "children": [
             "flex-layout.col#desktop__filters",

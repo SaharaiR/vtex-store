@@ -16,3 +16,15 @@
     border-color: #1D2734;
     opacity: 1;
 }
+
+.flexRowContent--header-row{
+    display: flex;
+}
+
+.flexRow--mobile__mega-menu{
+    padding-top: 8px;
+}
+
+.flexColChild--desktop__mega-menu{
+    padding-top: 28px;
+}

@@ -1,10 +1,15 @@
-:global(.vtex-store-components-3-x-searchBarContainer){
-    border-radius: 50px;
+.logoContainer{
+    padding-left: 0;
 }
-
-/*:global(.vtex-store-components-3-x-container){
-    align-items: center;
-    overflow: auto;
+/*.searchIcon{
+    visibility: hidden;
+    position: relative;
+}
+.searchIcon::after{
+    content: url("/arquivos/search.svg");
+    visibility: visible;
+    width: 16px;
+    height: 16px;
 }*/
 
 /*---VERSION DESKTOP----*/

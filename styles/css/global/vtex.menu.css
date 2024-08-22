@@ -4,3 +4,7 @@
     font-size: 12px;
     overflow: auto;
 }
+
+.menuContainerNav--global__menu-icons{
+    overflow: auto;
+}

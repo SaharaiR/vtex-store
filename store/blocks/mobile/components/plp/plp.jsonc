@@ -1,57 +1,47 @@
 {
-    "flex-layout.row#container__search--content--mobile": {
-        "title": "FlexLayout Col Container Search Content",
+    "flex-layout.row#mobile__search-content": {
+        "title": "FlexLayout Col Search Content",
         "children": [
-            "flex-layout.col#container__search--content--mobile"        
+            "flex-layout.col#mobile__search-content"
         ]
     },
-    "flex-layout.col#container__search--content--mobile": {
-        "title": "FlexLayout Col Container Search Content",
+    "flex-layout.col#mobile__search-content": {
+        "title": "FlexLayout Col Search Content",
         "children": [
-            //"flex-layout.row#titles",
             "flex-layout.row#global__breadcrumb",
-            "flex-layout.row#filter--order--mobile",
-            "flex-layout.row#search--content--mobile"
+            "flex-layout.row#mobile__filter-order",
+            "flex-layout.row#mobile__search"
         ]
     },
-    "flex-layout.row#titles": {
-        "title": "FlexLayout Row Titles",
-        "children": [
-            "rich-text#titles"
-        ]
-    },
-    "rich-text#titles":{
-        "title": "RichText Titles",
-        "props": {
-            "text": "Aqui va el breadcrumb, nombre de la categoria"
-        }
-    },
-    "flex-layout.row#filter--order--mobile": {
+    "flex-layout.row#mobile__filter-order": {
         "title": "FlexLayout Row Filter Order Mobile",
+        "props": {
+            "preserveLayoutOnMobile": true
+        },
         "children": [
-            "flex-layout.col#order--mobile",
-            "flex-layout.col#filter--mobile"
+            "flex-layout.col#mobile__order",
+            "flex-layout.col#mobile__filter"
         ]
     },
-    "flex-layout.col#order--mobile":{
+    "flex-layout.col#mobile__order":{
         "title": "FlexLayout Col Order Mobile",
         "children": [
             "order-by.v2"
         ]
     },
-    "flex-layout.col#filter--mobile": {
+    "flex-layout.col#mobile__filter": {
         "title": "FlexLayout Col Filter Mobile",
         "children": [
             "filter-navigator.v3"
         ]
     },
-    "flex-layout.row#search--content--mobile": {
+    "flex-layout.row#mobile__search": {
         "title": "FlexLayout Row Search Content Mobile",
         "children": [
-            "flex-layout.col#search__content--mobile"
+            "flex-layout.col#mobile__search"
         ]
     },
-    "flex-layout.col#search__content--mobile":{
+    "flex-layout.col#mobile__search":{
         "title": "FlexLayout Col Search Content Mobile",
         "children": [
             "search-content#global__search--layout"
