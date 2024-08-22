@@ -1,11 +1,11 @@
 {
-    "header-row#mobile-nav__bar":{
+    "header-row#mobile__navigation-bar":{
         "title": "Header-Row Navigation Bar Mobile",
         "children":[
-            "flex-layout.row#mobile-nav-bar"
+            "flex-layout.row#mobile__navigation-bar"
         ]
     },
-    "flex-layout.row#mobile-nav-bar": {
+    "flex-layout.row#mobile__navigation-bar": {
         "title": "Layout-Row Navigation Bar Mobile",
         "props": {
             "blockClass": "header-row",
@@ -16,7 +16,7 @@
             "fullWidth": true
         },
         "children": [
-            "flex-layout.row#mega-menu__mobile",
+            "flex-layout.row#mobile__mega-menu",
             "flex-layout.col#mobile__logo",
             "search-bar",
             "minicart.v2",

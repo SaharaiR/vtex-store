@@ -3,7 +3,6 @@
     "children": [
      "header-row#desktop__barnavigation",
      "vtex.menu@2.x:menu#global__menu-icons"
-     //"header-row#global__header-menu-icons"
     ]
   }
 }
