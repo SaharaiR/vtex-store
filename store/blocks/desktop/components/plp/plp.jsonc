@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#flex-layout.row#desktop__breadcrumb-order": {
+    "flex-layout.row#desktop__breadcrumb-order": {
         "title": "Container Init Searh Content Desktop",
         "children": [
             "flex-layout.col#desktop__breadcrumb",

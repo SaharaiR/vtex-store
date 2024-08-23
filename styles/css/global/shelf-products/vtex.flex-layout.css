@@ -1,0 +1,26 @@
+.flexRow--global__main-shelf--container {
+    position: relative;
+}
+.flexRowContent--global__main-shelf--container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 378px;
+}
+.flexRowContent--highlights-iconFavorite {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 32px;
+}
+
+.flexRow--shelf__buy-button :global(.vtex-button) {
+    width: 230px !important;
+    height: 48px !important;
+    background-color: transparent !important;
+    border-radius: 8px;
+    border: solid 1px #1D2734 !important;
+    padding: 10px;
+    /*gap: 10px;*/
+}
