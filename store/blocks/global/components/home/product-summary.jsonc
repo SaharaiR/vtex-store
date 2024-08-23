@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#global__main-shelf--container": {
+ /*   "flex-layout.row#global__main-shelf--container": {
       "title": "Shelf Container Products",
         "children": [
           "list-context.product-list#global__main-shelf"
@@ -31,15 +31,21 @@
           "product-summary-image",
           "product-summary-name",
           "product-list-price",
-          "product-selling-price",
-          "product-summary-buy-button"
+          "product-selling-price"
+          //"product-summary-buy-button"
         ],
         "props": {}
+      },
+      "add-to-list-btn":{
+        "title": "Add To List Button",
+        "props": {
+          "blockClass": "wishList-icon"
+        }
       },
       "product-summary-image": {
         "title": "",
         "props": {
           "showBadge": false
         }
-      }
+      }*/
 }

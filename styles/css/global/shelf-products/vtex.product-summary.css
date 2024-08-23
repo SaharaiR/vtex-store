@@ -1,0 +1,48 @@
+.image--image-shelf {
+    width: 178px !important;
+    height: 140px !important;
+}
+.price_listPriceContainer {
+    text-align: left;
+}
+.price_sellingPriceContainer {
+    text-align: left;
+    font-weight: 600;
+}
+.price_sellingPrice {
+    font-weight: 600;
+}
+.price_installmentContainer{
+    display: none;
+}
+.imageWrapper--image-shelf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    height: 51px;
+    color:rgba(29, 39, 52, 0.6);
+    overflow: hidden;
+    padding-top: 15px;
+}
+.priceContainer {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    padding-bottom: 0%;
+    padding-top: 8px;
+}
+.price_sellingPriceContainer {
+    font-family: 24px;
+    line-height: 28.8px;
+    color: #1D2734;
+}
+.element--global__product-summary {
+    padding-bottom: 0%;
+    padding-top   : 0%;
+}

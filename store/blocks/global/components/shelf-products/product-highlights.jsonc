@@ -1,0 +1,29 @@
+{
+    "vtex.product-highlights@2.x:product-highlights": {
+      "title": "free shipping",
+      "children": ["product-highlight-wrapper"]
+    },
+    "product-highlight-wrapper": {
+      "children": [
+        "product-highlight-text#text__free-shipping",
+        "icon#icon__free-shipping"
+      ]
+    },
+    "product-highlight-text#text__free-shipping": {
+      "props": {
+        "message": "Envio gratis"
+      }
+    },
+    "icon#icon__free-shipping": {
+      "title": "icon free shipping",
+      "props": {
+        "id": "flash",
+        "width": 15,
+        "height": 15,
+        "size": 15,
+        "viewBox": "0 0 15 15",
+        "overflow": "visible",
+        "blockclass": "icon__free-shipping"
+      }
+    }
+  }

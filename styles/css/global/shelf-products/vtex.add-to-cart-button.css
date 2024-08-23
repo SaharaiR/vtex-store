@@ -1,0 +1,22 @@
+.buttonText--product-summary-buy-button {
+    font-family: Lexend, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+    color: #1D2734;
+    text-transform: lowercase;
+}
+.buttonText--product-summary-buy-button::first-letter {
+    text-transform: capitalize;
+}
+.buttonDataContainer--product-summary-buy-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.buttonDataContainer--product-summary-buy-button::before {
+    content: url("/arquivos/add_shopping_cart.png");
+    width: 20px;
+    height: 20px;
+}
