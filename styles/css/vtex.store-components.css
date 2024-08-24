@@ -1,16 +1,6 @@
 .logoContainer{
     padding-left: 0;
 }
-/*.searchIcon{
-    visibility: hidden;
-    position: relative;
-}
-.searchIcon::after{
-    content: url("/arquivos/search.svg");
-    visibility: visible;
-    width: 16px;
-    height: 16px;
-}*/
 
 /*---VERSION DESKTOP----*/
 /*MINI CART*/
