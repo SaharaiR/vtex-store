@@ -45,7 +45,7 @@
 }
  
 /*----------MOBILE-----------*/
-@media (max-width: 767px){
+@media (max-width: 1024px){
     .sliderLayoutContainer--global__slider-shelf :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
         display: none;
     }

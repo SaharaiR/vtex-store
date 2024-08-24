@@ -1,0 +1,71 @@
+.paginationDotsContainer--desktop__info-cards {
+    display: flex;
+    align-items: center;
+    height: 50.89px;
+    width: 100%;
+}
+.paginationDot--desktop__info-cards {
+    width: 44px !important;
+    height: 40px !important;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+}
+.paginationDot::after {
+    width: 44px;
+    height: 2px;
+    content: "";
+    font-size: 0;
+    background-color: #1D2734;
+    position: absolute;
+}
+
+.paginationDot--isActive::before {
+    content: "";
+    position: absolute;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #1D2734;
+    border-radius: 50%;
+}
+
+.paginationDot--isActive .paginationDot::after {
+    width: 44px;
+    height: 2px;
+    content: "";
+    font-size: 0;
+    background-color: #1d273466;
+    position: absolute;
+}
+.sliderLayoutContainer--desktop__info-cards {
+    padding-bottom: 60px;
+}
+.caretIcon--desktop__info-cards {
+    width: 24px !important;
+    height: 24px !important;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 94px;
+    overflow: visible;
+    fill: none;
+}
+.sliderLayoutContainer--desktop__info-cards {
+    padding-left: 80px;
+    padding-right: 80px;
+ }
+.sliderLayoutContainer--desktop__info-cards :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+    left: 24px !important;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ .sliderLayoutContainer--desktop__info-cards :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+    right: 24px !important;
+    top: 50%;
+    transform: translateY(-50%);
+ }

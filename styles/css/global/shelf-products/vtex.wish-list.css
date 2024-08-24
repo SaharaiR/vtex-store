@@ -14,3 +14,20 @@
     background-image: #1D2734;
     margin-right: 7px;
 }
+
+/*--------MOBILE--------*/
+@media only screen and (max-width: 768px){
+    /*.wishlistIconContainer--wishList-icon :global(.vtex-button){
+        align-self: self-end;
+        width: 33px;
+        height: 24px;
+        border-radius: 3px;
+        min-height: auto;
+        align-items: center;
+        /*padding: 4.56px, 9.11px, 4.56px, 9.11px;
+    }
+    .wishlistIcon--wishList-icon{
+        width: 15px;
+        height: 15px;
+    }*/
+}

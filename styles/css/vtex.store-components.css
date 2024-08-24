@@ -1,7 +1,17 @@
 .logoContainer{
     padding-left: 0;
 }
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border-radius   : 40px;
+    width           : 280px;
+    height          : 40px;
+    gap             : 16px;
+    background-color: #F5F4F6;
+}
 
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    background-color: #F5F4F6;
+}
 /*---VERSION DESKTOP----*/
 /*MINI CART*/
 @media only screen and (min-width: 1024px) {
