@@ -1,0 +1,20 @@
+.filterAvailable--global__filter-navigator{
+    width: 184px;
+    height: 36px;
+    border-radius: 40px;
+    border: 1px solid black;
+    color: #1D2734;
+    background-color: rgba(29, 39, 52, 0.1);
+    padding: 8px 16px 8px 16px;
+}
+.filterIcon--global__filter--navigator{
+    padding: 8px 16px 8px 16px;
+}
+.filterIsOpen--global__filter--navigator{
+    border-color: black;
+}
+.filterTitle--global__filter-navigator{
+    font-size: 14px;
+    font-weight: 400px;
+    text-align: right;
+}

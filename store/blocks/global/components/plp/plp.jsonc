@@ -1,0 +1,131 @@
+{
+    "search-content#global__search--layout":{
+        "title": "Search Content global",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "gallery": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 3
+                },
+                /*{
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 4
+                },*/
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "global": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#global__plp",
+            "ManyByLineSummary": "product-summary.shelf#global__plp"
+        }
+    },
+    "product-summary.shelf#global__plp":{
+        "title": "Product Summary Shelf PLP global",
+        "props": {
+            "width": 290,
+            "blockClass": "global__plp-summary-shelf"
+        },
+        "children": [
+            "flex-layout.row#plp__summary-shelf"
+        ]
+    },
+    "flex-layout.row#plp__summary-shelf":{
+        "title": "FlexLayout Row PLP Summary Shelf Global",
+        "props": {
+            "height": 106
+        },
+        "children": [
+            "flex-layout.col#plp__summary-shelf--image",
+            "flex-layout.col#plp__summary-shelf--description"
+        ]
+    },
+    "flex-layout.col#plp__summary-shelf--image":{
+        "title": "Summary Shelf PLP Image",
+        "props": { 
+            "blockClass": "plp__summary-shelf--image",
+            "width": "47%"
+        },
+        "children":[
+            "product-summary-image#global__plp-image"
+        ]
+    },
+    "product-summary-image#global__plp-image":{
+        "title": "Producht Summary Image",
+        "props": {
+            "showBadge": false,
+            /*"width": 135,
+            "height": 106,*/
+            "blockClass": "global__plp-image"
+        }
+    },
+    "flex-layout.col#plp__summary-shelf--description":{
+        "title": "FlexLayout Col Summary Shelf Description global",
+        "props": {
+            "blockClass": "plp__summary-shelf--description",
+            "width": "53%"
+        },
+        "children": [
+            "flex-layout.row#plp__product-description",
+            "flex-layout.row#plp__summary-shelf-price"
+            //"flex-layout.row#plp__summary-shelf-highlights"
+        ]
+    },
+    "flex-layout.row#plp__product-description":{
+        "title": "FlexLayout Row Product Description global",
+        "props": {
+            "blockClass": "plp__product-description"
+        },
+        "children": [
+            "product-summary-description#global__plp-description"
+        ]
+    },
+    "product-summary-description#global__plp-description":{
+        "title": "PLP Description Global",
+        "props": {
+            "blockClass": "global__plp-description"
+        }
+    },
+    "flex-layout.row#plp__summary-shelf-price":{
+        "title": "FlexLayout Row Product global",
+        "props": {
+            "blockClass": "plp__summary-shelf-price"
+        },
+        "children": [
+            "product-summary-price#global__plp-price"
+        ]
+    },
+    "product-summary-price#global__plp-price":{
+        "title": "Product Summary Price Global",
+        "props": {
+            "blockClass": "global__plp-price"
+        }
+    },
+    /*"flex-layout.row#plp__summary-shelf-highlights":{
+
+    },*/
+    "order-by.v2": {
+        "title": "Order By Result Layout",
+        "props":{
+            "blockClass": "global__order-by"
+        }
+    },
+    "filter-navigator.v3": {
+        "title": "Filter Navigator Result Layout",
+        "props": {
+            "blockClass": "global__filter-navigator"
+        }
+    }
+}

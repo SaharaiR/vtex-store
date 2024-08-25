@@ -1,0 +1,14 @@
+.description--global__plp-description{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(29, 39, 52, 0.6);
+}
+.listPriceLabel--global__plp-price{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(29, 39, 52, 0.4);
+}
+.sellingPriceLabel--global__plp-price{
+    font-weight: 600;
+    font-size: 20px;
+}

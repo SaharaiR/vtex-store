@@ -32,23 +32,10 @@
       "add-to-cart-button"
     ]
   },
-  "search-content#global__search--layout":{
-    "title": "Search Content Desktop",
-    "blocks": [
-      "gallery",
-      "not-found"
-    ]
-  },
-  "order-by.v2": {
-    "title": "Order By Result Layout",
-    "props":{
-      "blockClass": []
-    }
-  },
-  "filter-navigator.v3": {
-    "title": "Filter Navigator Result Layout",
+  "product-summary-image":{
+    "title": "Global Product Summary Image",
     "props": {
-      "blockClass": "custom--filter--navigator"
+      "showBadge": false
     }
   }
 }
