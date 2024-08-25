@@ -18,3 +18,18 @@
     font-weight: 400px;
     text-align: right;
 }
+/*.orderByText--global__order-by{*/
+.orderByButton--global__order-by{
+    align-self: self-end;
+    width: 170px;
+    /*height: 40px;*/
+    border-radius: 40px;
+    padding: 14px 12px 14px 12px;
+    background-color: rgba(29, 39, 52, 0.1);
+    color: #1D2734;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+.orderByText--global__order-by::first-letter{
+    text-transform: capitalize;
+}

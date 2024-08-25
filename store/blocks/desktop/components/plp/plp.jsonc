@@ -21,7 +21,8 @@
             "order-by.v2"
         ],
         "props": {
-            "blockClass": "desktop__order"
+            "blockClass": "desktop__order",
+            "horizontalAlign": "right"
         }
     },
     "flex-layout.row#desktop__filter-search-content":{
@@ -48,7 +49,16 @@
             "paddingRight": 4
         },
         "children": [
-            "search-content#global__search--layout"        
+            "search-content#global__search--layout",
+            "rich-text#plp__btn-more"      
         ]
+    },
+    "rich-text#plp__btn-more":{
+        "title": "Text Button More",
+        "props": {
+            "blockClass": "plp__btn-more",
+            "textPosition": "CENTER",
+            "text": "Ver más"
+        }
     }
 }

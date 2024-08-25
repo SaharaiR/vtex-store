@@ -4,7 +4,17 @@
     width: 80px;
     height: 40px;
 }
-
 .label{
-    display: block;
+    visibility: hidden;
+}
+.label::after{
+    visibility: visible;
+    content: "Login";    
+    padding-right: 65px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+}
+.label::first-letter{
+    text-transform: capitalize;
 }

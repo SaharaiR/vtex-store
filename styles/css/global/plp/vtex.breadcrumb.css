@@ -1,0 +1,14 @@
+.homeIcon{
+    color: #FF8324;
+}
+
+/*.caretIcon{
+    visibility: hidden;
+}
+
+.caretIcon::after{
+    visibility: visible;
+    content: "/";
+    font-size: 14px;
+    color: inherit;
+}*/
