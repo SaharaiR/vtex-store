@@ -2,7 +2,7 @@
     padding-left: 80px;
     padding-right: 80px;
  }
-.caretIcon--global__slider-shelf {
+.--global__slider-shelf {
     width: 24px !important;
     height: 24px !important;
     border-left: 10px solid transparent;

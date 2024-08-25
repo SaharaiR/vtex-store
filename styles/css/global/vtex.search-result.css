@@ -1,0 +1,9 @@
+.filterMessage--custom--filter--navigator{
+    display: none;
+}
+
+.filterTitle--custom--filter-navigator{
+    background-color: #1D27341A;
+    border-color: black;
+    /*opacity: 10%;*/
+}
