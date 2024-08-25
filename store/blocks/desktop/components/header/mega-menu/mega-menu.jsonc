@@ -1,34 +1,49 @@
 {
-    //"sticky-layout#4-desktop": 
-    "flex-layout.col#desktop__mega-menu": {
-      "props": {
-        "blockClass": "desktop__mega-menu"
-      },
-      "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
+  "flex-layout.row#desktop__mega-menu": {
+    "title": "MegaMenu Desktop",
+    "props": {
+      "blockClass": "desktop__mega-menu"
     },
-    "flex-layout.row#4-desktop": {
-      "children": [
-        "flex-layout.col#trigger-mega-menu"
+    "children": [
+      "flex-layout.col#trigger__mega-menu"
       ]
     },
-  
-    "flex-layout.row#mega-menu": {
-      "children": ["mega-menu#desktop"]
-    },
-    "mega-menu#desktop": {
-      "props": {
-        "openOnly": "horizontal"
-      }
-    },
-    "flex-layout.col#trigger-mega-menu": {
+    "flex-layout.col#trigger__mega-menu": {
+      "title": "FlexLayout Col Trigger MegaMenu Desktop",
       "props": {
         "verticalAlign": "middle"
       },
-      "children": ["mega-menu-trigger-btn"]
+      "children": [
+        "overlay-trigger"
+      ]
+    },
+    "overlay-trigger": {
+      "title": "Overlay Trigger MegaMenu Desktop",
+      "children": [
+        "mega-menu-trigger-btn",
+        "overlay-layout"
+      ]
     },
     "mega-menu-trigger-btn": {
+      "title": "MegaMenu Trigger Button Desktop",
       "props": {
         "Drawer": "drawer"
+      }
+    },
+    "overlay-layout":{
+      "title": "OverlayLayout Desktop",
+      "props": {
+        "placement": "left",
+        "backdrop": "visible"
+      },
+      "children": [
+        "mega-menu#desktop"
+      ]
+    },
+    "mega-menu#desktop": {
+      "title": "MegaMenu Desktop",
+      "props": {
+        "openOnly": "horizontal"
       }
     }
   }
