@@ -1,0 +1,20 @@
+.flexRow--desktop__info-card-row{
+    background-color: #fff;
+    width: 324px;
+    height: 340px;
+    margin: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+.flexCol--info-card__stamp{
+    width: 76px;
+    height: 80;
+}
+.flexCol--info-card__text--heading{
+    width: 248px;
+    height: 80;
+}
+
+/*----------VERSION MOBILE----------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}

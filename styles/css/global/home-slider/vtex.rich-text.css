@@ -1,0 +1,39 @@
+.paragraph--title-info__cards{
+    font-size: 17px;
+    font-weight: bold;
+}
+.paragraph--info-card__heading{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+}
+.paragraph--info-card__text{
+    font-size: 12px;
+    text-align: left;
+}
+.container--info-card__heading{
+    height: 50px;
+}
+.paragraph--text-info-card__button-price{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 12px;
+    background-color: #1D2734;
+    color: white;
+    width: 135px;
+    height: 45px;
+    border-radius: 40px;
+}
+/*nav-arrow-right.svg*/
+.paragraph--text-info-card__button-price::after{
+    content: url('/arquivos/nav-arrow-right.svg');
+    display: inline-block;
+    width: 17.28px;
+    height: 17.28px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.container--text-info-card__button-price{
+    width: 324px;
+    height: 43px;
+}

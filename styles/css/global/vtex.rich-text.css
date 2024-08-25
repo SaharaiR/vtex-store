@@ -1,42 +1,8 @@
-.paragraph--title-info__cards{
-    font-size: 17px;
-    font-weight: bold;
-}
-
+/*ESTO ES DEL TEXTO DE LOS RICH TEXT QUE ESTAN ENTRE LA SEARCH BAR Y EL MINICART*/
 :global(.vtex-rich-text-0-x-wrapper){
     font-size: 12px;
     padding-top: 20px;
     padding-left: 20px;
-}
-
-:global(.vtex-rich-text-0-x-paragraph){
-    text-align: center;
-    padding: 0px;
-}
-
-.paragraph--heading--info__card{
-    font-size: 18px;
-    font-weight: bold;
-    padding: 0;
-}
-
-.paragraph--text--info__card{
-    font-size: 12px;
-    text-align: left;
-}
-
-.container--heading--info__card{
-    height: 50px;
-}
-
-.paragraph--text-button__price{
-    font-size: 12px;
-    padding-top: 12px;
-    background-color: #1D2734;
-    color: white;
-    width: 135px;
-    height: 45px;
-    border-radius: 40px;
 }
 
 /*-----VERSION DESKTOP-----*/

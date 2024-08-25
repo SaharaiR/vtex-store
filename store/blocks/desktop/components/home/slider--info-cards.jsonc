@@ -1,125 +1,128 @@
 {
-    "slider-layout#info--cards":{
-        "title": "Slider Layout Info cards",
+    "slider-layout#desktop__info-cards":{
+        "title": "Slider Layout InfoCards Desktop",
         "props": {
-            "blockclass": "info__cards",
             "itemsPerPage": {
               "desktop": 5,
-              "tablet": 1,
-              "phone": 1
+              "tablet": 3,
+              "phone": 2
             },
             "infinite": true,
-            "showNavigationArrows": "desktopOnly"
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "blockClass": "desktop__info-cards"
         },
         "children": [
-            "flex-layout.row#row__info--card",
-            "flex-layout.row#row__info--card",
-            "flex-layout.row#row__info--card",
-            "flex-layout.row#row__info--card",
-            "flex-layout.row#row__info--card",
-            "flex-layout.row#row__info--card"
+            "flex-layout.row#desktop__info-card-row",
+            "flex-layout.row#desktop__info-card-row",
+            "flex-layout.row#desktop__info-card-row",
+            "flex-layout.row#desktop__info-card-row",
+            "flex-layout.row#desktop__info-card-row",
+            "flex-layout.row#desktop__info-card-row"
         ]
     },
-    "flex-layout.row#row__info--card":{
+    "flex-layout.row#desktop__info-card-row":{
         "title": "Flex Layout Row Info Card",
         "props": {
-            "blockClass": "infocard__row"
+            "blockClass": "desktop__info-card-row"
         },
         "children": [
-            "flex-layout.col#info--card"
+            "flex-layout.col#desktop__info-card-col"
         ]
     },
-    "flex-layout.col#info--card":{
+    "flex-layout.col#desktop__info-card-col":{
         "title": "Flex Layout Col Info Card",
         "props": {
-            "blockClass": "infocard__col"
+            "blockClass": "desktop__info-card-col"
         },
         "children": [
-            "flex-layout.row#image__info--card",
-            "flex-layout.row#info__info--card",
-            "flex-layout.row#button__info--card"
+            "flex-layout.row#info-card__image",
+            "flex-layout.row#info-card__text",
+            "flex-layout.row#info-card__button"
         ]
     },
-    "flex-layout.row#image__info--card":{
+    "flex-layout.row#info-card__image":{
         "title": "Flex Layout Row Image Info Card",
         "props": {
-            "blockClass": "infocard__image"
+            "blockClass": "info-card__image"
         },
         "children": [
-            "image#infocard__image"
+            "image#info-card__image"
         ]
     },
-    "image#infocard__image":{
+    "image#info-card__image":{
         "title": "Image Info Card",
         "props": {
             "src": "/arquivos/image_infocard.png"
         }
     },
-    "flex-layout.row#info__info--card":{
+    "flex-layout.row#info-card__text":{
         "title": "Flex Layout Row Information Info Card",
         "props": {
-            "blockClass": "information--info__card"
+            "blockClass": "info-card__text"
         },
         "children": [
-            "flex-layout.col#text--info__card",
-            "flex-layout.col#stamp--info__card"
+            "flex-layout.col#info-card__text--heading",
+            "flex-layout.col#info-card__stamp"
         ]
     },
-    "flex-layout.col#text--info__card":{
+    "flex-layout.col#info-card__text--heading":{
         "title": "Flex Layout Col Heading Info Card",
         "props": {
-            "blockClass": "col--heading--info__card"
+            "width": "80%",
+            "blockClass": "info-card__text--heading"
         },
         "children": [
-            "rich-text#heading--info__card",
-            "rich-text#text--info__card"
+            "rich-text#info-card__heading",
+            "rich-text#info-card__text"
         ]
     },
-    "rich-text#heading--info__card":{
+    "rich-text#info-card__heading":{
         "title": "Rich Text Heading Info Card",
         "props": {
-            "blockClass": "heading--info__card",
+            "blockClass": "info-card__heading",
             "text": "Heading"
         }
     },
-    "rich-text#text--info__card":{
+    "rich-text#info-card__text":{
         "title": "Rich Text Text Info Card",
         "props": {
-            "blockClass": "text--info__card",
+            "blockClass": "info-card__text",
             "text": "Builder platform is made by, buildership platform is made by..."
         }
     },
-    "flex-layout.col#stamp--info__card":{
+    "flex-layout.col#info-card__stamp":{
         "title": "Flex Layout Col Stamp",
         "props": {
-            "blockClass": "layout--stamp",
+            "width": "20%",
+            "blockClass": "info-card__stamp",
             "horizontalAlign": "center",
             "verticalAlign": "middle"
         },
         "children": [
-            "image#stamp__image"
+            "image#info-card__stamp--image"
         ]
     },
-    "image#stamp__image":{
+    "image#info-card__stamp--image":{
         "title": "Image Stamp",
         "props": {
-            "blockClass": "image--stamp",
+            "blockClass": "info-card__stamp--image",
             "src": "/arquivos/stamp.png"
         }
     },
-    "flex-layout.row#button__info--card":{
+    "flex-layout.row#info-card__button":{
         "title": "Flex Layout Button Price",
         "props": {
-            "blockClass": "layout--button__price"
+            "blockClass": "info-card__button"
         },
         "children": [
-            "rich-text#button__price"
+            "rich-text#info-card__button-price"
         ]
     },
-    "rich-text#button__price":{
+    "rich-text#info-card__button-price":{
         "title": "Text Button Price",
         "props": {
-            "blockClass": "text-button__price",
+            "blockClass": "text-info-card__button-price",
             "textPosition": "CENTER",
             "text": "Ver precio"
         }

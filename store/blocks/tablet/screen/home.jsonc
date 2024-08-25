@@ -4,8 +4,9 @@
         "children": [
             "flex-layout.row#home-tablet__image",
             "rich-text#tablet--title__info--cards",
-            "slider-layout#tablet--info--cards"
-            
+            "slider-layout#tablet--info--cards",
+            "rich-text#title--phone__info--cards",
+            "flex-layout.row#global__main-shelf--container"
         ]
     }
 }

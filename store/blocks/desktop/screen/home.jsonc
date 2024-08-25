@@ -4,7 +4,7 @@
         "children": [
             "flex-layout.row#desktop__home-image",
             "rich-text#title__info--cards",
-            "slider-layout#info--cards",
+            "slider-layout#desktop__info-cards",
             "rich-text#title__info--cards",
             //"flex-layout.row#global__main-shelf--container"
             "flex-layout.row#global__main-shelf--container"
