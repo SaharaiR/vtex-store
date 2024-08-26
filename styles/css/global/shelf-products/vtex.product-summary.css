@@ -1,16 +1,28 @@
-.image--image-shelf {
-    width: 178px !important;
-    height: 140px !important;
+.nameContainer--product-summary__name{
+/*    max-height: 51px;*/
 }
-.price_listPriceContainer {
+.brandName--product-summary__name {
+    font-weight: 400;
+    font-size: 14px;
     text-align: left;
+    text-overflow: ellipsis;
+    color:rgba(29, 39, 52, 0.6);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
-.price_sellingPriceContainer {
+.priceContainer--product-summary__price {
+    /*display: flex;*/
+    max-height: 51px;
     text-align: left;
-    font-weight: 600;
+    /*padding-top: 8px;*/
 }
-.price_sellingPrice {
-    font-weight: 600;
+.price_listPriceLabel--product-summary__price{
+    height: 17px !important;
+    font-size: 14px;
+    color: rgba(29, 39, 52, 0.4);    
 }
 .price_installmentContainer{
     display: none;
@@ -20,29 +32,9 @@
     align-items: center;
     justify-content: center;
 }
-.description {
-    display: flex;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: left;
-    height: 51px;
-    color:rgba(29, 39, 52, 0.6);
-    overflow: hidden;
-    padding-top: 15px;
-}
-.priceContainer {
-    display: flex;
-    justify-content: left;
-    align-items: baseline;
-    padding-bottom: 0%;
-    padding-top: 8px;
-}
-.price_sellingPriceContainer {
-    font-family: 24px;
-    line-height: 28.8px;
-    color: #1D2734;
-}
 .element--global__product-summary {
+    width: 212px !important;
+    height: 378px !important;
     padding-bottom: 0%;
     padding-top   : 0%;
 }

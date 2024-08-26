@@ -31,16 +31,15 @@
     "product-summary.shelf#global__product-summary": {
         "title": "Global Products Summary",
         "props": {
-            "width": 378,
             "showSavingPercentage": true,
             "blockClass": "global__product-summary"
         },
         "children": [
             "flex-layout.row#highlights-iconFavorite",
-            "flex-layout.col#shelf__image",
-            "flex-layout.col#shelf__description",
-            "flex-layout.col#shelf__price",
-            //"vtex.product-highlights@2.x:product-highlights",
+            "flex-layout.row#shelf__image",
+            "flex-layout.row#shelf__name",
+            "flex-layout.row#shelf__price",
+            "vtex.product-highlights@2.x:product-highlights",
             "flex-layout.row#shelf__buy-button"
         ]
     },
@@ -67,11 +66,11 @@
           "blockClass": "wishList-icon"
         }
       },
-    "flex-layout.col#shelf__image":{
-        "title": "FlexLayout Col Flex Image",
+    "flex-layout.row#shelf__image":{
+        "title": "FlexLayout Row Flex Image",
         "props": {
             "blockClass": "shelf__image",
-            //"width": "178",
+            "width": "212",
             "height": "140"
         },
         "children": [
@@ -82,21 +81,33 @@
         "title": "Product Image",
         "props": {
             "showBadge": false,
-            "height": 220,
+            "height": 140,
             "blockClass": "image-shelf"
         }
     },
-    "flex-layout.col#shelf__description":{
-        "title": "FlexLayout Col Description Product",
+    "flex-layout.row#shelf__name":{
+        "title": "FlexLayout Row Name Product",
         "children": [
-            "product-summary-description"
+            "product-summary-name"
         ]
     },
-    "flex-layout.col#shelf__price":{
+    "product-summary-name":{
+        "title": "Product Summary Name",
+        "props": {
+            "blockClass": "product-summary__name"
+        }
+    },
+    "flex-layout.row#shelf__price":{
         "title": "FlexLayout Col Price Product",
         "children": [
             "product-summary-price"
         ]
+    },
+    "product-summary-price":{
+        "title": "Product Summary Price",
+        "props": {
+            "blockClass": "product-summary__price"
+        }
     },
     "flex-layout.row#shelf__buy-button":{
         "title": "FlexLayout Row Buy Button",

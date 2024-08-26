@@ -28,8 +28,5 @@
     background-color: rgba(29, 39, 52, 0.1);
     color: #1D2734;
     font-size: 14px;
-    text-transform: lowercase;
-}
-.orderByText--global__order-by::first-letter{
     text-transform: capitalize;
 }
