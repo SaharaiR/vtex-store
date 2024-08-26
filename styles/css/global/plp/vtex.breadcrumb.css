@@ -2,13 +2,10 @@
     color: #FF8324;
 }
 
-/*.caretIcon{
-    visibility: hidden;
+.caretIcon{
+    display: none;
 }
-
-.caretIcon::after{
-    visibility: visible;
+.arrow::before{
     content: "/";
     font-size: 14px;
-    color: inherit;
-}*/
+}

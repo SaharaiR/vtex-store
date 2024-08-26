@@ -1,0 +1,11 @@
+.productHighlightWrapper--product-highlight__wrapper{
+    width: 212px !important;
+    height: 17px !important;
+    text-align: left;
+    color: #FA2080;
+    font-size: 14px;
+    font-weight: 400;
+}
+.productHighlightText--product-highlight__wrapper{
+    padding-right: 5px;
+}

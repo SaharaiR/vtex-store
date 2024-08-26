@@ -13,8 +13,5 @@
     padding-right: 65px;
     font-size: 14px;
     color: #FFFFFF;
-    text-transform: lowercase;
-}
-.label::first-letter{
     text-transform: capitalize;
 }

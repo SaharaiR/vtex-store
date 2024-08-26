@@ -1,20 +1,36 @@
 {
     "vtex.product-highlights@2.x:product-highlights": {
-      "title": "free shipping",
-      "children": ["product-highlight-wrapper"]
-    },
-    "product-highlight-wrapper": {
+      "title": "Product HighLights Global",
+      "props":{
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Envío Gratis"]
+        }
+      },
       "children": [
-        "product-highlight-text#text__free-shipping",
-        "icon#icon__free-shipping"
+        "product-highlight-wrapper"
+        /*"product-highlight-text#product-highlight__text",
+        "icon#product-highlight__icon"*/
       ]
     },
-    "product-highlight-text#text__free-shipping": {
+    "product-highlight-wrapper": {
+      "title": "Product HighLight Wrapper",
       "props": {
-        "message": "Envio gratis"
+        "blockClass": "product-highlight__wrapper"
+      },
+      "children": [
+        "product-highlight-text#product-highlight__text",
+        "icon#product-highlight__icon"
+      ]
+    },
+    "product-highlight-text#product-highlight__text": {
+      "title": "Product HighLight Text Global",
+      "props": {
+        "blockClass": "product-highlight__text",
+        "message": "{highlightName}"
       }
     },
-    "icon#icon__free-shipping": {
+    "icon#product-highlight__icon": {
       "title": "icon free shipping",
       "props": {
         "id": "flash",
@@ -23,7 +39,7 @@
         "size": 15,
         "viewBox": "0 0 15 15",
         "overflow": "visible",
-        "blockclass": "icon__free-shipping"
+        "blockclass": "product-highlight__icon"
       }
     }
   }
