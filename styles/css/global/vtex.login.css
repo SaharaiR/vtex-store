@@ -5,12 +5,8 @@
     height: 40px;
 }
 .label{
-    visibility: hidden;
-}
-.label::after{
-    visibility: visible;
-    content: "Login";    
-    padding-right: 65px;
+    display: block;
+    padding-right: 10px;
     font-size: 14px;
     color: #FFFFFF;
     text-transform: capitalize;

@@ -21,6 +21,14 @@
     visibility: visible;
     content: url('/arquivos/search.svg');
 }
+/*------BARRA DE BUSQUEDA MOBILE-----*/
+@media only screen and (max-width: 1024px){
+    .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+        visibility: hidden;
+        width: 155px;
+    }
+}
+
 /*------INFO CARD-VERSION PHONE-----*/
 .imageElement--phone__infocard-stamp-image{
     width: 36px;

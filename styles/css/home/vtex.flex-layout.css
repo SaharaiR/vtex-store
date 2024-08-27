@@ -17,12 +17,13 @@
     opacity: 1;
 }
 
-.flexRowContent--header-row{
+.flexRowContent--mobile__navigation-bar{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flexRow--mobile__mega-menu{
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .flexColChild--desktop__mega-menu{

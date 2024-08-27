@@ -29,7 +29,7 @@
             "flex-layout.col#desktop__text-cybermonday",
             "flex-layout.col#destkop__text-never",
             "minicart.v2",
-            "login"
+            "login#global__button-login"
         ]
     },
     "flex-layout.col#desktop__logo": {
