@@ -11,3 +11,81 @@
     color: #FFFFFF;
     text-transform: capitalize;
 }
+/*-----CSS DEL LOGIN----*/
+.portalContainer--global__button-login :global(.vtex-login-2-x-box){
+    position: absolute;
+    width: 480px;
+    right: -102px !important;
+    top: 73px;
+}
+.portalContainer--global__button-login :global(.vtex-login-2-x-content){
+    background-color: rgba(245, 244, 246, 1);
+    border-radius: 0 0 16px 16px;
+    padding: 20px;
+}
+.portalContainer--global__button-login :global(.vtex-button){
+    color: rgba(29, 39, 52, 1);
+    background-color: rgba(245, 244, 246, 1);
+    border: 1px solid rgba(29, 39, 52, 1);
+    border-radius: 40px;
+    padding: 10px;
+}
+.portalContainer--global__button-login :global(.vtex-login-2-x-contentForm){
+    min-width: 100%;
+    position: relative;
+}
+.googleOptionBtn :global(.vtex-button){
+    color: rgba(94, 99, 110, 1);
+    background: rgba(255, 255, 255, 1);
+    border: none;
+}
+.facebookOptionBtn :global(.vtex-button){
+    color: rgb(255, 255, 255);
+    background: rgba(24, 119, 242, 1);
+    border: none;
+}
+.arrowUp {
+    display: none;
+}
+.portalContainer--global__button-login :global(.vtex-input-prefix__group){
+    border: 1px solid rgba(29, 39, 52, 1);
+    border-radius: 40px;
+    padding: 10px;
+    min-height: 44px;
+}
+.portalContainer--global__button-login :global(.vtex-styleguide-9-x-hideDecorators){
+    background: transparent;
+}
+.portalContainer--global__button-login :global(.pa2){
+    display: none;
+}
+.formFooter{
+    border: none;
+    display: block;
+}
+.backButton {
+    position: absolute;
+    display: flex;
+    min-height: 58px;
+    align-items: center;
+    top: 0;
+    z-index: 69;
+}
+.backButton :global(.vtex-button){
+    border: none;
+}
+.backButton :global(.t-small){
+    display: none;
+}
+.arrowBackIcon--global__button-login{
+    width: 24px;
+    height: 24px;
+}
+.sendButton{
+    min-width: 100%;
+}
+.sendButton :global(.vtex-button){
+    color: white;
+    background-color: #1D2734;
+    min-width: 100%;
+}

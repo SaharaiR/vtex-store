@@ -1,16 +1,14 @@
 {
     "login#global__button-login":{
-        "title": "Button Login Global",
         "props": {
+            "iconLabel": "Login",
             "optionsTitle": "LOG IN",
-            "emailAndPasswordTitle": "LOG IN",
-            "providerPasswordButtonLabel": "Continue with an e-mail and password",
-            "accessCodeTitle": "VERIFY YOUR E-MAIL",
             "emailPlaceholder": "Enter your e-mail",
             "passwordPlaceholder": "Enter your password",
             "accessCodePlaceholder": "Enter your access code",
-            "showPasswordVerificationIntoTooltip": true,
-            "iconLabel": "Login",
+            "accessCodeTitle": "Access code by email",
+            "providerPasswordButtonLabel": "password",
+            "emailAndPasswordTitle": "Continue with e-mail and password",     
             "blockClass": "global__button-login"
           }
     }
