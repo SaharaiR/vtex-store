@@ -1,14 +1,17 @@
+/*-----INFO CARD DESKTOP-----*/
 .paragraph--title-info__cards{
     font-size: 17px;
     font-weight: bold;
 }
-.paragraph--info-card__heading{
-    font-size: 18px;
-    font-weight: bold;
+.paragraph--info-card__text::first-line{
+    font-size: 16px;
+    font-weight: 600;
     padding: 0;
 }
+/*info-card__text*/
 .paragraph--info-card__text{
     font-size: 12px;
+    font-weight: 300;
     text-align: left;
 }
 .container--info-card__heading{
@@ -24,7 +27,6 @@
     height: 45px;
     border-radius: 40px;
 }
-/*nav-arrow-right.svg*/
 .paragraph--text-info-card__button-price::after{
     content: url('/arquivos/nav-arrow-right.svg');
     display: inline-block;
@@ -36,4 +38,33 @@
 .container--text-info-card__button-price{
     width: 324px;
     height: 43px;
+}
+/*-----INFO CARD VERSION PHONE-----*/
+@media only screen and (max-width: 1024px){
+    .paragraph--phone__infocard-title{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .wrapper--phone__infocard-heading-text{
+        height: 48px;
+        width: 185px;
+        padding: 0;
+    }
+    .paragraph--phone__infocard-heading-text::first-line{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .paragraph--phone__infocard-heading-text{
+        font-size: 10px;
+    }
+    .container--text-info-card__button-price{
+        width: 242px;
+        height: 55px;
+    }
+    .paragraph--text-info-card__button-price{
+        width: 100px;
+        height: 32px;
+        line-height: 14px;
+        padding-top: 8px;
+    }
 }

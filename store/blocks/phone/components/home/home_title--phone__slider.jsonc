@@ -1,8 +1,9 @@
 {
-    "rich-text#title--phone__info--cards": {
+    "rich-text#phone__infocard-title": {
         "title": "Title slider info cards",
         "props": {
-          "text": "An amazing product"
+          "text": "An amazing product",
+          "blockClass": "phone__infocard-title"
         }
     }
 }

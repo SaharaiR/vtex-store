@@ -3,9 +3,9 @@
         "title": "Home section on Phone",
         "children": [
             "flex-layout.row#home-phone__image",
-            "rich-text#title--phone__info--cards",
-            "slider-layout#phone__info--cards",
-            "rich-text#title--phone__info--cards",
+            "rich-text#phone__infocard-title",
+            "slider-layout#phone__info-cards",
+            "rich-text#phone__infocard-title",
             "flex-layout.row#global__main-shelf--container"
         ]
     }

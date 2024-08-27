@@ -1,5 +1,5 @@
 {
-    "slider-layout#tablet--info--cards":{
+    "slider-layout#tablet__infocards":{
         "title": "Slider Layout Info cards Tablet",
         "props": {
             "itemsPerPage": {
@@ -9,69 +9,94 @@
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
-            "blockClass": "carousel"
+            "showPaginationDots": "always",
+            "blockClass": "global__slider-shelf"
         },
         "children": [
-            "flex-layout.row#tablet--row__info--cards",
-            "flex-layout.row#tablet--row__info--cards",
-            "flex-layout.row#tablet--row__info--cards",
-            "flex-layout.row#tablet--row__info--cards",
-            "flex-layout.row#tablet--row__info--cards",
-            "flex-layout.row#tablet--row__info--cards"
+            "flex-layout.row#tablet__info-card",
+            "flex-layout.row#tablet__info-card",
+            "flex-layout.row#tablet__info-card",
+            "flex-layout.row#tablet__info-card",
+            "flex-layout.row#tablet__info-card",
+            "flex-layout.row#tablet__info-card"
         ]
     },
-    "flex-layout.row#tablet--row__info--cards": {
+    "flex-layout.row#tablet__info-card": {
         "title": "Row Info cards Tablet",
-        "children": [
-            "flex-layout.col#tablet--col__info--cards"
-         ]
-    },
-    "flex-layout.col#tablet--col__info--cards": {
-        "title": "Col Info cards tablet",
-        "children": [
-            "flex-layout.row#tablet--image--cards",
-            "flex-layout.row#tablet--text-heading"
-        ]
-    },
-    "flex-layout.row#tablet--image--cards": {
-        "title": "Image info card",
-         "children": [
-            "image#tablet--info__card"
-         ]
-    },
-    "flex-layout.row#tablet--text-heading": {
-        "title": "Info heading product",
-        "children": [
-            "flex-layout.col#tablet--details--info",
-            "flex-layout.col#tablet--stamp-image"
-        ]
-    },
-    "image#tablet--info__card":{
-        "props":{
-            "src": "/arquivos/image_infocard.png"
-        }
-    },
-    "flex-layout.col#tablet--details--info":{
-        "title": "Details info card",
-        "children": [
-            "rich-text#tablet--heading__product--text"
-        ]
-    },
-    "flex-layout.col#tablet--stamp-image":{
-        "title": "Stamp image",
-        "children": [
-            "image#tablet--stamp"
-        ]
-    },
-    "rich-text#tablet--heading__product--text": {
         "props": {
-            "text" : "Heading, Builder plataform is made by..."
+            "blockClass": "phone__info-card"
+        },
+        "children": [
+            "flex-layout.col#tablet__info-card-col"
+         ]
+    },
+    "flex-layout.col#tablet__info-card-col": {
+        "title": "Col Info cards tablet",
+        "props": {
+            "height": "140",
+            "blockClass": "phone__info-card-col"
+        },
+        "children": [
+            "flex-layout.row#tablet__infocard-image",
+            "flex-layout.row#tablet__infocard-text",
+            "flex-layout.row#info-card__button"
+        ]
+    },
+    "flex-layout.row#tablet__infocard-image": {
+        "title": "Image info card",
+        "props": {
+            "blockClass": "phone__infocard-image"
+        },
+         "children": [
+            "image#tablet__infocard-image"
+         ]
+    },
+    "image#tablet__infocard-image":{
+        "props":{
+            "src": "/arquivos/phone_infocard.png"
         }
     },
-    "image#tablet--stamp":{
+    "flex-layout.row#tablet__infocard-text": {
+        "title": "Info heading product",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "phone__infocard-text"
+        },
+        "children": [
+            "flex-layout.col#tablet__infocard-heading",
+            "flex-layout.col#tablet__infocard-stamp"
+        ]
+    },
+    "flex-layout.col#tablet__infocard-heading":{
+        "title": "Details info card",
+        "props": {
+            "width": "80%",
+            "blockClass": "phone__infocard-heading"
+        },
+        "children": [
+            "rich-text#tablet__infocard-heading-text"
+        ]
+    },
+    "rich-text#tablet__infocard-heading-text": {
+        "props": {
+            "text" : "Heading\n Builder plataform is made by..."
+        }
+    },
+    "flex-layout.col#tablet__infocard-stamp":{
+        "title": "Stamp image",
+        "props": {
+            "width": "20%",
+            "blockClass": "phone__infocard-stamp"
+        },
+        "children": [
+            "image#tablet__infocard-stamp-image"
+        ]
+    },
+    "image#tablet__infocard-stamp-image":{
         "title": "Stamp image heading product",
         "props": {
-            "src": "/arquivos/artwork-trailing__desktop.png"
+            "src": "/arquivos/stamp.png",
+            "blockClass": "phone__infocard-stamp-image"
         }
     }
 }
