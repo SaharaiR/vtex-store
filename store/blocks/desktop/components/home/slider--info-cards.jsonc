@@ -10,7 +10,7 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "always",
-            "blockClass": "desktop__info-cards"
+            "blockClass": "global__slider-shelf"
         },
         "children": [
             "flex-layout.row#desktop__info-card-row",
@@ -73,22 +73,14 @@
             "blockClass": "info-card__text--heading"
         },
         "children": [
-            "rich-text#info-card__heading",
             "rich-text#info-card__text"
         ]
-    },
-    "rich-text#info-card__heading":{
-        "title": "Rich Text Heading Info Card",
-        "props": {
-            "blockClass": "info-card__heading",
-            "text": "Heading"
-        }
     },
     "rich-text#info-card__text":{
         "title": "Rich Text Text Info Card",
         "props": {
             "blockClass": "info-card__text",
-            "text": "Builder platform is made by, buildership platform is made by..."
+            "text" : "Heading\n Builder plataform is made by..."
         }
     },
     "flex-layout.col#info-card__stamp":{
@@ -100,13 +92,13 @@
             "verticalAlign": "middle"
         },
         "children": [
-            "image#info-card__stamp--image"
+            "image#info-card__stamp-image"
         ]
     },
-    "image#info-card__stamp--image":{
+    "image#info-card__stamp-image":{
         "title": "Image Stamp",
         "props": {
-            "blockClass": "info-card__stamp--image",
+            "blockClass": "info-card__stamp-image",
             "src": "/arquivos/stamp.png"
         }
     },

@@ -4,8 +4,8 @@
         "children": [
             "flex-layout.row#home-tablet__image",
             "rich-text#tablet--title__info--cards",
-            "slider-layout#tablet--info--cards",
-            "rich-text#title--phone__info--cards",
+            "slider-layout#tablet__infocards",
+            "rich-text#phone__infocard-title",
             "flex-layout.row#global__main-shelf--container"
         ]
     }

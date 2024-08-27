@@ -1,6 +1,7 @@
 .logoContainer{
     padding-left: 5px;
 }
+/*------BARRA DE BUSQUEDA-VERSION DESKTOP-----*/
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     border-radius: 40px;
     width: 280px;
@@ -20,8 +21,13 @@
     visibility: visible;
     content: url('/arquivos/search.svg');
 }
-/*---VERSION DESKTOP----*/
-/*MINI CART*/
+/*------INFO CARD-VERSION PHONE-----*/
+.imageElement--phone__infocard-stamp-image{
+    width: 36px;
+    height: 36px;
+}
+
+/*-----MINI CART----*/
 @media only screen and (min-width: 1024px) {
     .imageElement--image__empty--cart{
         width: 200px;
