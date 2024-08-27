@@ -1,6 +1,9 @@
 {
     "header-row#mobile__navigation-bar":{
         "title": "Header-Row Navigation Bar Mobile",
+        "props": {
+            "blockClass": "mobile__navigation-bar"
+        },
         "children":[
             "flex-layout.row#mobile__navigation-bar"
         ]
@@ -8,7 +11,7 @@
     "flex-layout.row#mobile__navigation-bar": {
         "title": "Layout-Row Navigation Bar Mobile",
         "props": {
-            "blockClass": "header-row",
+            "blockClass": "mobile__navigation-bar",
             "horizontalAlign": "around",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
@@ -20,7 +23,7 @@
             "flex-layout.col#mobile__logo",
             "search-bar",
             "minicart.v2",
-            "login"
+            "login#global__button-login"
         ]
     },
     "flex-layout.col#mobile__logo": {
@@ -29,13 +32,5 @@
             "verticalAlign": "middle"            
         },
         "children": ["logo"]
-    },
-    "logo":{
-        "props": {
-            "title": "ITG Logo",
-            "href": "/",
-            "url": "/arquivos/logo_black.png",
-            "width": 32
-        }
     }
 }
