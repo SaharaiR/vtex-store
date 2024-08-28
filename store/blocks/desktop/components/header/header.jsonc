@@ -18,7 +18,7 @@
             "blockClass": "desktop__barnavigation"
         },
         "children": [
-            //"vtex.menu@2.x:menu#websites",
+            "vtex.menu@2.x:menu#websites",
             //"flex-layout.row#desktop__mega-menu",
             "flex-layout.col#desktop__logo",
             "search-bar",
