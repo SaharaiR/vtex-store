@@ -1,9 +1,6 @@
 {
     "flex-layout.row#global__breadcrumb":{
         "title": "FlexLayout Row Breadcumb Global",
-        "props": {
-            "marginTop": 4
-        },
         "children": [
             "breadcrumb.search"
         ]
@@ -20,6 +17,34 @@
         "props": {
           "showOnMobile": true,
           "homeIconSize": 16
+        }
+    },
+    "flex-layout.row#global__plp-title":{
+        "title": "Global PLP Title Category",
+        "props": {
+            "blockClass": "global__plp-title"
+        },
+        "children": [
+            "search-title.v2"
+        ]
+    },
+    "search-title.v2":{
+        "props": {
+            "blockClass": "global__plp-search-title"
+        }
+    },
+    "flex-layout.row#global__plp-total-products":{
+        "title": "Global PLP Articles Found",
+        "props": {
+            "blockClass": "global__plp-total-products"
+        },
+        "children": [
+            "total-products.v2"
+        ]
+    },
+    "total-products.v2":{
+        "props": {
+            "blockClass": "global__plp-total-products"
         }
     }
 }

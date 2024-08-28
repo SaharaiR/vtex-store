@@ -9,6 +9,7 @@
         "title": "FlexLayout Col Search Content",
         "children": [
             "flex-layout.row#global__breadcrumb",
+            "flex-layout.row#global__plp-title",
             "flex-layout.row#mobile__filter-order",
             "flex-layout.row#mobile__search"
         ]

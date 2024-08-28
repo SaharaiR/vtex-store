@@ -1,6 +1,9 @@
 {
     "flex-layout.row#desktop__breadcrumb-order": {
         "title": "Container Init Searh Content Desktop",
+        "props": {
+            "blockClass": "desktop__breadcrumb-order"
+        },
         "children": [
             "flex-layout.col#desktop__breadcrumb",
             "flex-layout.col#desktop__order"
@@ -8,11 +11,10 @@
     },
     "flex-layout.col#desktop__breadcrumb":{
         "title": "FlexLayout Col Breadcumb Desktop",
-        "props": {
-            "marginTop": 4
-        },
         "children": [
-            "flex-layout.row#global__breadcrumb"
+            "flex-layout.row#global__breadcrumb",
+            "flex-layout.row#global__plp-title",
+            "flex-layout.row#global__plp-total-products"
         ]
     },
     "flex-layout.col#desktop__order": {
