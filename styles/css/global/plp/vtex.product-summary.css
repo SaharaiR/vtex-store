@@ -1,14 +1,26 @@
 .description--global__plp-description{
     font-weight: 400;
     font-size: 12px;
+    text-overflow: ellipsis;
+    text-align: left;
     color: rgba(29, 39, 52, 0.6);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-bottom: 0px;
 }
-.listPriceLabel--global__plp-price{
-    font-weight: 400;
-    font-size: 12px;
+.priceContainer--global__plp-price{
+    padding-top: 80px;
+    max-height: 30px;
+    padding-bottom: 0px;
+}
+.price_listPriceContainer--global__plp-price{
     color: rgba(29, 39, 52, 0.4);
+    font-size: 12px;
+    text-align: left;
 }
-.sellingPriceLabel--global__plp-price{
-    font-weight: 600;
+.price_sellingPriceContainer--global__plp-price{
     font-size: 20px;
+    text-align: left;
 }

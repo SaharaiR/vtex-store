@@ -12,7 +12,10 @@
                 {
                     "name": "whole",
                     "component": "OneOrTwoLineSummary",
-                    "itemsPerRow": 3
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
                 },
                 /*{
                     "name": "two",
@@ -23,7 +26,7 @@
                     "name": "many",
                     "component": "ManyByLineSummary",
                     "itemsPerRow": {
-                        "global": 3,
+                        "desktop": 3,
                         "mobile": 1
                     }
                 }
@@ -35,7 +38,7 @@
     "product-summary.shelf#global__plp":{
         "title": "Product Summary Shelf PLP global",
         "props": {
-            "width": 290,
+            //"width": 290,
             "blockClass": "global__plp-summary-shelf"
         },
         "children": [
@@ -45,7 +48,7 @@
     "flex-layout.row#plp__summary-shelf":{
         "title": "FlexLayout Row PLP Summary Shelf Global",
         "props": {
-            "height": 106
+           // "height": 106
         },
         "children": [
             "flex-layout.col#plp__summary-shelf--image",
@@ -66,25 +69,25 @@
         "title": "Producht Summary Image",
         "props": {
             "showBadge": false,
-            /*"width": 135,
-            "height": 106,*/
+            "width": 135,
+            "height": 146,
             "blockClass": "global__plp-image"
         }
     },
     "flex-layout.col#plp__summary-shelf--description":{
-        "title": "FlexLayout Col Summary Shelf Description global",
+        "title": "FlexLayout Col Summary Shelf description global",
         "props": {
             "blockClass": "plp__summary-shelf--description",
             "width": "53%"
         },
         "children": [
             "flex-layout.row#plp__product-description",
-            "flex-layout.row#plp__summary-shelf-price"
-            //"flex-layout.row#plp__summary-shelf-highlights"
+            "flex-layout.row#plp__summary-shelf-price",
+            "flex-layout.row#plp__summary-shelf-highlights"
         ]
     },
     "flex-layout.row#plp__product-description":{
-        "title": "FlexLayout Row Product Description global",
+        "title": "FlexLayout Row Product description global",
         "props": {
             "blockClass": "plp__product-description"
         },
@@ -93,7 +96,7 @@
         ]
     },
     "product-summary-description#global__plp-description":{
-        "title": "PLP Description Global",
+        "title": "PLP description Global",
         "props": {
             "blockClass": "global__plp-description"
         }
@@ -113,9 +116,37 @@
             "blockClass": "global__plp-price"
         }
     },
-    /*"flex-layout.row#plp__summary-shelf-highlights":{
-
-    },*/
+    "flex-layout.row#plp__summary-shelf-highlights":{
+        "title": "HighLights PLP Desktop",
+        "props": {
+            "blockClass": "plp__summary-shelf-highlights"
+        },
+        "children": [
+            "vtex.product-highlights@2.x:product-highlights#plp__higlights"
+        ]
+    },
+    "vtex.product-highlights@2.x:product-highlights#plp__higlights": {
+        "title": "Product HighLights Global",
+        "props":{
+          "filter": {
+            "type": "show",
+            "highlightNames": ["Envío Gratis"]
+          }
+        },
+        "children": [
+          "product-highlight-wrapper#plp__wrapper-highlights"
+        ]
+    },
+    "product-highlight-wrapper#plp__wrapper-highlights": {
+        "title": "Product HighLight Wrapper PLP",
+        "props": {
+          "blockClass": "plp__wrapper-highlights"
+        },
+        "children": [
+          "product-highlight-text#product-highlight__text",
+          "icon#product-highlight__icon"
+        ]
+    },
     "order-by.v2": {
         "title": "Order By Result Layout",
         "props":{
