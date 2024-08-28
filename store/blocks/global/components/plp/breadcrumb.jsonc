@@ -5,13 +5,6 @@
             "breadcrumb.search"
         ]
     },
-    /*"breadcrumb": {
-        "title": "Breadcumb Product Template",
-        "props": {
-            "showOnMobile": true,
-            "homeIconSize": 16
-        }
-    },*/
     "breadcrumb.search": {
         "title": "Breadcumb Search Template",
         "props": {

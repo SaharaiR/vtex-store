@@ -1,26 +1,42 @@
 {
-    "flex-layout.row#product-main": {
+    "flex-layout.row#global__pdp": {
         "title": "FlexLayout Row ProductMain Global",
         "props": {
-          "colGap": 7,
-          "rowGap": 7,
-          "marginTop": 4,
-          "marginBottom": 7,
-          "paddingTop": 7,
-          "paddingBottom": 7
+          "blockClass": "global__pdp"
         },
         "children": [
-            "flex-layout.col#product-image", 
-            "flex-layout.col#product-information"
+            "flex-layout.col#global__pdp-container"
         ]
     },
-    "flex-layout.col#product-image": {
+    "flex-layout.col#global__pdp-container":{
+        "title": "FlexLayout Col Container PDP Global",
+        "props": {
+            "blockClass": "global__pdp-container"
+        },
+        "children": [
+            "flex-layout.row#global__pdp-product",
+            "flex-layout.row#global__pdp-description"
+        ]
+    },
+    "flex-layout.row#global__pdp-product":{
+        "title": "FlexLayout Row Container Producto PDP Globa",
+        "props": {
+            "blockClass": "global__pdp-product"
+        },
+        "children": [
+            "flex-layout.col#global__pdp-image", 
+            "flex-layout.col#global__pdp-information"
+        ]
+    },
+    "flex-layout.col#global__pdp-image": {
         "title": "FlexLayout COl Product Image",
         "props": {
           "width": "60%",
-          "rowGap": 0
-        },
-        "children": ["product-images#global__pdp"]
+          "blockClass": "global__pdp-image"
+    },
+        "children": [
+            "product-images#global__pdp"
+        ]
     },
     "product-images#global__pdp": {
         "title": "Product Images Global",
@@ -28,29 +44,113 @@
           "displayThumbnailsArrows": false
         }
     },
-    "flex-layout.col#product-information": {
+    "flex-layout.col#global__pdp-information": {
         "title": "FlexLayout Col Product Information Global",
         "props": {
-          "preventVerticalStretch": true,
-          "rowGap": 0
+            "width": "40%",
+            "preventVerticalStretch": true,
+            "blockClass": "global__pdp-information"
         },
-    "children": [
-            "vtex.store-components:product-name#global__pdp",
-            "product-price",
-            "product-separator",
-            "product-quantity",
-            "product-identifier.product",
+        "children": [
+            "vtex.product-highlights@2.x:product-highlights#global_pdp-highlights",
+            "vtex.store-components:product-name#global__pdp-name",
+            "flex-layout.row#global__pdp-price",
             "sku-selector",
-            "flex-layout.row",
-            "shipping-simulator",
+            "flex-layout.row#global__pdp-cart",
             "share"
         ]
     },
-    "vtex.store-components:product-name#global__pdp": {
+    "vtex.product-highlights@2.x:product-highlights#global_pdp-highlights":{
+        "title": "HighLights PDP Global",
+        "children": [
+            "product-highlight-text#global__pdp-highlights--text"
+        ]
+    },
+    "product-highlight-text#global__pdp-highlights--text":{
+        "props":{
+            "message": "{highlightName}",
+            "blockClass": "global__pdp-highlights--text"
+        }
+    },
+    "vtex.store-components:product-name#global__pdp-name": {
         "title": "Product Name PDP Global",
         "props": {
             "showSku": true,
-            "showBrandName": true
+            "showBrandName": true,
+            "blockClass": "global__pdp-name"
         }
+    },
+    "flex-layout.row#global__pdp-price":{
+        "title": "FlexLayout Row PDP Price Global",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "global__pdp-price"
+        },
+        "children": [
+            "product-selling-price",
+            "product-list-price"
+        ]
+    },
+    "product-selling-price":{
+        "props":{
+            "blockClass": "global__pdp-selling-price"
+        }
+    },
+    "product-list-price":{
+        "props":{
+            "blockClass": "global__pdp-product-list-price"
+        }
+    },
+    "flex-layout.row#global__pdp-cart":{
+        "title": "FlexLayout Row PDP Cart Global",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "global__pdp-cart"
+        },
+        "children": [
+            "flex-layout.col#global__pdp-quantity",
+            "flex-layout.col#global__pdp-button--add"
+        ]
+    },
+    "flex-layout.col#global__pdp-quantity":{
+        "title": "FlexLayout Col PDP Quantity Global",
+        "props": {
+            "width": "30%",
+            "blockClass": "global__pdp-quantity"
+        },
+        "children": [
+            "product-quantity#global__pdp-quantity"
+        ]
+    },
+    "product-quantity#global__pdp-quantity":{
+        "title": "PDP Quantity Global",
+        "props": {
+            "showLabel": false
+        }
+    },
+    "flex-layout.col#global__pdp-button--add":{
+        "title": "FlexLayout Col PDP Button Global",
+        "props": {
+            "width": "70%",
+            "blockClass": "global__pdp-button--add"
+        },
+        "children": [
+            "add-to-cart-button#global__pdp-button--add"
+        ]
+    },
+    "add-to-cart-button#global__pdp-button--add":{
+        "props": {
+            "text": "Agregar al carrito",
+            "blockClass": "global__pdp-button--add"
+        }
+    },
+    "flex-layout.row#global__pdp-description":{
+        "title": "FlexLayout Row PDP Description Product Globa",
+        "props": {
+            "blockClass": "global__pdp-description"
+        },
+        "children": [
+            "product-specification-group"
+        ]
     }
 }

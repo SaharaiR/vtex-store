@@ -1,0 +1,61 @@
+{
+    "product-specification-group":{
+        "title": "Product Specification Group Global",
+        "props": {
+            "blockClass": "product-specification-group"
+        },
+        "children": [
+            "product-specification-text#global__pdp-group--text",
+            "flex-layout.row#global__pdp-group-specification"
+        ]
+    },
+    "product-specification-text#global__pdp-group--text":{
+        "title": "Product Specification Group Text Global",
+        "props": {
+            "message": "{groupName}",
+            "blockClass": "global__pdp-group--text"
+        }
+    },
+    "flex-layout.row#global__pdp-group-specification":{
+        "title": "FlexLayout Row Specification PDP Global",
+        "props": {
+            "blockClass": "global__pdp-group-specification"
+        },
+        "children": [
+            "product-specification#global__pdp-specification"
+        ]
+    },
+    "product-specification#global__pdp-specification":{
+        "title": "Product Specification PDP Global",
+        "props": {
+            "blockClass": "global__pdp-specification"
+        },
+        "children": [
+            "product-specification-text#global__pdp-specification-text",
+            "product-specification-values#global__pdp-values"
+        ]
+    },
+    "product-specification-text#global__pdp-specification-text":{
+        "title": "Product Specification Text Global",
+        "props": {
+            "message": "{specificationName}",
+            "blockClass": "global__pdp-specification-text"
+        }
+    },
+    "product-specification-values#global__pdp-values":{
+        "title": "Product Specification Values Global",
+        "props":{
+            "blockClass": "global__pdp-values"
+        },
+        "children":[
+            "product-specification-text#global__pdp-value--text"
+        ]
+    },
+    "product-specification-text#global__pdp-value--text":{
+        "title": "Product Specification Values Text Global",
+        "props": {
+            "message": "{specificationValue}",
+            "blockClass": "global__pdp-value--text"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.sellingPrice--global__pdp-selling-price{
+    font-size: 24px;
+    font-weight: 600;
+}
+.listPrice--global__pdp-product-list-price{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(29, 39, 52, 0.4);
+}
