@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#global__pdp-highlights": {
+        "title": "container hishlights pdp",
+        "children": [
+          "vtex.product-highlights@2.x:product-highlights#pdp__highlights-flashDeal",
+          "vtex.product-highlights@2.x:product-highlights#pdp__highlights-bestSeller"
+        ],
+        "props": {
+          "blockClass": "global__pdp-highlights"
+        }
+      },
+      "vtex.product-highlights@2.x:product-highlights#pdp__highlights-flashDeal": {
+        "title": "Product Highlight PDP Flash Deal",
+        "props": {
+          "filter": {
+            "highlightNames": ["Flash Deal"],
+            "type": "show",
+            "blockClass": "pdp__highlights-flashDeal"
+          }
+        },  
+        "children": [
+          "product-highlight-wrapper#pdp__wrapper-highlights--flashDeal"
+        ]
+      },
+      "product-highlight-wrapper#pdp__wrapper-highlights--flashDeal": {
+        "title": "Product Highlight Wrapper PDP Flash Deal",
+        "props": {
+          "blockClass": "pdp__wrapper-highlights--flashDeal"
+        },
+        "children": [
+          "product-highlight-text#wrapper__highlights-flashDeal--text"
+        ]
+      },
+      "product-highlight-text#wrapper__highlights-flashDeal--text": {
+        "title": "Flash deal Text",
+        "props": {
+          "message": "Flash Deal",
+          "blockClass": "wrapper__highlights-flashDeal--text"
+        }
+      },
+      "vtex.product-highlights@2.x:product-highlights#pdp__highlights-bestSeller": {
+        "title": "Product Highlight Best Seller PDP",
+        "props": {
+          "filter": {
+            "highlightNames": ["Best Seller"],
+            "type": "show"
+          },
+          "blockClass": "pdp__highlights-bestSeller"
+        },
+        "children": [
+          "product-highlight-wrapper#pdp__wrapper-highlights--bestSeller"
+        ]
+      },
+      "product-highlight-wrapper#pdp__wrapper-highlights--bestSeller": {
+        "title": "Product Highlight Wrapper Best Seller Text",
+        "props": {
+          "blockClass": "pdp__wrapper-highlights--bestSeller"
+        },
+        "children": [
+          "product-highlight-text#wrapper__highlights-bestSeller--text"
+        ]
+      },
+      "product-highlight-text#wrapper__highlights-bestSeller--text": {
+        "title": "Product Highlight Best Seller Text",
+        "props": {
+          "message": "Best Seller",
+          "blockClass": "wrapper__highlights-bestSeller--text"
+        }
+      }
+}
