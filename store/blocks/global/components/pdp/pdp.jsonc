@@ -52,25 +52,13 @@
             "blockClass": "global__pdp-information"
         },
         "children": [
-            "vtex.product-highlights@2.x:product-highlights#global_pdp-highlights",
+            "flex-layout.row#global__pdp-highlights",
             "vtex.store-components:product-name#global__pdp-name",
             "flex-layout.row#global__pdp-price",
             "sku-selector",
             "flex-layout.row#global__pdp-cart",
             "share"
         ]
-    },
-    "vtex.product-highlights@2.x:product-highlights#global_pdp-highlights":{
-        "title": "HighLights PDP Global",
-        "children": [
-            "product-highlight-text#global__pdp-highlights--text"
-        ]
-    },
-    "product-highlight-text#global__pdp-highlights--text":{
-        "props":{
-            "message": "{highlightName}",
-            "blockClass": "global__pdp-highlights--text"
-        }
     },
     "vtex.store-components:product-name#global__pdp-name": {
         "title": "Product Name PDP Global",

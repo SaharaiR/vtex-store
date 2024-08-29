@@ -2,3 +2,37 @@
     font-size: 16px;
     font-weight: 300;
 }
+.skuSelectorContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.skuSelectorContainer .skuSelectorSubcontainer{
+    margin-bottom: 0;
+}
+.skuSelectorSubcontainer--color .skuSelectorOptionsList{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0;
+    gap: 1rem;
+}
+.skuSelectorSubcontainer--color .skuSelectorItem {
+    width: 100%;
+    height: 100%;
+}
+.skuSelectorSubcontainer--color .valueWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.skuSelectorSubcontainer--talla .skuSelectorOptionsList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-left: 0;
+}
+.skuSelectorSubcontainer--talla .skuSelectorItem {
+    width: 100%;
+    height: 3rem;
+}
