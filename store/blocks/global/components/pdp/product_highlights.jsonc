@@ -1,6 +1,6 @@
 {
     "flex-layout.row#global__pdp-highlights": {
-        "title": "container hishlights pdp",
+        "title": "Container HighLigths PDP Global",
         "children": [
           "vtex.product-highlights@2.x:product-highlights#pdp__highlights-flashDeal",
           "vtex.product-highlights@2.x:product-highlights#pdp__highlights-bestSeller"

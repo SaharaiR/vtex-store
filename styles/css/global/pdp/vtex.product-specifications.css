@@ -1,15 +1,13 @@
 .groupName--global__pdp-group--text{
-    /*box-sizing: border-box;
-    padding: 1rem 0rem;*/
     margin-left: 15%;
-  }
-  .specificationName--global__pdp-specification-text {
-    box-sizing: border-box;
-    grid-column: 1;
-    padding: 1rem;
-  }
-  .specificationValue--global__pdp-value--text {
-    box-sizing: border-box;
-    grid-column: 2;
-    padding: 1rem;
-  }
+}
+.specificationName {
+  box-sizing: border-box;
+  grid-column: 1;
+  padding: 1rem;
+}
+.specificationValue {
+  box-sizing: border-box;
+  grid-column: 2;
+  padding: 1rem;
+}
