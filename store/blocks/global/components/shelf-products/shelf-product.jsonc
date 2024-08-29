@@ -39,7 +39,7 @@
             "flex-layout.row#shelf__image",
             "flex-layout.row#shelf__name",
             "flex-layout.row#shelf__price",
-            "vtex.product-highlights@2.x:product-highlights",
+            "flex-layout.row#shelf__highlight",
             "flex-layout.row#shelf__buy-button"
         ]
     },
@@ -108,6 +108,15 @@
         "props": {
             "blockClass": "product-summary__price"
         }
+    },
+    "flex-layout.row#shelf__highlight":{
+        "title": "FlexLayout Row HighLights Product Summary",
+        "props": {
+            "blockClass": "shelf__highlight"
+        },
+        "children": [
+            "vtex.product-highlights@2.x:product-highlights"
+        ]
     },
     "flex-layout.row#shelf__buy-button":{
         "title": "FlexLayout Row Buy Button",
