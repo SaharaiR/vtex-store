@@ -6,7 +6,7 @@
         },
         "children": [
             "product-specification-text#global__pdp-group--text",
-            "flex-layout.row#global__pdp-group-specification"
+            "flex-layout.row#global__pdp-specification"
         ]
     },
     "product-specification-text#global__pdp-group--text":{
@@ -16,10 +16,10 @@
             "blockClass": "global__pdp-group--text"
         }
     },
-    "flex-layout.row#global__pdp-group-specification":{
+    "flex-layout.row#global__pdp-specification":{
         "title": "FlexLayout Row Specification PDP Global",
         "props": {
-            "blockClass": "global__pdp-group-specification"
+            "blockClass": "global__pdp-specification"
         },
         "children": [
             "product-specification#global__pdp-specification"
