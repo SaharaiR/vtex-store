@@ -1,9 +1,7 @@
 {
   "header-layout.desktop": {
     "children": [
-     "header-row#desktop__barnavigation",
-     //"sticky-layout#desktop__barnavigation",
-     //"flex-layout.col#desktop__barnavigation",
+      "sticky-layout#desktop__header",
      "vtex.menu@2.x:menu#global__menu-icons"
     ]
   }
