@@ -1,0 +1,92 @@
+{
+    "product-list-content-mobile": {
+        "title": "Product List - Mobile",
+        "children": [
+            "flex-layout.row#list-row.mobile"
+        ]
+    },
+    "flex-layout.row#list-row.mobile": {
+        "title": "Main Row of Product List - Mobile",
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": 6,
+            "paddingTop": 5,
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#image.mobile",
+            "flex-layout.col#main-container.mobile"
+        ]
+    },
+    "flex-layout.col#image.mobile": {
+        "title": "Column for Product Image - Mobile",
+        "props": {
+            "marginRight": 5
+        },
+        "children": ["product-list-image"]
+    },
+    "flex-layout.col#main-container.mobile": {
+        "title": "Main Column for Product Information - Mobile",
+        "props": {
+            "width": "grow"
+        },
+        "children": [
+            "flex-layout.row#top.mobile",
+            "flex-layout.row#price.mobile",
+            "flex-layout.row#quantity-selector.mobile"
+        ]
+    },
+    "flex-layout.row#top.mobile": {
+        "title": "Top Row of Main Container - Mobile",
+        "props": {
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "product-description"
+        },
+        "children": [
+            "flex-layout.col#product-description",
+            "flex-layout.col#remove-button.mobile"
+        ]
+    },
+    "flex-layout.col#remove-button.mobile": {
+        "title": "Column for Remove Button - Mobile",
+        "props": {
+            "blockClass": "product-buttonremove",
+            "id": "hpa-delete"
+        },
+        "children": [
+            "remove-button"
+        ]
+    },
+    "flex-layout.row#quantity-selector.mobile": {
+        "title": "Row for Quantity Selector - Mobile",
+        "props": {
+            "blockClass": "product--quantity",
+            "marginTop": 5,
+            "preventHorizontalStretch": true
+        },
+        "children": ["quantity-selector"]
+    },
+    "quantity-selector": {
+        "title": "Quantity Selector",
+        "props": {
+            "mode": "stepper"
+        }
+    },
+    "flex-layout.row#price.mobile": {
+        "title": "Row for Price - Mobile",
+        "props": {
+            "blockClass": "product--price",
+            "marginTop": 5,
+            "preventHorizontalStretch": true
+        },
+        "children": ["price"]
+    },
+    "price": {
+      "title": "Price - Mobile",
+      "props": {
+        "textAlign": "left"
+      }
+    }
+  }

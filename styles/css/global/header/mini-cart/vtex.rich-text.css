@@ -1,0 +1,20 @@
+/*ESTO ES DEL TEXTO DE LOS RICH TEXT QUE ESTAN ENTRE LA SEARCH BAR Y EL MINICART*/
+.wrapper--desktop__header-text{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/*-----VERSION DESKTOP-----*/
+.wrapper--minicart__empty-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.paragraph--minicart__empty-text{
+    font-size: 12px;
+    font-weight: 300;
+}
+/*MINI CART*/
+@media only screen and (max-width: 1024px) {
+    
+}

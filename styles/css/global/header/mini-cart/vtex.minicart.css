@@ -1,0 +1,38 @@
+.minicartEmptyStateContainer{
+    height: auto;
+}
+:global(.vtex-minicart-2-x-closeIconContainer){
+    position: relative;
+    background-image: url(/arquivos/logo_black.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 16px;
+}
+:global(.vtex-minicart-2-x-closeIconButton){
+    margin-left: auto;
+}
+:global(.vtex-minicart-2-x-minicartTitle){
+    display: none;
+}
+.minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
+    width: 328px;
+    height: 48px;
+    color: #fff;
+    background-color: #1d2734;
+    left: 16px;
+    border: 1px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+    font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+    content       : "Finalizar tu compra";
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 17.5px;
+    text-align    : center;
+    text-transform: capitalize;
+}

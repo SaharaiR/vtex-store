@@ -1,0 +1,51 @@
+.productName {
+    max-height: 31px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15.12px;
+    text-align: left;
+    width: 140px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.productPrice {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.15px;
+    text-align : left;
+}
+.productPriceCurrency {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15.88px;
+    text-align : left;
+}
+.productBrandName,
+.productVariationsContainer {
+    display: none;
+}
+.quantitySelectorWrapper :global(.vtex-product-list-0-x-quantitySelectorButton) {
+    background-color: #1D2734;
+    color: white
+}
+.productImage,
+.productImageAnchor {
+    width: 145px !important;
+    height: 120px;
+    border: 1px;
+    border-radius: 4px;
+}
+.removeButtonContainer {
+    margin-right: 10px;
+}
+.removeButton{
+    visibility:hidden
+}
+.removeButton::after{
+    visibility: visible;
+    content: url('/arquivos/removeItem.svg.svg');
+    width: 20px;
+    height: 20px;
+}

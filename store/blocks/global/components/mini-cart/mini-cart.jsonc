@@ -1,0 +1,175 @@
+{
+    "minicart.v2": {
+        "title": "MiniCart",
+        "props": {
+            "MinicartIcon": "icon-cart#minicart-icon",
+            "backdropMode": "visible"
+        },
+        "children": [
+            "flex-layout.row#desktop__minicart-title",
+            "minicart-base-content#global__mini-cart"
+        ]
+    },
+    "icon-cart#minicart-icon": {
+        "title": "Icon MiniCart",
+        "props": {
+            "size": 20,
+            "blockClass": "minicart--icon"
+        }
+    },
+    "minicart-base-content#global__mini-cart": {
+        "title": "Base Content MinicCart",
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children": [
+            "flex-layout.col#global__miniCart-container"
+        ]
+    },
+    "flex-layout.col#global__miniCart-container":{
+        "title": "FlexLayout Col MiniCart Container Global",
+        "props": {
+            "blockClass": "global__miniCart-container"
+        },
+        "children": [
+            "flex-layout.row#minicart-product-list",
+            "flex-layout.row#minicart-footer"
+        ]
+    },
+    "flex-layout.row#minicart-product-list":{
+        "title": "FlexLayout Row Prod List Minicart Global",
+        "props": {
+            "blockClass": "minicart-product-list"
+        },
+        "children": [
+            "minicart-product-list"
+        ]
+    },
+    "minicart-product-list": {
+        "title": "MiniCart Product List",
+        "blocks": [
+            "product-list#minicart"
+        ]
+    },
+    "product-list#minicart": {
+        "title": "Product List",
+        "blocks": [
+            "product-list-content-mobile"
+        ]
+    },
+    "flex-layout.row#minicart-footer": {
+        "title": "FlexLayout Row MiniCart Footer",
+        "props": {
+            "blockClass": "minicart-footer"
+          },
+        "children": [
+            "flex-layout.col#minicart-footer"
+        ]
+    },
+    "flex-layout.col#minicart-footer": {
+        "title": "FlexLayout Col MiniCart Footer",
+        "children": [
+            "minicart-summary", 
+            "minicart-checkout-button"
+        ]
+    },
+    "minicart-summary": {
+        "title": "MiniCart Summary",
+        "props":{
+            "blockClass": "minicart-summary"
+        },
+        "blocks": [
+            "checkout-summary.compact#minicart"
+        ]
+    },
+    "checkout-summary.compact#minicart": {
+        "title": "Checkout Summary",
+        "children": ["summary-totalizers#minicart"],
+        "props": {
+            "totalizersToShow": [
+                "Items", 
+                "Discounts"
+            ]
+        }
+    },
+    "minicart-checkout-button": {
+        "title": "MiniCart checkout button",
+        "props": {
+            "finishShoppingButtonLink": "/checkout/#/orderform",
+            "blockClass": "minicart-checkout-button"
+        }
+    },
+    "summary-totalizers#minicart": {
+        "title": "Summary Totalizer",
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": false,
+            "showOriginalTotal": true,
+            "showDiscount": true,
+            "blockClass": "minicart-totalizers"
+        }
+    },
+    "flex-layout.row#desktop__minicart-title":{
+        "title": "FlexLayout Row Minicart Title",
+        "props": {
+            "blockClass": "desktop__minicart-title"
+        },
+        "children": [
+            "rich-text#minicart__title"
+        ]
+    },
+    "rich-text#minicart__title":{
+        "title": "Rich Text MiniCart Title",
+        "props": {
+            "text": "Resumen de tu compra",
+            "blockClass": "minicart__title"
+        }
+    },
+    "minicart-empty-state": {
+        "title": "MiniCart Empty State",
+        "children": [
+            "flex-layout.row#desktop__minicart-empty"
+        ]
+    },
+    "flex-layout.row#desktop__minicart-empty": {
+        "title": "FlexLayout Row Empty State",
+        "children": [
+            "flex-layout.col#desktop__minicart-empty"
+        ]
+    },
+    "flex-layout.col#desktop__minicart-empty": {
+        "title": "FlexLayout Col Empty State",
+        "children": [
+            "image#minicart__empty-image",
+            "rich-text#minicart__empty-title",
+            "rich-text#minicart__empty-text"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+            //"rowGap": 1
+        }
+    },
+    "image#minicart__empty-image":{
+        "title": "Image Minicart Empty State",
+        "props": {
+            "src": "/arquivos/empty--cart_image.png",
+            "blockClass": "image__empty--cart"
+        }
+    },
+    "rich-text#minicart__empty-title": {
+        "title": "Title Empty MiniCart State",
+        "props": {
+            "text": "¿Por qué tan solo?",
+            "blockClass": "minicart__empty-title"
+        }
+    },
+    "rich-text#minicart__empty-text":{
+        "title": "Text Empty MiniCart State",
+        "props": {
+            "text": "Tenemos ofertas del 50% este mes",
+            "blockClass": "minicart__empty-text"
+        }
+    }
+}
+  
