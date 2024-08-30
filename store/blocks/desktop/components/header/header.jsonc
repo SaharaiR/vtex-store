@@ -1,9 +1,8 @@
 {
-    "header-row#desktop__barnavigation":{
+    "sticky-layout#desktop__header": {
         "title": "HeaderRow Navigation Bar Desktop",
         "children":[
             "flex-layout.row#desktop__barnavigation"
-            //"sticky-layout#desktop__barnavigation"
         ]
     },
     "flex-layout.row#desktop__barnavigation": {
@@ -18,11 +17,10 @@
             "blockClass": "desktop__barnavigation"
         },
         "children": [
-            "vtex.menu@2.x:menu#websites",
-            //"flex-layout.row#desktop__mega-menu",
+            //"vtex.menu@2.x:menu#websites",
+            "flex-layout.col#desktop__mega-menu-col",
             "flex-layout.col#desktop__logo",
             "search-bar",
-            //"flex-layout.row#desktop__menu-text",
             "flex-layout.col#desktop__text-trends",
             "flex-layout.col#desktop__text-collection",
             "flex-layout.col#desktop__text-offers",
@@ -33,7 +31,6 @@
         ]
     },
     "flex-layout.col#desktop__logo": {
-    //"flex-layout.row#desktop__logo":{
         "title": "Logo Desktop",
         "props": {
             "verticalAlign": "middle"            
@@ -48,15 +45,6 @@
             "width": 32
         }
     },
-    /*"flex-layout.row#desktop__menu-text":{
-        "children": [
-            "flex-layout.col#desktop__text-trends",
-            "flex-layout.col#desktop__text-collection",
-            "flex-layout.col#desktop__text-offers",
-            "flex-layout.col#desktop__text-cybermonday",
-            "flex-layout.col#destkop__text-never"
-        ]
-    },*/
     "flex-layout.col#desktop__text-trends":{
         "title": "Col Text Trends",
         "children": [
@@ -121,16 +109,5 @@
             "text": "Never say never",
             "blockClass": "desktop__header-text"
         }
-    }/*,
-    "login":{
-        "props": {
-            "optionsTitle": "LOG IN",
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "blockClass": "header-login"
-        }    
-    }*/
+    }
 }
