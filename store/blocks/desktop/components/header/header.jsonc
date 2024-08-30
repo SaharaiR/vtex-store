@@ -66,7 +66,8 @@
     "rich-text#desktop__text-trends":{
         "title": "Text Trends",
         "props": {
-            "text": "Tendencias de IT Globers"
+            "text": "Tendencias de IT Globers",
+            "blockClass": "desktop__header-text"
         }
     },
     "flex-layout.col#desktop__text-collection":{
@@ -78,7 +79,8 @@
     "rich-text#desktop__text-collection":{
         "title": "Text Collecion",
         "props": {
-            "text": "Colección del mes"
+            "text": "Colección del mes",
+            "blockClass": "desktop__header-text"
         }
     },
     "flex-layout.col#desktop__text-offers":{
@@ -90,7 +92,8 @@
     "rich-text#desktop__text-offers":{
         "title": "Text Offers",
         "props": {
-            "text": "Ofertas enero"
+            "text": "Ofertas enero",
+            "blockClass": "desktop__header-text"
         }
     },
     "flex-layout.col#desktop__text-cybermonday":{
@@ -102,7 +105,8 @@
     "rich-text#desktop__text-cybermonday":{
         "title": "Text Cyber Monday",
         "props": {
-            "text": "Cyber Monday"
+            "text": "Cyber Monday",
+            "blockClass": "desktop__header-text"
         }
     },
     "flex-layout.col#destkop__text-never":{
@@ -114,9 +118,10 @@
     "rich-text#destkop__text-never":{
         "title": "Text Never",
         "props": {
-            "text": "Never say never"
+            "text": "Never say never",
+            "blockClass": "desktop__header-text"
         }
-    },
+    }/*,
     "login":{
         "props": {
             "optionsTitle": "LOG IN",
@@ -127,5 +132,5 @@
             "showPasswordVerificationIntoTooltip": true,
             "blockClass": "header-login"
         }    
-    }
+    }*/
 }
