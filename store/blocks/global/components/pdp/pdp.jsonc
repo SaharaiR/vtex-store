@@ -72,6 +72,7 @@
         "title": "FlexLayout Row PDP Price Global",
         "props": {
             "fullWidth": true,
+            "preserveLayoutOnMobile": true,
             "blockClass": "global__pdp-price"
         },
         "children": [
@@ -92,7 +93,7 @@
     "flex-layout.row#global__pdp-cart":{
         "title": "FlexLayout Row PDP Cart Global",
         "props": {
-            "fullWidth": true,
+            "preserveLayoutOnMobile": true,
             "blockClass": "global__pdp-cart"
         },
         "children": [
@@ -103,7 +104,6 @@
     "flex-layout.col#global__pdp-quantity":{
         "title": "FlexLayout Col PDP Quantity Global",
         "props": {
-            "width": "30%",
             "blockClass": "global__pdp-quantity"
         },
         "children": [
@@ -119,7 +119,6 @@
     "flex-layout.col#global__pdp-button--add":{
         "title": "FlexLayout Col PDP Button Global",
         "props": {
-            "width": "70%",
             "blockClass": "global__pdp-button--add"
         },
         "children": [

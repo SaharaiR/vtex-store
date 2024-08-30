@@ -1,13 +1,19 @@
 .groupName--global__pdp-group--text{
-    margin-left: 15%;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-.specificationName {
+.specificationName--global__pdp-specification-text {
   box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 600;
   grid-column: 1;
-  padding: 1rem;
 }
 .specificationValue {
   box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
   grid-column: 2;
   padding: 1rem;
 }

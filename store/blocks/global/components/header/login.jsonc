@@ -9,7 +9,29 @@
             "accessCodeTitle": "Access code by email",
             "providerPasswordButtonLabel": "password",
             "emailAndPasswordTitle": "Continue with e-mail and password",     
-            "blockClass": "global__button-login"
+            "blockClass": "global__button-login",
+            "accountOptionLinks": [
+                {
+                  "label": "Profile",
+                  "path": "/account#/profile"
+                },
+                {
+                  "label": "Addresses",
+                  "path": "/account#/addresses"
+                },
+                {
+                  "label": "Orders",
+                  "path": "/account#/orders"
+                },
+                {
+                  "label": "Credit cards",
+                  "path": "/account#/cards"
+                },
+                {
+                  "label": "Authentication",
+                  "path": "/account#/authentication"
+                }
+              ]
           }
     }
 }
