@@ -27,5 +27,11 @@
 }
 /*------VERSION MOBILE------*/
 @media only screen and (max-width: 1024px) {
-
+    .flexRow--mobile__pdp-specification .stretchChildrenWidth {
+        display: grid;
+        justify-content: left;
+    }
+    .flexRow--mobile__pdp{
+        padding-top: 10px;
+    }
 }

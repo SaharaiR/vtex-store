@@ -1,7 +1,13 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--global__pdp-description .vtex-flex-layout-0-x-stretchChildrenWidth) > span:nth-child(4n-3){
     background-color: #E7E7E7;
 }
-
 :global(.vtex-flex-layout-0-x-flexRowContent--global__pdp-description .vtex-flex-layout-0-x-stretchChildrenWidth) > span:nth-child(4n-2){
+    background-color: #E7E7E7;
+}
+/*mobile__pdp-specification*/
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile__pdp-specification .vtex-flex-layout-0-x-stretchChildrenWidth) > span:nth-child(4n-3){
+    background-color: #E7E7E7;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile__pdp-specification .vtex-flex-layout-0-x-stretchChildrenWidth) > span:nth-child(4n-2){
     background-color: #E7E7E7;
 }

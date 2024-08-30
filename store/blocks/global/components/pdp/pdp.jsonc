@@ -72,6 +72,7 @@
         "title": "FlexLayout Row PDP Price Global",
         "props": {
             "fullWidth": true,
+            "preserveLayoutOnMobile": true,
             "blockClass": "global__pdp-price"
         },
         "children": [

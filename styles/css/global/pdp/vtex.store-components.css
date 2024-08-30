@@ -37,23 +37,21 @@
     height: 3rem;
 }
 /*------VERSION MOBILE------*/
-@media only screen and (max-width: 1024px) {
-    .productImageTag--mobile__pdp--main{
-        max-height: 78px;
+@media (min-width: 768px) and (max-width: 1024px){
+    .carouselGaleryThumbs--mobile__pdp{
+        height: 200px;
     }
- /*   .skuSelectorItem {
-        width: 108.07px;
-        height: 40px;
-        text-align: center;
-        border: 1px;
+}
+@media (max-width: 767px){
+    .carouselGaleryThumbs--mobile__pdp{
+        display: block;
+    }    
+}
+@media (max-width: 1024px){
+    .productImagesThumb {
+        width        : 90px;
+        height       : 76px;
         border-radius: 4px;
+        border       : 1px;
     }
-    .productNameContainer {
-        width: 481px;
-        height: 34px;
-        font-size  : 16px;
-        font-weight: 300;
-        line-height: 16.8px;
-        text-align : left;
-    }*/
 }

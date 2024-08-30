@@ -38,12 +38,12 @@
         "title": "Product Images Global",
         "props": {
             "maxHeight": 328,
+            "displayMode": "carousel",
+            "thumbnailsOrientation": "horizontal",
             "thumbnailMaxHeight": 76,
-            "displayMode": "list",
             "displayThumbnailsArrows": false,
             "showNavigationArrows": false,
-            "thumbnailsOrientation": "vertical",
-            "position":"left",
+            "showPaginationDots": false,
             "blockClass": "mobile__pdp"
         }
     },
