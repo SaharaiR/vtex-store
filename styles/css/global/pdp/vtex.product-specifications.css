@@ -1,13 +1,45 @@
 .groupName--global__pdp-group--text{
-    margin-left: 15%;
+  padding: 1.6rem 0rem 1rem 0rem;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-.specificationName {
+.specificationName--global__pdp-specification-text {
   box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 600;
   grid-column: 1;
   padding: 1rem;
 }
 .specificationValue {
   box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
   grid-column: 2;
   padding: 1rem;
+}
+/*------VERSION MOBILE------*/
+@media only screen and (max-width: 1024px) {
+  .groupName--global__pdp-group--text{
+    margin-left: 5rem;
+  }
+  .specificationName--global__pdp-specification-text {
+    box-sizing : border-box;
+    grid-column: 1;    
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align : left;
+    padding: 1rem;
+  }
+  .specificationValue {
+    box-sizing : border-box;
+    grid-column: 2;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align : left;
+    padding    : 1rem;
+  }
 }

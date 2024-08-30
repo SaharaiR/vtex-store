@@ -22,3 +22,9 @@
     border-radius: 4px;
     padding: 6px 12px 6px 12px;
 }
+/*------VERSION MOBILE------*/
+@media only screen and (max-width: 1024px) {
+    .productHighlightWrapper--pdp__wrapper-highlights--flashDeal {
+        margin-right: 5rem;
+    }
+}

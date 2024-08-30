@@ -1,0 +1,82 @@
+{
+    "responsive-layout.mobile#mobile__pdp":{
+        "title": "Responsive Layout PDP Mobile",
+        "children": [
+            "flex-layout.row#mobile__pdp"
+        ]
+    },
+    "flex-layout.row#mobile__pdp":{
+        "title": "FlexLayout Row ProductMain Mobile",
+        "props": {
+          "blockClass": "mobile__pdp"
+        },
+        "children": [
+            "flex-layout.col#mobile__pdp-container"
+        ]
+    },
+    "flex-layout.col#mobile__pdp-container":{
+        "title": "FlexLayout Col Container PDP mobile",
+        "props": {
+            "blockClass": "mobile__pdp-container"
+        },
+        "children": [
+            "flex-layout.row#mobile__pdp-image",
+            "flex-layout.row#mobile__pdp-product",
+            "flex-layout.row#mobile__pdp-specification"
+        ]
+    },
+    "flex-layout.row#mobile__pdp-image":{
+        "title": "FlexLayout Row PDP Image Mobile",
+        "props": {
+            "blockClass": "mobile__pdp-image"
+        },
+        "children": [
+            "product-images#mobile__pdp"
+        ]
+    },
+    "product-images#mobile__pdp": {
+        "title": "Product Images Global",
+        "props": {
+            "maxHeight": 328,
+            "thumbnailMaxHeight": 76,
+            "displayMode": "list",
+            "displayThumbnailsArrows": false,
+            "showNavigationArrows": false,
+            "thumbnailsOrientation": "vertical",
+            "position":"left",
+            "blockClass": "mobile__pdp"
+        }
+    },
+    "flex-layout.row#mobile__pdp-product":{
+        "title": "FlexLayout Row PDP Product Information Mobile",
+        "props": {
+            "blockClass": "mobile__pdp-product"
+        },
+        "children": [
+            "flex-layout.col#mobile__pdp-details"
+        ]
+    },
+    "flex-layout.col#mobile__pdp-details":{
+        "title": "FlexLayout Col Details PDP Mobile",
+        "props": {
+            "blockClass": "mobile__pdp-details"
+        },
+        "children": [
+            "flex-layout.row#global__pdp-highlights",
+            "vtex.store-components:product-name#global__pdp-name",
+            "flex-layout.row#global__pdp-price",
+            "sku-selector",
+            "flex-layout.row#global__pdp-cart",
+            "share"
+        ]
+    },
+    "flex-layout.row#mobile__pdp-specification":{
+        "title": "FlexLayout Row PDP Specification Mobile",
+        "props": {
+            "blockClass": "mobile__pdp-specification"
+        },
+        "children": [
+            "product-specification-group"
+        ]
+    }
+}
