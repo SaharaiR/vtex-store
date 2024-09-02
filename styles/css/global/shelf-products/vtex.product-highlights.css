@@ -1,6 +1,4 @@
 .productHighlightWrapper--product-highlight__wrapper{
-    /*width: 212px !important;*/
-    /*height: 17px !important;*/
     text-align: left;
     color: #FA2080;
     font-size: 14px;
@@ -8,4 +6,13 @@
 }
 .productHighlightText--product-highlight__wrapper{
     padding-right: 5px;
+}
+/*-------VERSION PHONE-----*/
+@media (max-width: 767px){
+    .productHighlightWrapper--product-highlight__wrapper{
+        font-size: 12px;
+    }
+    .productHighlightText--product-highlight__wrapper{
+        padding-right: 15px;
+    }
 }
