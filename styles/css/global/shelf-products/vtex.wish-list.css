@@ -1,17 +1,19 @@
 .wishlistIconContainer--wishList-icon :global(.vtex-button){
     border-color: black;
-    align-self: self-end;
     width: 44px;
     height: 32px;
+    align-self: self-end !important;
     min-height: auto;
 }
+/*.wishlistIconContainer--wishList-icon{
 
+}*/
 .wishlistIcon--wishList-icon{
     background-image: url('/arquivos/heart.png') !important;
     width: 20px;
     height: 20px;
     position: absolute;
-    background-image: #1D2734;
+    /*background-image: #1D2734;*/
     margin-right: 7px;
 }
 
