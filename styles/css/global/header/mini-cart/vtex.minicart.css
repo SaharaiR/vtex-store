@@ -29,10 +29,17 @@
     font-size: 0;
 }
 .minicartCheckoutButton :global(.vtex-button__label)::after {
-    content       : "Finalizar tu compra";
-    font-size     : 14px;
-    font-weight   : 400;
-    line-height   : 17.5px;
-    text-align    : center;
+    content: "Finalizar tu compra";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: center;
     text-transform: capitalize;
+}
+/*---VERSION MOBILE---*/
+@media (max-width: 767px) {
+    .opened{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 }
