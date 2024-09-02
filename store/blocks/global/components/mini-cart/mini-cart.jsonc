@@ -6,7 +6,7 @@
             "backdropMode": "visible"
         },
         "children": [
-            "flex-layout.row#desktop__minicart-title",
+            "flex-layout.row#global__minicart-title",
             "minicart-base-content#global__mini-cart"
         ]
     },
@@ -109,10 +109,10 @@
             "blockClass": "minicart-totalizers"
         }
     },
-    "flex-layout.row#desktop__minicart-title":{
+    "flex-layout.row#global__minicart-title":{
         "title": "FlexLayout Row Minicart Title",
         "props": {
-            "blockClass": "desktop__minicart-title"
+            "blockClass": "global__minicart-title"
         },
         "children": [
             "rich-text#minicart__title"
@@ -128,16 +128,21 @@
     "minicart-empty-state": {
         "title": "MiniCart Empty State",
         "children": [
-            "flex-layout.row#desktop__minicart-empty"
+            "flex-layout.row#global__minicart-empty"
         ]
     },
-    "flex-layout.row#desktop__minicart-empty": {
+    "flex-layout.row#global__minicart-empty": {
         "title": "FlexLayout Row Empty State",
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "global__minicart-empty"
+        },
         "children": [
-            "flex-layout.col#desktop__minicart-empty"
+            "flex-layout.col#global__minicart-empty",
+            "flex-layout.col#minicart__footer-empty"
         ]
     },
-    "flex-layout.col#desktop__minicart-empty": {
+    "flex-layout.col#global__minicart-empty": {
         "title": "FlexLayout Col Empty State",
         "children": [
             "image#minicart__empty-image",
@@ -147,7 +152,6 @@
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "middle"
-            //"rowGap": 1
         }
     },
     "image#minicart__empty-image":{
@@ -169,6 +173,20 @@
         "props": {
             "text": "Tenemos ofertas del 50% este mes",
             "blockClass": "minicart__empty-text"
+        }
+    },
+    "flex-layout.col#minicart__footer-empty": {
+        "title": "FlexLayout Col MiniCart Footer Empty",
+        "children": [
+            "minicart-summary", 
+            "minicart-checkout-button#minicart__checkout-empty"
+        ]
+    },
+    "minicart-checkout-button#minicart__checkout-empty": {
+        "title": "MiniCart Checkout Button Empty-Cart",
+        "props": {
+            "finishShoppingButtonLink": "/checkout/#/orderform",
+            "blockClass": "minicart__empty"
         }
     }
 }

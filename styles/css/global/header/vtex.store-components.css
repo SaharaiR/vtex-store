@@ -27,14 +27,12 @@
         visibility: hidden;
         width: 155px;
     }
+    /*------INFO CARD-VERSION PHONE-----*/
+    .imageElement--phone__infocard-stamp-image{
+        width: 36px;
+        height: 36px;
+    }
 }
-
-/*------INFO CARD-VERSION PHONE-----*/
-.imageElement--phone__infocard-stamp-image{
-    width: 36px;
-    height: 36px;
-}
-
 /*-----MINI CART----*/
 @media only screen and (min-width: 1024px) {
     .imageElement--image__empty--cart{
