@@ -1,23 +1,22 @@
 {
     "sticky-layout#desktop__header": {
         "title": "HeaderRow Navigation Bar Desktop",
+        "props": {
+            "blockClass": "desktop__header"
+        },
         "children":[
             "flex-layout.row#desktop__barnavigation"
         ]
     },
     "flex-layout.row#desktop__barnavigation": {
-    //"sticky-layout#desktop__barnavigation": {
         "title": "Layout-Row Navigation Bar Desktop",
         "props": {
-            /*"horizontalAlign": "around",
-            "verticalAlign": "center",*/
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
             "blockClass": "desktop__barnavigation"
         },
         "children": [
-            //"vtex.menu@2.x:menu#websites",
             "flex-layout.col#desktop__mega-menu-col",
             "flex-layout.col#desktop__logo",
             "search-bar",

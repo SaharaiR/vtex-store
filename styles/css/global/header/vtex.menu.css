@@ -7,4 +7,6 @@
 
 .menuContainerNav--global__menu-icons{
     overflow: auto;
+    background-color: #fff;
+    align-items: center;
 }
