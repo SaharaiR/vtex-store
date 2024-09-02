@@ -139,7 +139,7 @@
         },
         "children": [
             "flex-layout.col#global__minicart-empty",
-            "flex-layout.col#minicart-footer"
+            "flex-layout.col#minicart__footer-empty"
         ]
     },
     "flex-layout.col#global__minicart-empty": {
@@ -173,6 +173,20 @@
         "props": {
             "text": "Tenemos ofertas del 50% este mes",
             "blockClass": "minicart__empty-text"
+        }
+    },
+    "flex-layout.col#minicart__footer-empty": {
+        "title": "FlexLayout Col MiniCart Footer Empty",
+        "children": [
+            "minicart-summary", 
+            "minicart-checkout-button#minicart__checkout-empty"
+        ]
+    },
+    "minicart-checkout-button#minicart__checkout-empty": {
+        "title": "MiniCart Checkout Button Empty-Cart",
+        "props": {
+            "finishShoppingButtonLink": "/checkout/#/orderform",
+            "blockClass": "minicart__empty"
         }
     }
 }
