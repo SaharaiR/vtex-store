@@ -1,6 +1,11 @@
+.imageWrapper--image-shelf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .brandName--product-summary__name {
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     text-align: left;
     text-overflow: ellipsis;
     color:rgba(29, 39, 52, 0.6);
@@ -26,13 +31,15 @@
     font-size: 14px;
     color: rgba(29, 39, 52, 0.4);    
 }
-.price_installmentContainer{
+.price_sellingPrice--product-summary__price{
+    text-align: left;
+    font-size: 24px
+}
+.price_sellingPriceLabel--product-summary__price{
     display: none;
 }
-.imageWrapper--image-shelf {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.price_installmentContainer{
+    display: none;
 }
 .element--global__product-summary {
     display: flex;
@@ -42,4 +49,16 @@
     padding-bottom: 0%;
     padding-top: 0%;
     padding-right: 8px;    
+}
+/*-------VERSION PHONE-----*/
+@media (max-width: 767px){
+    .brandName--product-summary__name {
+        font-size: 12px;
+    }
+    .price_listPriceLabel--product-summary__price{
+        font-size: 12px;
+    }
+    .price_sellingPrice--product-summary__price{
+        font-size: 20px
+    }
 }
