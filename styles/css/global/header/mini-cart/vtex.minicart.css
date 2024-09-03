@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-around;
 }
+.drawerContent{
+    overflow: hidden;
+}
+
 .minicartEmptyStateContainer{
     height: auto;
 }
@@ -19,6 +23,12 @@
 :global(.vtex-minicart-2-x-minicartTitle){
     display: none;
 }
+.minicartProductListContainer {
+    margin: 20px 0px;
+    scrollbar-color: #bebebe #f2f2f2;
+    scrollbar-width: thin;
+    padding: 0;
+  }
 .minicartSummary--minicart-summary{
     width: 100%;
     border-radius: 4px;

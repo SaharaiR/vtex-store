@@ -64,13 +64,16 @@
         "title": "FlexLayout Row MiniCart Footer",
         "props": {
             "blockClass": "minicart-footer"
-          },
+        },
         "children": [
             "flex-layout.col#minicart-footer"
         ]
     },
     "flex-layout.col#minicart-footer": {
         "title": "FlexLayout Col MiniCart Footer",
+        "props": {
+            "blockClass": "minicart-footer"
+        },
         "children": [
             "minicart-summary", 
             "minicart-checkout-button"
