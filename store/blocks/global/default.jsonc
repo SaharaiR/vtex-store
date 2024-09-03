@@ -31,11 +31,5 @@
       "product-identifier.summary",
       "add-to-cart-button"
     ]
-  },
-  "product-summary-image":{
-    "title": "Global Product Summary Image",
-    "props": {
-      "showBadge": false
-    }
   }
 }
