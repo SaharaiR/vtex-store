@@ -1,13 +1,17 @@
 .drawer {
     display: flex;
     justify-content: space-around;
+    top: 140px;
 }
 .drawerContent {
     position: relative;
     overflow-y: unset;
 }
 .minicartSideBarContentWrapper{
-      min-height: 96vh;
+    min-height: 96vh;
+}
+.overlay--visible{
+    top: 140px;
 }
 .minicartEmptyStateContainer{
     height: auto;
