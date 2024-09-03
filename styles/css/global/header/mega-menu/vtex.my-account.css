@@ -1,0 +1,11 @@
+:global(.vtex-mega-menu-2-x-menuContainer h3){
+    display: flex;
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 600;
+}
+:global(.vtex-mega-menu-2-x-menuContainer h3::before){
+    content: url("/arquivos/icon-megamenu.png");
+    width: 20px;
+    height: 20px;
+}
