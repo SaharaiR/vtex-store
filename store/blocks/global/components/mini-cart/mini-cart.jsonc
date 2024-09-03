@@ -22,6 +22,9 @@
         "blocks": [
             "minicart-empty-state"
         ],
+        "props":{
+            "blockClass": "global__mini-cart"
+        },
         "children": [
             "flex-layout.col#global__miniCart-container"
         ]

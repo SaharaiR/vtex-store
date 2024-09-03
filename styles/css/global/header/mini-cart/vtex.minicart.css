@@ -1,10 +1,6 @@
-.overlay--visible{
-    top: 140px;
-}
 .drawer {
     display: flex;
     justify-content: space-around;
-    top: 140px;
 }
 .minicartEmptyStateContainer{
     height: auto;
@@ -77,5 +73,11 @@
     .opened{
         width: 100% !important;
         max-width: 100% !important;
+    }
+    .overlay--visible{
+        top: 140px;
+    }
+    .drawer {
+        top: 140px;
     }
 }
