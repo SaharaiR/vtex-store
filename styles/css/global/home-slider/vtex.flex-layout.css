@@ -1,13 +1,13 @@
 /*-----DESKTOP-----*/
 .flexRow--desktop__info-card-row{
     background-color: #fff;
-    width: 324px;
+    max-width: 324px;
     height: 300px;
     margin: 10px;
     border-radius: 12px 12px 0px 0px;
 }
 .flexCol--info-card__stamp{
-    width: 76px;
+    max-width: 76px;
     height: 80;
 }
 .flexCol--info-card__text--heading{
@@ -15,6 +15,13 @@
     height: 80;
 }
 /*----------VERSION MOBILE----------*/
-@media (min-width: 768px) and (max-width: 1024px) {
-
+@media only screen and (max-width: 1024px) {
+    .flexRowContent--phone__info-card{
+        max-width: 160px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .flexRow--info-card__button{
+        padding-top: 15px;
+    }
 }

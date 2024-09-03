@@ -4,7 +4,7 @@
         "props": {
             "itemsPerPage": {
               "desktop": 5,
-              "tablet": 2,
+              "tablet": 3,
               "phone": 2
             },
             "infinite": true,
@@ -31,7 +31,7 @@
     "flex-layout.col#phone__info-card-col": {
         "title": "Col Info cards",
         "props": {
-            "height": "140",
+            //"height": "140",
             "blockClass": "phone__info-card-col"
         },
         "children": [

@@ -23,3 +23,12 @@
     padding: 10px;
     gap: 10px
 }
+/*----------VERSION MOBILE----------*/
+@media only screen and (max-width: 1024px) {
+    .flexRow--shelf__buy-button :global(.vtex-button) {
+        width: 140px !important;
+        height: 36px !important;
+        padding: 10px;
+        gap: 10px
+    }
+}
