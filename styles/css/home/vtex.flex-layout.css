@@ -17,11 +17,6 @@
     opacity: 1;
 }
 
-.flexRowContent--mobile__navigation-bar{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .flexRow--mobile__mega-menu{
     padding-top: 10px;
 }

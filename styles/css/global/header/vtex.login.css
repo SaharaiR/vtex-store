@@ -89,3 +89,9 @@
     background-color: #1D2734;
     min-width: 100%;
 }
+/*----VERSION PHONE----*/
+@media only screen and (max-width: 1024px){
+    .container :global(.vtex-button){
+        width: 65px;
+    }
+}

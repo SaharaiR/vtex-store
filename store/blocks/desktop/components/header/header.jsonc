@@ -11,8 +11,10 @@
     "flex-layout.row#desktop__barnavigation": {
         "title": "Layout-Row Navigation Bar Desktop",
         "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
             "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
+            "colJustify": "between",
             "fullWidth": true,
             "blockClass": "desktop__barnavigation"
         },
