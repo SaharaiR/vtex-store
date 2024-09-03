@@ -25,7 +25,8 @@
 @media only screen and (max-width: 1024px){
     .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
         visibility: hidden;
-        width: 155px;
+        overflow: visible;
+        width: 100%;
     }
     /*------INFO CARD-VERSION PHONE-----*/
     .imageElement--phone__infocard-stamp-image{

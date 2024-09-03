@@ -1,7 +1,8 @@
 {
   "header-layout.mobile": {
     "children": [
-     "header-row#mobile__navigation-bar",
+     //"header-row#mobile__navigation-bar",
+     "sticky-layout#mobile__navigation-bar",
      "vtex.menu@2.x:menu#global__menu-icons"
     ]
   }

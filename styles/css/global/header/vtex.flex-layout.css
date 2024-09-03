@@ -1,3 +1,4 @@
+/*-----DEL MENU----*/
 .flexRow--drawer-header :global(.vtex-flex-layout-0-x-flexRowContent--drawer-header) {
     display: flow-root;
 }
@@ -16,4 +17,10 @@
 }
 .flexRowContent--header-container-menu-desktop-section-one-right {
     margin-top: 25px;
+}
+/*------DEL MINI-CART------*/
+.flexRowContent--global__minicart-empty{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }

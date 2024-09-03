@@ -1,6 +1,7 @@
 {
-    "header-row#mobile__navigation-bar":{
-        "title": "Header-Row Navigation Bar Mobile",
+    //"header-row#mobile__navigation-bar":{
+    "sticky-layout#mobile__navigation-bar": {
+        "title": "StickyLayout Navigation Bar Mobile",
         "props": {
             "blockClass": "mobile__navigation-bar"
         },
@@ -11,19 +12,27 @@
     "flex-layout.row#mobile__navigation-bar": {
         "title": "Layout-Row Navigation Bar Mobile",
         "props": {
-            "blockClass": "mobile__navigation-bar",
-            "horizontalAlign": "around",
-            "verticalAlign": "center",
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true
+            "preventHorizontalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "blockClass": "mobile__navigation-bar"
         },
         "children": [
-            "flex-layout.row#mobile__mega-menu",
+            /*"flex-layout.col#mobile__menu-logo--col",
+            "flex-layout.col#mobile__navigation-bar"*/
+            "flex-layout.col#mobile__mega-menu",
             "flex-layout.col#mobile__logo",
             "search-bar",
             "minicart.v2",
             "login#global__button-login"
+        ]
+    },
+    "flex-layout.col#mobile__mega-menu":{
+        "title": "FlexLayout Col MegaMenu Mobile",
+        "props": {
+            "blockClass": "mobile__mega-menu"
+        },
+        "children": [
+            "flex-layout.row#mobile__mega-menu"
         ]
     },
     "flex-layout.col#mobile__logo": {
@@ -33,4 +42,30 @@
         },
         "children": ["logo"]
     }
+    /*"flex-layout.col#mobile__menu-logo--col":{
+        "title": "FlexLayout Col MegaMenu Mobile",
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "mobile__menu-logo--col"
+        },
+        "children": [
+            "flex-layout.row#mobile__mega-menu",
+            "flex-layout.row#mobile__logo"
+        ]
+    },*/
+    /*"flex-layout.col#mobile__navigation-bar":{
+        "title": "FlexLayout Col Navigation Bar Mobile",
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "mobile__navigation-bar"
+        },
+        "children": [
+            "search-bar",
+            "minicart.v2",
+            "login#global__button-login"
+        ]
+    }*/
 }
