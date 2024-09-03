@@ -1,5 +1,4 @@
 .buttonText--product-summary-buy-button {
-    font-family: Lexend, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17.5px;
@@ -16,4 +15,17 @@
     content: url("/arquivos/add_shopping_cart.png");
     width: 20px;
     height: 20px;
+}
+/*----------VERSION MOBILE----------*/
+@media only screen and (max-width: 1024px) {
+    .buttonText--product-summary-buy-button {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13.3px;
+        text-align: center;
+    }
+    .buttonDataContainer--product-summary-buy-button::before {
+        width: 15px;
+        height: 15px;
+    }
 }
