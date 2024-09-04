@@ -1,8 +1,7 @@
-/*flexColChild--global__miniCart-container*/
 .flexCol--global__miniCart-container{
     display: flex;
-    min-height: 20%;
-    max-height: 90%;
+    /*min-height: 20%;
+    max-height: 90%;*/
     justify-content: space-between;
     overflow: hidden;
 }
@@ -21,4 +20,10 @@
     max-height: 80%;
     margin: 10px 0px;
     overflow: auto;
+}
+/*---VERSION MOBILE---*/
+@media only screen and (max-width: 1024px){
+    .flexColChild--global__miniCart-container{
+        height: 100% !important;
+    }
 }

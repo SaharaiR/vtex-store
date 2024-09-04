@@ -90,4 +90,10 @@
     .drawer {
         top: 140px;
     }
+    .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
+        width: 280px !important;
+    }
+    .minicartCheckoutButton--minicart-checkout-button :global(.vtex-button) {
+        width: 280px !important;
+    }
 }
